@@ -45,10 +45,15 @@ async function Content({ searchParams }: { searchParams: Promise<{ q?: string }>
     <>
       <style>{`@keyframes gstBlink { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } } .gst-blink { animation: gstBlink 1.1s ease-in-out infinite; }`}</style>
       <SearchBar query={query} count={rows.length} noun="taxes">
-        {upd?.updateAvailable && (
+        {upd?.updateAvailable ? (
           <a href="/settings/gst-rates?check=1" title={`New GST rates published (v${upd.latest}) — view and update`}
             className="gst-blink rounded-xl bg-gradient-to-r from-amber-500 to-rose-600 px-3.5 py-1.5 text-sm font-extrabold text-white shadow-lg ring-2 ring-amber-300">
             🔴 GST new update v{upd.latest}
+          </a>
+        ) : (
+          <a href="/settings/gst-rates" title="View live GST rates"
+            className="rounded-xl border border-emerald-200 bg-emerald-50 px-3.5 py-1.5 text-sm font-bold text-emerald-700 hover:bg-emerald-100">
+            🟢 GST rates
           </a>
         )}
         {query && <a href="/settings/taxes" className="text-sm font-semibold text-indigo-700 hover:underline">Clear</a>}
