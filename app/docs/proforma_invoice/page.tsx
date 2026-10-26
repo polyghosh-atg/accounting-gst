@@ -51,7 +51,6 @@ async function Content({ searchParams }: { searchParams: Promise<{ page?: string
 
       <PageHeader
         title="Proforma Invoice List"
-        sub="all amounts are in Rs"
         actions={
           <a href="/docs/proforma_invoice/add" className="rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 px-3.5 py-2 text-sm font-bold text-white shadow hover:opacity-95">
             ❄ Add Proforma Invoice
