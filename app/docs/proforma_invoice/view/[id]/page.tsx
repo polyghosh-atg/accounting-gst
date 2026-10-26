@@ -3,6 +3,9 @@ import { PageHeader, Badge } from '@/components/ui';
 import { Table } from '@/components/table';
 import { isoDate } from '../../dates';
 
+// Reads the invoice from DB — must block on the server, no static shell.
+export const instant = false;
+
 export default async function ProformaView({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const h = await q(`SELECT * FROM doc_headers WHERE id=$1 AND doc_type='proforma_invoice'`, [id]);

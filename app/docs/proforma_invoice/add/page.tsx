@@ -2,6 +2,9 @@ import { q } from '@/lib/db';
 import { PageHeader } from '@/components/ui';
 import { AddForm } from './form';
 
+// Reads customers/products from DB — must block on the server, no static shell.
+export const instant = false;
+
 export default async function AddProforma() {
   const [custs, prods] = await Promise.all([
     q<{ company_name: string }>('SELECT company_name FROM customers ORDER BY company_name'),

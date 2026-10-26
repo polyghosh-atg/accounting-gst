@@ -16,9 +16,13 @@ async function nextSaleNo(): Promise<string> {
 }
 
 /* Convert checked proformas to sales (skips already-converted). */
-export async function convertToSale(form: FormData) {
+export async function convertToSale(
+  _prev: { message: string; count: number },
+  form: FormData
+): Promise<{ message: string; count: number }> {
   const ids = form.getAll('pi_ids').map(Number).filter(Boolean);
-  if (ids.length === 0) return;
+  if (ids.length === 0) return { message: 'Please select at least one proforma invoice', count: 0 };
+  const made: string[] = [];
   for (const id of ids) {
     const h = await q('SELECT * FROM doc_headers WHERE id=$1 AND doc_type=$2', [String(id), 'proforma_invoice']);
     const doc = h[0];
@@ -40,8 +44,10 @@ export async function convertToSale(form: FormData) {
       );
     }
     await q("UPDATE doc_headers SET status='Converted' WHERE id=$1", [String(id)]);
+    made.push(invNo);
   }
   revalidatePath(LIST);
+  return { message: made.length > 0 ? `Converted ${made.length} invoice(s): ${made.join(', ')}` : 'Selected invoices were already converted', count: made.length };
 }
 
 export async function deleteProforma(form: FormData) {

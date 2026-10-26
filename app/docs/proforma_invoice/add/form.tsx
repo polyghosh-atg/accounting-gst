@@ -36,7 +36,7 @@ export function AddForm({ customers, products }: { customers: string[]; products
         <div className="sm:col-span-2">
           <label className="mb-1 block text-sm font-semibold text-slate-700">Customer *</label>
           <input name="party" required list="pi-customers" placeholder="Customer name" className={cls} />
-          <datalist id="pi-customers">{customers.map((c) => <option key={c} value={c} />)}</datalist>
+          <datalist id="pi-customers">{customers.map((c, i) => <option key={`${c}-${i}`} value={c} />)}</datalist>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ export function AddForm({ customers, products }: { customers: string[]; products
             })}
           </tbody>
         </table>
-        <datalist id="pi-products">{products.map((p) => <option key={p} value={p} />)}</datalist>
+        <datalist id="pi-products">{products.map((p, i) => <option key={`${p}-${i}`} value={p} />)}</datalist>
       </div>
       <button type="button" onClick={addRow} className="rounded-xl border border-dashed border-indigo-300 bg-indigo-50/50 px-3.5 py-2 text-sm font-bold text-indigo-700 hover:bg-indigo-50">+ Add row</button>
 
