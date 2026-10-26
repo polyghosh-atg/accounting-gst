@@ -1,11 +1,16 @@
 import { Suspense } from 'react';
 import { q, inr } from '@/lib/db';
+import { getActiveFyLabel } from '@/lib/fy';
 import { PageHeader, Stat, Card, LoadingRows } from '@/components/ui';
 
-export default function Dashboard() {
+// Reads the active FY from DB — must block on the server, no static shell.
+export const instant = false;
+
+export default async function Dashboard() {
+  const fy = await getActiveFyLabel();
   return (
     <div className="space-y-4 sm:space-y-5">
-      <PageHeader title="Dashboard" sub="FY 2026-2027 · cloned live data from vaksys.com/pro" />
+      <PageHeader title="Dashboard" sub={`FY ${fy} · cloned live data from vaksys.com/pro`} />
       <Suspense fallback={<LoadingRows n={8} />}>
         <Content />
       </Suspense>

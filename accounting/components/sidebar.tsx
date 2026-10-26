@@ -3,8 +3,49 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, Suspense } from 'react';
-import { Icon } from './ui';
+import { Icon, Modal, fieldCls } from './ui';
 import { logoutUser } from '@/lib/auth';
+import { setActiveFinancialYear, addFinancialYear } from '@/lib/fy';
+
+export type FyYear = { id: number; label: string; start_year: number; end_year: number; is_active: boolean };
+
+const shortFy = (label: string) => {
+  const [a, b] = label.split('-');
+  return b && b.length === 4 ? `${a}-${b.slice(2)}` : label;
+};
+
+function FyModal({ years, onClose }: { years: FyYear[]; onClose: () => void }) {
+  const active = years.find((f) => f.is_active);
+  return (
+    <Modal title="Financial Year" sub={active ? `Active: FY ${active.label}` : 'Pick the active year'} onClose={onClose}>
+      <div className="space-y-1.5">
+        {years.map((f) => (
+          <div key={f.id} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2">
+            <span className="text-sm font-bold text-slate-900">FY {f.label}</span>
+            {f.is_active ? (
+              <span className="ml-auto rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-bold text-emerald-700 ring-1 ring-inset ring-emerald-200">Active</span>
+            ) : (
+              <form action={async (fd) => { await setActiveFinancialYear(fd); }} className="ml-auto">
+                <input type="hidden" name="fy_id" value={f.id} />
+                <button className="rounded-lg bg-indigo-600 px-2.5 py-1 text-xs font-bold text-white hover:bg-indigo-700">
+                  Set Active
+                </button>
+              </form>
+            )}
+          </div>
+        ))}
+        {years.length === 0 && <p className="py-4 text-center text-sm text-slate-400">No years yet — add one below.</p>}
+      </div>
+      <form action={async (fd) => { await addFinancialYear(fd); }} className="mt-3 flex items-end gap-2 border-t border-slate-100 pt-3">
+        <div className="flex-1">
+          <label className="mb-1 block text-xs font-semibold text-slate-600">Add year (start)</label>
+          <input name="start_year" required inputMode="numeric" pattern="[0-9]{4}" placeholder="e.g. 2027" className={fieldCls} />
+        </div>
+        <button className="rounded-xl bg-slate-900 px-3.5 py-2 text-sm font-semibold text-white">Add</button>
+      </form>
+    </Modal>
+  );
+}
 
 const PEOPLE: { label: string; href: string; icon: string }[] = [
   { label: 'Customers', href: '/customers', icon: 'users' },
@@ -228,8 +269,10 @@ function NavLinks({ active, onNav }: { active: string; onNav?: () => void }) {
   );
 }
 
-export default function Sidebar({ user }: { user?: { username: string; role: string } }) {
+export default function Sidebar({ user, fyYears }: { user?: { username: string; role: string }; fyYears: FyYear[] }) {
   const [open, setOpen] = useState(false);
+  const [fyOpen, setFyOpen] = useState(false);
+  const activeFy = fyYears.find((f) => f.is_active)?.label ?? '';
   return (
     <>
       {/* top bar (mobile menu button lives here) */}
@@ -244,8 +287,7 @@ export default function Sidebar({ user }: { user?: { username: string; role: str
         <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-lg font-extrabold tracking-tight text-transparent">
           Office ERP
         </span>
-        <span className="ml-auto rounded-full bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold text-indigo-700 ring-1 ring-inset ring-indigo-200">FY 2026-27</span>
-      </header>
+        <button onClick={() => setFyOpen(true)} title="Change financial year" className="ml-auto rounded-full bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold text-indigo-700 ring-1 ring-inset ring-indigo-200 transition hover:bg-indigo-100">FY {shortFy(activeFy)}</button>      </header>
 
       {/* desktop sidebar */}
       <aside className="sticky top-0 hidden h-screen w-60 shrink-0 flex-col bg-gradient-to-b from-indigo-950 via-indigo-900 to-violet-950 p-4 text-white print:hidden lg:flex">
@@ -253,7 +295,7 @@ export default function Sidebar({ user }: { user?: { username: string; role: str
           <div className="text-xl font-extrabold tracking-tight">Office<span className="text-violet-300"> ERP</span></div>
           <div className="mt-1 text-[11px] font-medium uppercase tracking-widest text-indigo-300/80">Accounting · GST</div>
         </div>
-        <div className="my-3 rounded-xl bg-white/10 px-3 py-2 text-xs font-semibold text-indigo-100 ring-1 ring-inset ring-white/15">FY 2026-2027</div>
+        <button onClick={() => setFyOpen(true)} title="Change financial year" className="my-3 w-full rounded-xl bg-white/10 px-3 py-2 text-left text-xs font-semibold text-indigo-100 ring-1 ring-inset ring-white/15 transition hover:bg-white/20">FY {activeFy}</button>
         <div className="slim-scroll flex-1 overflow-y-auto pr-1"><NavList /></div>
         {user && (
           <form action={logoutUser} className="mt-3 rounded-xl bg-white/10 p-3 text-white ring-1 ring-inset ring-white/15">
@@ -282,6 +324,8 @@ export default function Sidebar({ user }: { user?: { username: string; role: str
           </aside>
         </div>
       )}
+
+      {fyOpen && <FyModal years={fyYears} onClose={() => setFyOpen(false)} />}
     </>
   );
 }

@@ -5,6 +5,7 @@ import Sidebar from '@/components/sidebar';
 import Topbar from '@/components/topbar';
 import { q, inr } from '@/lib/db';
 import { getSessionUser } from '@/lib/auth';
+import { getFinancialYears } from '@/lib/fy';
 
 export const metadata: Metadata = {
   title: 'Office ERP',
@@ -23,11 +24,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </html>
     );
   }
+  const fyYears = await getFinancialYears();
   return (
     <html lang="en">
       <body>
         <div className="min-h-screen lg:flex">
-          <Sidebar user={{ username: user.username, role: user.role }} />
+          <Sidebar user={{ username: user.username, role: user.role }} fyYears={fyYears} />
           <div className="min-w-0 flex-1">
             <Suspense fallback={<Topbar cash="…" accounts={[]} />}>
               <TopbarLoader />
