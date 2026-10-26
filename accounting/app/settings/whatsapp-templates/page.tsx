@@ -3,7 +3,8 @@ import { q } from '@/lib/db';
 import { PageHeader, LoadingRows } from '@/components/ui';
 import { AddButton, RowButtons, TableShell, SearchBar } from '@/components/settings-modals';
 import { addWhatsappTemplate, updateWhatsappTemplate, deleteWhatsappTemplate } from '../actions';
-import { WtplFields, wtplLabel } from './fields';
+import { WtplFields } from './fields';
+import { wtplLabel } from './types';
 
 type Wtpl = { id: number; wm_type: string; wm_message: string };
 
