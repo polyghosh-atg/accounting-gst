@@ -7,10 +7,10 @@ import { Card, LoadingRows, Badge } from '@/components/ui';
 export const instant = false;
 
 const QUICK = [
-  { label: 'New Sale', href: '/sales', grad: 'from-indigo-500 to-violet-600', icon: '🧾' },
-  { label: 'New Purchase', href: '/purchases', grad: 'from-emerald-500 to-teal-600', icon: '📦' },
-  { label: 'Add Expense', href: '/expenses', grad: 'from-amber-500 to-orange-600', icon: '💸' },
-  { label: 'Reports', href: '/reports', grad: 'from-sky-500 to-cyan-600', icon: '📊' },
+  { label: 'New Sale', href: '/sales', icon: '🧾' },
+  { label: 'New Purchase', href: '/purchases', icon: '📦' },
+  { label: 'Add Expense', href: '/expenses', icon: '💸' },
+  { label: 'Reports', href: '/reports', icon: '📊' },
 ];
 
 export default async function Dashboard() {
@@ -18,21 +18,21 @@ export default async function Dashboard() {
   const today = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
   return (
     <div className="space-y-4 sm:space-y-5">
-      {/* hero */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-700 via-violet-700 to-fuchsia-600 p-5 text-white shadow-lg sm:p-6">
-        <div className="pointer-events-none absolute -right-10 -top-16 h-56 w-56 rounded-full bg-white/15 blur-2xl" />
-        <div className="pointer-events-none absolute -bottom-20 left-1/3 h-56 w-56 rounded-full bg-fuchsia-300/25 blur-2xl" />
+      {/* hero — matches sidebar indigo/violet theme */}
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-950 via-indigo-900 to-violet-950 p-5 text-white shadow-lg ring-1 ring-inset ring-white/15 sm:p-6">
+        <div className="pointer-events-none absolute -right-10 -top-16 h-56 w-56 rounded-full bg-indigo-400/20 blur-2xl" />
+        <div className="pointer-events-none absolute -bottom-20 left-1/3 h-56 w-56 rounded-full bg-violet-400/20 blur-2xl" />
         <div className="relative flex flex-wrap items-center gap-3">
           <div>
             <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl">Namaste 🙏 — here&apos;s your business today</h1>
-            <p className="mt-0.5 text-sm text-indigo-100">{today} · FY {fy} · live data from vaksys.com/pro</p>
+            <p className="mt-0.5 text-sm text-indigo-200">{today} · FY {fy} · live data from vaksys.com/pro</p>
           </div>
           <div className="ml-auto flex flex-wrap gap-2">
             {QUICK.map((a) => (
               <a
                 key={a.label}
                 href={a.href}
-                className={`rounded-xl bg-gradient-to-br px-3.5 py-2 text-sm font-bold text-white shadow-md ring-1 ring-inset ring-white/30 transition hover:brightness-110 active:scale-95 ${a.grad}`}
+                className="rounded-xl bg-white/10 px-3.5 py-2 text-sm font-bold text-white shadow ring-1 ring-inset ring-white/25 backdrop-blur transition hover:bg-white/20 active:scale-95"
               >
                 {a.icon} {a.label}
               </a>
