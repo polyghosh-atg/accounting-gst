@@ -1,4 +1,5 @@
 ﻿import { Pool } from 'pg';
+import { ledgerReport } from './ledger';
 
 const pool = new Pool({
   connectionString:
@@ -516,27 +517,31 @@ export async function reportDefs(): Promise<ReportDef[]> {
       },
     },
     {
-      slug: 'ledger', title: 'Ledger Report', desc: 'Voucher entries per ledger with running balance',
+      slug: 'ledger', title: 'Ledger Report', desc: 'Ledger with opening, entries, totals & closing balance',
       cols: [
         { key: 'ref_no', label: 'Reference No' }, { key: 'vouch_type', label: 'Voucher' }, { key: 'voucher_date', label: 'Date' },
-        { key: 'other', label: 'Other Ledger' }, M('debit'), M('credit'), M('balance'),
+        { key: 'other', label: 'Particulars' }, M('debit'), M('credit'), M('balance'),
       ],
-      partyFilter: { label: 'Ledger', options: [...new Set([...custs, ...sups])] },
+      totals: ['debit', 'credit'],
+      dateFilter: true,
       fetch: async (f) => {
-        if (!has(f.party)) return [];
-        const r = await pool.query(
-          `SELECT ref_no, vouch_type, voucher_date,
-             CASE WHEN upper(from_acct)=upper($1) THEN to_acct ELSE from_acct END AS other,
-             CASE WHEN upper(to_acct)=upper($1) THEN 0 ELSE amount END AS debit,
-             CASE WHEN upper(to_acct)=upper($1) THEN amount ELSE 0 END AS credit,
-             amount
-           FROM cash_bank_entries WHERE upper(from_acct)=upper($1) OR upper(to_acct)=upper($1)
-           ORDER BY voucher_date NULLS LAST, id LIMIT 2000`, [f.party]);
-        let bal = 0;
-        return r.rows.map(fmtDate('voucher_date')).map((x) => {
-          bal += num(x.credit) - num(x.debit);
-          return { ...x, balance: String(Math.round(bal * 100) / 100) };
+        if (!has(f.q)) return [];
+        const rep = await ledgerReport(f.q, f.from, f.to || new Date().toISOString().slice(0, 10));
+        let bal = rep.opening;
+        const head: Record<string, string>[] = [{
+          ref_no: '', vouch_type: 'OPENING BALANCE', voucher_date: '', other: f.q,
+          debit: String(rep.opening), credit: '0', balance: String(rep.opening),
+        }];
+        const lines = rep.entries.map((e) => {
+          bal += e.dr - e.cr;
+          return {
+            ref_no: e.ref || '', vouch_type: '', voucher_date: e.date,
+            other: `${e.particulars}${e.ref ? ` [${e.ref}]` : ''}`,
+            debit: String(Math.round(e.dr * 100) / 100), credit: String(Math.round(e.cr * 100) / 100),
+            balance: String(Math.round(bal * 100) / 100),
+          };
         });
+        return [...head, ...lines];
       },
     },
     {
