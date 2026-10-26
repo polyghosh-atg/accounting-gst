@@ -290,7 +290,6 @@ export default function Topbar({ cash, accounts }: { cash: string; accounts: Acc
             <div className="mb-4 grid grid-cols-1 gap-2 sm:grid-cols-3">
               {[
                 { label: '📊 DASHBOARD', href: '/' },
-                { label: '👥 HR MODULE', href: '/hr' },
                 { label: '🏦 BANK ACCOUNT', href: '/bank' },
               ].map((b) => (
                 <a key={b.href + b.label} href={b.href} className="rounded-xl border border-indigo-200 bg-indigo-50/50 px-3 py-2.5 text-center text-sm font-bold text-indigo-800 transition hover:border-indigo-400 hover:bg-indigo-50">
