@@ -13,7 +13,10 @@ const QUICK = [
   { label: 'Reports', href: '/reports', icon: '📊' },
 ];
 
-export default async function Dashboard() {
+export default async function Dashboard({ searchParams }: { searchParams: Promise<{ from?: string; to?: string }> }) {
+  const sp = await searchParams;
+  const from = (sp.from || '').trim();
+  const to = (sp.to || '').trim();
   const fy = await getActiveFyLabel();
   const today = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
   return (
@@ -40,8 +43,16 @@ export default async function Dashboard() {
           </div>
         </div>
       </div>
+      <form method="GET" className="flex flex-wrap items-center gap-2 rounded-2xl border border-slate-200/80 bg-white p-2.5 shadow-sm">
+        <span className="text-sm font-bold text-slate-700">📅 Cards period:</span>
+        <label className="text-xs font-bold text-slate-600">From <input name="from" type="date" defaultValue={from} className="ml-1 rounded-lg border border-slate-200 bg-slate-50 px-2 py-1.5 text-sm font-normal outline-none focus:border-indigo-400" /></label>
+        <label className="text-xs font-bold text-slate-600">To <input name="to" type="date" defaultValue={to} className="ml-1 rounded-lg border border-slate-200 bg-slate-50 px-2 py-1.5 text-sm font-normal outline-none focus:border-indigo-400" /></label>
+        <button className="rounded-xl bg-slate-900 px-3.5 py-1.5 text-sm font-semibold text-white">Apply</button>
+        {(from || to) && <a href="/" className="text-xs font-semibold text-indigo-700 hover:underline">Clear</a>}
+        <span className="ml-auto text-xs text-slate-400">{from || to ? `Showing ${from || '…'} → ${to || '…'}` : 'All time'}</span>
+      </form>
       <Suspense fallback={<LoadingRows n={8} />}>
-        <Content />
+        <Content from={from} to={to} />
       </Suspense>
     </div>
   );
@@ -67,14 +78,30 @@ function StatCard({ s }: { s: StatDef }) {
   );
 }
 
-async function Content() {
-  const [[s], [p], [c], [r], [e]] = await Promise.all([
-    q<{ c: string; t: string }>('SELECT count(*) c, COALESCE(SUM(total),0) t FROM sales'),
-    q<{ c: string; t: string }>('SELECT count(*) c, COALESCE(SUM(total),0) t FROM purchases'),
-    q<{ c: string }>('SELECT count(*) c FROM customers'),
-    q<{ t: string }>('SELECT COALESCE(SUM(due),0) t FROM sales'),
-    q<{ t: string }>("SELECT COALESCE(SUM(total),0) t FROM expenses WHERE bill_date::date > current_date - interval '30 days'"),
+async function Content({ from, to }: { from: string; to: string }) {
+  // one round-trip per aggregate — fast even on large books
+  const [[s], [p], [c], [e]] = await Promise.all([
+    q<{ c: string; t: string; paid: string; due: string; tax: string }>(
+      `SELECT count(*) c, COALESCE(SUM(total),0) t, COALESCE(SUM(paid),0) paid, COALESCE(SUM(due),0) due, COALESCE(SUM(tax),0) tax FROM sales
+       WHERE ($1='' OR inv_date >= $1::date) AND ($2='' OR inv_date <= $2::date)`, [from, to]),
+    q<{ c: string; t: string; paid: string; due: string; tax: string }>(
+      `SELECT count(*) c, COALESCE(SUM(total),0) t, COALESCE(SUM(paid),0) paid, COALESCE(SUM(due),0) due, COALESCE(SUM(tax),0) tax FROM purchases
+       WHERE ($1='' OR purchase_date >= $1::date) AND ($2='' OR purchase_date <= $2::date)`, [from, to]),
+    q<{ c: string; sc: string }>('SELECT (SELECT count(*) FROM customers) c, (SELECT count(*) FROM suppliers) sc'),
+    q<{ t: string }>(`SELECT COALESCE(SUM(total),0) t FROM expenses
+       WHERE ($1='' OR bill_date >= $1::date) AND ($2='' OR bill_date <= $2::date)`, [from, to]),
   ]);
+  const rangeSub = from || to ? `${from || '…'} → ${to || '…'}` : 'all time';
+  const stats: StatDef[] = [
+    { label: 'GST Invoice Amount', value: inr(s.t), sub: `${s.c} sales · ${rangeSub}`, grad: 'from-indigo-500 to-violet-600', ring: 'hover:ring-2 hover:ring-indigo-200', icon: '🧾' },
+    { label: 'GST Collected', value: inr(s.tax), sub: `tax on sales · ${rangeSub}`, grad: 'from-sky-500 to-cyan-600', ring: 'hover:ring-2 hover:ring-sky-200', icon: '🏷' },
+    { label: 'Total Received', value: inr(s.paid), sub: `sales receipts · ${rangeSub}`, grad: 'from-emerald-500 to-teal-600', ring: 'hover:ring-2 hover:ring-emerald-200', icon: '💵' },
+    { label: 'Receivable Due', value: inr(s.due), sub: `to collect · ${rangeSub}`, grad: 'from-amber-500 to-orange-600', ring: 'hover:ring-2 hover:ring-amber-200', icon: '⏳' },
+    { label: 'Purchase Amount', value: inr(p.t), sub: `${p.c} bills · ${rangeSub}`, grad: 'from-violet-500 to-purple-600', ring: 'hover:ring-2 hover:ring-violet-200', icon: '📦' },
+    { label: 'GST Paid', value: inr(p.tax), sub: `tax on purchases · ${rangeSub}`, grad: 'from-blue-500 to-indigo-600', ring: 'hover:ring-2 hover:ring-blue-200', icon: '🧮' },
+    { label: 'Total Paid', value: inr(p.paid), sub: `purchase payments · ${rangeSub}`, grad: 'from-teal-500 to-emerald-600', ring: 'hover:ring-2 hover:ring-teal-200', icon: '✅' },
+    { label: 'Payable Due', value: inr(p.due), sub: `to pay · ${rangeSub}`, grad: 'from-rose-500 to-pink-600', ring: 'hover:ring-2 hover:ring-rose-200', icon: '🐷' },
+  ];
   const recent = await q('SELECT inv_no, inv_date, customer, total, paid, due FROM sales ORDER BY id DESC LIMIT 8');
   const banks = await q('SELECT name, bank_name, closing FROM bank_accounts ORDER BY closing DESC LIMIT 8');
   const low = await q('SELECT warehouse, product, qty FROM stock_entries ORDER BY qty ASC LIMIT 8');
@@ -86,18 +113,22 @@ async function Content() {
   const maxT = Math.max(1, ...ordered.map((m) => Number(m.t ?? 0)));
   const maxBank = Math.max(1, ...banks.map((b) => Number(b.closing ?? 0)));
 
-  const stats: StatDef[] = [
-    { label: 'Sales', value: inr(s.t), sub: `${s.c} invoices`, grad: 'from-indigo-500 to-violet-600', ring: 'hover:ring-2 hover:ring-indigo-200', icon: '🧾' },
-    { label: 'Purchases', value: inr(p.t), sub: `${p.c} bills`, grad: 'from-emerald-500 to-teal-600', ring: 'hover:ring-2 hover:ring-emerald-200', icon: '📦' },
-    { label: 'Customers', value: String(c.c), sub: 'receivable below', grad: 'from-amber-500 to-orange-600', ring: 'hover:ring-2 hover:ring-amber-200', icon: '👥' },
-    { label: 'Receivable', value: inr(r.t), sub: 'total due · 30-day expenses ' + inr(e.t), grad: 'from-rose-500 to-pink-600', ring: 'hover:ring-2 hover:ring-rose-200', icon: '⏳' },
-  ];
-
   return (
     <>
       <div className="grid grid-cols-2 gap-3 xl:grid-cols-4">
         {stats.map((x) => <StatCard key={x.label} s={x} />)}
       </div>
+
+      <Card>
+        <div className="mb-2 flex items-center gap-2">
+          <h2 className="font-bold text-slate-900">📊 Parties & expenses</h2>
+        </div>
+        <div className="flex flex-wrap gap-2 text-sm">
+          <span className="rounded-xl bg-indigo-50 px-3 py-1.5 font-semibold text-indigo-800 ring-1 ring-inset ring-indigo-200">👥 {c.c} customers</span>
+          <span className="rounded-xl bg-violet-50 px-3 py-1.5 font-semibold text-violet-800 ring-1 ring-inset ring-violet-200">🏭 {c.sc} suppliers</span>
+          <span className="rounded-xl bg-rose-50 px-3 py-1.5 font-semibold text-rose-800 ring-1 ring-inset ring-rose-200">💸 Expenses {inr(e.t)} <span className="font-normal text-rose-500">({rangeSub})</span></span>
+        </div>
+      </Card>
 
       <Card>
         <div className="mb-2 flex items-center gap-2">
