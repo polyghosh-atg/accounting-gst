@@ -1,0 +1,16 @@
+﻿{
+    "draw":  1,
+    "recordsTotal":  5,
+    "recordsFiltered":  1,
+    "data":  [
+                 [
+                     "ABC",
+                     "123456789",
+                     "25-04-2026",
+                     "1000.00",
+                     "VAIDEHI",
+                     "25-04-2026",
+                     "\u003cdiv class=\"btn-group\"\u003e \n                        \u003ca href=\"#\" class=\"btn btn-warning btn-xs add_deposit_modal\"  data-toggle=\"modal\" data-tt=\"tooltip\" title=\"\" data-pdc_payment_id=\"5\"\u003e\n                          \u003ci class=\"fas fa-money-check-alt\"\u003e\u003c/i\u003e Deposit\n                        \u003c/a\u003e\n                     \n                      \u003ca href=\"#\" class=\"btn btn-info btn-xs add_pdc_payment_modal\"  data-toggle=\"modal\" data-tt=\"tooltip\" title=\"Edit PDC Payment\" data-pdc_payment_id=\"5\"\u003e\n                        \u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n                      \u003c/a\u003e\n                     \n                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_pdc_payment\" data-tt=\"tooltip\" title=\"Delete PDC Payment\" class=\"btn btn-danger btn-xs delete_pdc_payment\" data-pdc_payment_id=\"5\"\u003e\n                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n                        \u003c/a\u003e\n                      \u003c/div\u003e"
+                 ]
+             ]
+}

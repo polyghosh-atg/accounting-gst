@@ -1,0 +1,139 @@
+{
+ "company": {
+  "company_name": "Zivaan Solutions",
+  "gem_seller_id": "",
+  "email": "mk9332994@gmail.com",
+  "mobile": "9318019231",
+  "pincode": "176215",
+  "whatsapp_no": "938093647",
+  "gstin": "02BINPK2730F1ZN",
+  "gst_registration_type": "1",
+  "bank_detail": "Bank Name: Fidelity Bank Plc Account #: 0894983993 Account Holder: XandersPub",
+  "terms_and_condition": "1. Subject to Ahmedabad Jurisdiction 2. Our responsibility ceases as soon as the goods leave our premises. 3. Goods once sold will not be taken back. 4. Delivery ex-premises.",
+  "seperator": "",
+  "payment_duration_for_sale": "4",
+  "payment_duration_for_purchase": "30",
+  "instance_id": "66A1100823B4C",
+  "access_token": "668139f59d75d",
+  "upi_status": "yes",
+  "upi_address": "abc@paytk",
+  "qr_type": "company_based",
+  "show_qr_code_in_proforma": "yes"
+ },
+ "prefixes": [
+  {
+   "doc_type": "purchase_order",
+   "prefix": "PO",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "purchase",
+   "prefix": "P",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "purchase_return",
+   "prefix": "PR",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "quotation",
+   "prefix": "Q",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "sale",
+   "prefix": "S",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "sale_return",
+   "prefix": "SR",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "proforma_invoice",
+   "prefix": "PI",
+   "date_format": "d-m-Y",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "credit_debit_note",
+   "prefix": "CDN",
+   "date_format": "Y-m-d",
+   "sequence": "2000"
+  },
+  {
+   "doc_type": "bank_payment",
+   "prefix": "BP",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "cash_payment",
+   "prefix": "CP",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "bank_receipt",
+   "prefix": "BR",
+   "date_format": "Y-m-d",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "cash_receipt",
+   "prefix": "CR",
+   "date_format": "d-m-Y",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "contra",
+   "prefix": "C",
+   "date_format": "Y-m-d",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "scrap_issue",
+   "prefix": "SP",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "scrap_entry",
+   "prefix": "SE",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "scrap_receive",
+   "prefix": "SR",
+   "date_format": "Y-m-d",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "employee",
+   "prefix": "E",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "department",
+   "prefix": "D",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  },
+  {
+   "doc_type": "position",
+   "prefix": "PS",
+   "date_format": "Y-m",
+   "sequence": "1000"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+import pg from 'pg';
+const pool = new pg.Pool({ connectionString: 'postgres://postgres:postgres@localhost:5433/accounting' });
+const c = await pool.connect();
+await c.query(`ALTER TABLE products ADD COLUMN IF NOT EXISTS description TEXT DEFAULT '';
+ALTER TABLE product_categories ADD COLUMN IF NOT EXISTS tax_id INT;
+ALTER TABLE product_categories ADD COLUMN IF NOT EXISTS tax_type INT DEFAULT 0;`);
+const r = await c.query(`SELECT column_name FROM information_schema.columns WHERE table_name='products' ORDER BY 1`);
+console.log('products cols:', r.rows.map((x) => x.column_name).join(','));
+const r2 = await c.query(`SELECT column_name FROM information_schema.columns WHERE table_name='product_categories' ORDER BY 1`);
+console.log('cat cols:', r2.rows.map((x) => x.column_name).join(','));
+c.release(); await pool.end();

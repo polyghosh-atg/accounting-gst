@@ -1,0 +1,440 @@
+// Prisma schema — Zivaan Pro clone (Next.js + PostgreSQL)
+// Mirrors CodeIgniter app at vaksys.com/pro. Every table keeps legacyId for migration traceability.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  legacyId     Int?     @unique
+  firstName    String?
+  lastName     String?
+  username     String   @unique
+  email        String?
+  phone        String?
+  passwordHash String
+  roleId       Int?
+  role         Role?    @relation(fields: [roleId], references: [id])
+  status       String   @default("Active")
+  createdAt    DateTime @default(now())
+}
+
+model Role {
+  id          Int              @id @default(autoincrement())
+  legacyId    Int?             @unique
+  name        String           @unique
+  description String?
+  users       User[]
+  permissions RolePermission[]
+}
+
+model Permission {
+  id    Int              @id @default(autoincrement())
+  key   String           @unique // e.g. "sale.add", "purchase.delete_all"
+  label String
+  roles RolePermission[]
+}
+
+model RolePermission {
+  roleId       Int
+  permissionId Int
+  role         Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission   Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+}
+
+model Company {
+  id               Int      @id @default(autoincrement())
+  name             String
+  email            String?
+  mobile           String?
+  country          String?
+  state            String?
+  city             String?
+  address1         String?
+  address2         String?
+  pincode          String?
+  whatsapp         String?
+  gstRegType       String?
+  gstin            String?
+  bankDetail       String?
+  terms            String?
+  currencyId       Int?
+  currency         Currency? @relation(fields: [currencyId], references: [id])
+  fyFrom           DateTime?
+  fyTo             DateTime?
+  logoPath         String?
+  signaturePath    String?
+  upiAddress       String?
+  financialYear    String?  // "2026-2027"
+}
+
+model DocSequence {
+  id         Int     @id @default(autoincrement())
+  docType    String  @unique // sale, purchase, purchase_order, quotation, sales_return, purchase_return, proforma_invoice, credit_debit_note, bank_payment, cash_payment, bank_receipt, cash_receipt, contra, scrap_issue, scrap_entry, scrap_receive, employee, department, position
+  prefix     String  @default("")
+  dateFormat String  @default("Y-m-d")
+  nextSeq    Int     @default(1)
+}
+
+model Customer {
+  id              Int     @id @default(autoincrement())
+  legacyId        Int?    @unique
+  companyName     String
+  name            String?
+  buyerName       String?
+  buyerDesignation String?
+  department      String?
+  gstin           String?
+  email           String?
+  phone           String?
+  margin          Decimal? @db.Decimal(10, 2)
+  paymentDuration String?
+  whatsapp        String?
+  country         String?
+  state           String?
+  city            String?
+  address         String?
+  pincode         String?
+  shipCountry     String?
+  shipState       String?
+  shipCity        String?
+  shipAddress     String?
+  shipPincode     String?
+  sales           Sale[]
+}
+
+model Supplier {
+  id             Int     @id @default(autoincrement())
+  legacyId       Int?    @unique
+  companyName    String
+  regType        String?
+  gstin          String?
+  contactPerson  String?
+  contactDesig   String?
+  email          String?
+  phone          String?
+  country        String?
+  state          String?
+  city           String?
+  address        String?
+  website        String?
+  paymentDuration String?
+  whatsapp       String?
+  purchases      Purchase[]
+}
+
+model Warehouse {
+  id          Int      @id @default(autoincrement())
+  legacyId    Int?     @unique
+  name        String
+  code        String?
+  description String?
+  stock       WarehouseStock[]
+}
+
+model Uom {
+  id      Int       @id @default(autoincrement())
+  legacyId Int?     @unique
+  name    String    // BAGS
+  code    String    // BAG
+  products Product[]
+}
+
+model Tax {
+  id     Int      @id @default(autoincrement())
+  legacyId Int?   @unique
+  name   String
+  sgst   Decimal  @db.Decimal(5, 2)
+  cgst   Decimal  @db.Decimal(5, 2)
+  igst   Decimal  @db.Decimal(5, 2)
+  status String   @default("Active")
+}
+
+model ProductCategory {
+  id          Int       @id @default(autoincrement())
+  legacyId    Int?      @unique
+  name        String
+  description String?
+  taxId       Int?
+  taxType     Int       @default(0) // 0 exclusive, 1 inclusive
+  products    Product[]
+}
+
+model Product {
+  id            Int      @id @default(autoincrement())
+  legacyId      Int?     @unique
+  name          String
+  description   String?
+  categoryId    Int?
+  category      ProductCategory? @relation(fields: [categoryId], references: [id])
+  hsn           String?
+  markup        Decimal? @db.Decimal(10, 2)
+  alertQty      Decimal? @db.Decimal(14, 3)
+  uomId         Int?
+  uom           Uom?     @relation(fields: [uomId], references: [id])
+  manageInventory Boolean @default(true)
+  cost          Decimal  @db.Decimal(14, 2) @default(0)
+  sellingPrice  Decimal  @db.Decimal(14, 2) @default(0)
+  mrp           Decimal  @db.Decimal(14, 2) @default(0)
+  status        String   @default("Active")
+  imagePath     String?
+  stock         WarehouseStock[]
+  saleLines     SaleLine[]
+  purchaseLines PurchaseLine[]
+}
+
+model WarehouseStock {
+  id          Int      @id @default(autoincrement())
+  warehouseId Int
+  warehouse   Warehouse @relation(fields: [warehouseId], references: [id])
+  productId   Int
+  product     Product   @relation(fields: [productId], references: [id])
+  batchNo     String?
+  mfgDate     DateTime?
+  expiryDate  DateTime?
+  qty         Decimal   @db.Decimal(14, 3) @default(0)
+  cost        Decimal   @db.Decimal(14, 2) @default(0)
+  price       Decimal   @db.Decimal(14, 2) @default(0)
+
+  @@unique([warehouseId, productId, batchNo])
+}
+
+model Currency {
+  id       Int        @id @default(autoincrement())
+  legacyId Int?       @unique
+  name     String
+  symbol   String?
+  companies Company[]
+}
+
+model Discount {
+  id        Int      @id @default(autoincrement())
+  legacyId  Int?     @unique
+  name      String
+  type      String?  // flat | percent
+  value     Decimal  @db.Decimal(14, 2) @default(0)
+  validFrom DateTime?
+  validTo   DateTime?
+  status    String   @default("Active")
+}
+
+// ---- Sales ----
+model Sale {
+  id            Int      @id @default(autoincrement())
+  legacyId      Int?     @unique
+  refNo         String?
+  invNo         String?  @unique
+  invDate       DateTime?
+  dueDate       DateTime?
+  warehouseId   Int?
+  customerId    Int?
+  customer      Customer? @relation(fields: [customerId], references: [id])
+  totalDiscount Decimal  @db.Decimal(14, 2) @default(0)
+  totalTaxable  Decimal  @db.Decimal(14, 2) @default(0)
+  totalCgst     Decimal  @db.Decimal(14, 2) @default(0)
+  totalSgst     Decimal  @db.Decimal(14, 2) @default(0)
+  totalIgst     Decimal  @db.Decimal(14, 2) @default(0)
+  tds           Decimal  @db.Decimal(14, 2) @default(0)
+  total         Decimal  @db.Decimal(14, 2) @default(0)
+  paid          Decimal  @db.Decimal(14, 2) @default(0)
+  due           Decimal  @db.Decimal(14, 2) @default(0)
+  deliveryStatus String?
+  rcm           String   @default("N")
+  ewaybillNo    String?
+  vehicleNo     String?
+  transporterGstin String?
+  externalNote  String?
+  internalNote  String?
+  bankDetail    String?
+  terms         String?
+  lines         SaleLine[]
+}
+
+model SaleLine {
+  id            Int      @id @default(autoincrement())
+  saleId        Int
+  sale          Sale     @relation(fields: [saleId], references: [id], onDelete: Cascade)
+  productId     Int?
+  product       Product? @relation(fields: [productId], references: [id])
+  description   String?
+  qty           Decimal  @db.Decimal(14, 3) @default(0)
+  freeQty       Decimal  @db.Decimal(14, 3) @default(0)
+  sellingPrice  Decimal  @db.Decimal(14, 2) @default(0)
+  mrp           Decimal  @db.Decimal(14, 2) @default(0)
+  batchNo       String?
+  mfgDate       DateTime?
+  expiryDate    DateTime?
+  discountType  Int      @default(1)
+  discountValue Decimal  @db.Decimal(14, 2) @default(0)
+  discountAmount Decimal @db.Decimal(14, 2) @default(0)
+  taxId         Int?
+  taxType       Int      @default(0)
+  cgstRate      Decimal  @db.Decimal(5, 2) @default(0)
+  sgstRate      Decimal  @db.Decimal(5, 2) @default(0)
+  igstRate      Decimal  @db.Decimal(5, 2) @default(0)
+  cgstTax       Decimal  @db.Decimal(14, 2) @default(0)
+  sgstTax       Decimal  @db.Decimal(14, 2) @default(0)
+  igstTax       Decimal  @db.Decimal(14, 2) @default(0)
+  taxableValue  Decimal  @db.Decimal(14, 2) @default(0)
+  subTotal      Decimal  @db.Decimal(14, 2) @default(0)
+}
+
+// ---- Purchase ----
+model Purchase {
+  id            Int      @id @default(autoincrement())
+  legacyId      Int?     @unique
+  refNo         String?
+  invNo         String?
+  poNo          String?
+  purchaseDate  DateTime?
+  dueDate       DateTime?
+  warehouseId   Int?
+  supplierId    Int?
+  supplier      Supplier? @relation(fields: [supplierId], references: [id])
+  totalDiscount Decimal  @db.Decimal(14, 2) @default(0)
+  totalTaxable  Decimal  @db.Decimal(14, 2) @default(0)
+  totalTax      Decimal  @db.Decimal(14, 2) @default(0)
+  total         Decimal  @db.Decimal(14, 2) @default(0)
+  paid          Decimal  @db.Decimal(14, 2) @default(0)
+  due           Decimal  @db.Decimal(14, 2) @default(0)
+  deliveryStatus String?
+  rcm           String   @default("N")
+  externalNote  String?
+  internalNote  String?
+  terms         String?
+  lines         PurchaseLine[]
+}
+
+model PurchaseLine {
+  id            Int      @id @default(autoincrement())
+  purchaseId    Int
+  purchase      Purchase @relation(fields: [purchaseId], references: [id], onDelete: Cascade)
+  productId     Int?
+  product       Product? @relation(fields: [productId], references: [id])
+  description   String?
+  qty           Decimal  @db.Decimal(14, 3) @default(0)
+  freeQty       Decimal  @db.Decimal(14, 3) @default(0)
+  cost          Decimal  @db.Decimal(14, 2) @default(0)
+  sellingPrice  Decimal  @db.Decimal(14, 2) @default(0)
+  batchNo       String?
+  discountValue Decimal  @db.Decimal(14, 2) @default(0)
+  taxId         Int?
+  taxType       Int      @default(0)
+  taxableValue  Decimal  @db.Decimal(14, 2) @default(0)
+  subTotal      Decimal  @db.Decimal(14, 2) @default(0)
+}
+
+// ---- Money ----
+model BankAccount {
+  id          Int      @id @default(autoincrement())
+  legacyId    Int?     @unique
+  name        String
+  type        String?  // Saving | Current | Credit
+  number      String?
+  bankName    String?
+  ifsc        String?
+  description String?
+  opening     Decimal  @db.Decimal(14, 2) @default(0)
+  closing     Decimal  @db.Decimal(14, 2) @default(0)
+  status      String   @default("Active")
+}
+
+model CashBankEntry {
+  id        Int      @id @default(autoincrement())
+  legacyId  Int?     @unique
+  refNo     String?
+  vouchType String?  // bank_payment | bank_receipt | cash_payment | cash_receipt | contra
+  vouchDate DateTime?
+  fromAccount String?
+  toAccount   String?
+  amount    Decimal  @db.Decimal(14, 2) @default(0)
+  narration String?
+}
+
+model Txn {
+  id        Int      @id @default(autoincrement())
+  type      String   // R receipt | P payment
+  module    String   // S sale | P purchase | E expense | SR | PR
+  entryId   Int
+  fromAccount String?
+  toAccount   String?
+  amount    Decimal  @db.Decimal(14, 2) @default(0)
+  payMode   String?
+  refNo     String?
+  txnDate   DateTime? @default(now())
+
+  @@index([module, entryId])
+}
+
+model ExpenseCategory {
+  id     Int       @id @default(autoincrement())
+  legacyId Int?    @unique
+  name   String
+  description String?
+  type   String?
+  expenses Expense[]
+}
+
+model Expense {
+  id          Int      @id @default(autoincrement())
+  legacyId    Int?     @unique
+  billDate    DateTime?
+  categoryId  Int?
+  category    ExpenseCategory? @relation(fields: [categoryId], references: [id])
+  supplierName String?
+  taxable     Decimal  @db.Decimal(14, 2) @default(0)
+  cgst        Decimal  @db.Decimal(14, 2) @default(0)
+  sgst        Decimal  @db.Decimal(14, 2) @default(0)
+  igst        Decimal  @db.Decimal(14, 2) @default(0)
+  total       Decimal  @db.Decimal(14, 2) @default(0)
+  paid        Decimal  @db.Decimal(14, 2) @default(0)
+  due         Decimal  @db.Decimal(14, 2) @default(0)
+  remarks     String?
+  itc         Boolean  @default(false)
+}
+
+// ---- HR ----
+model Department {
+  id     Int        @id @default(autoincrement())
+  legacyId Int?     @unique
+  code   String?
+  name   String
+  employees Employee[]
+}
+
+model Position {
+  id     Int        @id @default(autoincrement())
+  legacyId Int?     @unique
+  code   String?
+  title  String
+  employees Employee[]
+}
+
+model Employee {
+  id          Int      @id @default(autoincrement())
+  legacyId    Int?     @unique
+  code        String?
+  firstName   String
+  lastName    String?
+  email       String?
+  dob         DateTime?
+  departmentId Int?
+  department  Department? @relation(fields: [departmentId], references: [id])
+  positionId  Int?
+  position    Position?   @relation(fields: [positionId], references: [id])
+  bankName    String?
+  accountNo   String?
+  branch      String?
+  ifsc        String?
+  salary      Decimal @db.Decimal(14, 2) @default(0)
+  hireDate    DateTime?
+  termDate    DateTime?
+}

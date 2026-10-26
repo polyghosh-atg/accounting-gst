@@ -1,0 +1,21 @@
+﻿{
+    "draw":  1,
+    "recordsTotal":  14,
+    "recordsFiltered":  2,
+    "data":  [
+                 [
+                     "04-04-2026",
+                     "Warehouse - A",
+                     "warehouse1",
+                     "579.41",
+                     "\u003cdiv class=\"btn-group\"\u003e\n                            \u003ca href=\"https://vaksys.com/pro/transfer/pdf/MTQ=\" class=\"btn bg-orange btn-xs\" data-tt=\"tooltip\" title=\"Download PDF\"\u003e\n                              \u003ci class=\"far fa-file-pdf\"\u003e\u003c/i\u003e Download\n                            \u003c/a\u003e\n                          \n                            \u003ca href=\"https://vaksys.com/pro/transfer/view/MTQ=\" class=\"btn btn-default btn-xs\" data-tt=\"tooltip\" title=\"View Transfer\"\u003e\n                              \u003ci class=\"fas fa-eye\"\u003e\u003c/i\u003e View\n                            \u003c/a\u003e\n                          \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_transfer\" data-tt=\"tooltip\" title=\"Delete Transfer\" class=\"btn btn-danger btn-xs delete_transfer\" data-transfer_id=\"14\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ],
+                 [
+                     "04-02-2026",
+                     "warehouse1",
+                     "warehouse3",
+                     "800.00",
+                     "\u003cdiv class=\"btn-group\"\u003e\n                            \u003ca href=\"https://vaksys.com/pro/transfer/pdf/MTM=\" class=\"btn bg-orange btn-xs\" data-tt=\"tooltip\" title=\"Download PDF\"\u003e\n                              \u003ci class=\"far fa-file-pdf\"\u003e\u003c/i\u003e Download\n                            \u003c/a\u003e\n                          \n                            \u003ca href=\"https://vaksys.com/pro/transfer/view/MTM=\" class=\"btn btn-default btn-xs\" data-tt=\"tooltip\" title=\"View Transfer\"\u003e\n                              \u003ci class=\"fas fa-eye\"\u003e\u003c/i\u003e View\n                            \u003c/a\u003e\n                          \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_transfer\" data-tt=\"tooltip\" title=\"Delete Transfer\" class=\"btn btn-danger btn-xs delete_transfer\" data-transfer_id=\"13\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ]
+             ]
+}

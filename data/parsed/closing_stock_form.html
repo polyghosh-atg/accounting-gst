@@ -1,0 +1,67 @@
+﻿
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">
+                      <i class="fas fa-funnel-dollar"></i>
+                      Filter Report                    </h3>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body"> 
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Select Date Range</label>
+                        <div class="input-group">
+                          <button type="button" class="btn btn-block btn-outline-secondary float-right" id="daterange-btn">
+                            <i class="far fa-calendar-alt"></i> Date Range
+                            <!-- <i class="fas fa-caret-down"></i> -->
+                          </button>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="form-group">
+                          <label>From Date</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <input type="text" class="form-control datepicker" name="from_date" id="from_date" value="" style="z-index:999 !important" readonly="readonly">
+                            <span class="input-group-append">
+                              <span class="input-group-text form_date_cancel text-danger" style="cursor:pointer;"><i class="fas fa-times"></i></span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="form-group">
+                          <label>To Date</label>
+                          <span class="text-danger">*</span>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <input type="text" class="form-control datepicker" name="to_date" id="to_date" value="26-10-2026" style="z-index:999 !important" readonly="readonly">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="form-group">
+                        <label for="product_id">Product</label>
+		                    <select class="form-control form-control-sm select2bs4" name="pid" id="pid" width="100%">
+		                      <option value="">All</option>
+		                      		                    </select>
+                        </div>
+                      </div>
+                  
+                    </div>
+
+                   
+
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer">
+                    <input type="hidden" name="action_type" id="action_type" value="">
+                    <input type="hidden" name="csrf_zivaan_pro" value="293e54d9ac3fd89ed6f9ba223272c4da">
+                    <button type="submit" name="submit" id="submitSaleReport" class="btn btn-info">Search</button>
+                  </div>
+                </div>
+              

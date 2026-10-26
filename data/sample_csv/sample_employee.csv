@@ -1,0 +1,3 @@
+FirstName,LastName,Email,DateOfBirth,DepartmentCode,PositionCode,HireDate,TerminationDate,Salary,BankName,AccountNumber,Branch,IFSC
+Tina,Patel,tina@gmail.com,5/10/1995,D1008,PS1008,9/12/2023,12/20/2023,20000,SBI,1111909090,Tarsali,IFSC90
+Aruna,Patel,aruna@gmail.com,8/12/1991,D1009,PS1009,3/10/2024,11/10/2024,50000,HDFC,2222298898,Muktinagar,IFSC80

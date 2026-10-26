@@ -1,0 +1,227 @@
+﻿[
+    {
+        "module":  "customer",
+        "rows":  37,
+        "bytes":  39745
+    },
+    {
+        "module":  "supplier",
+        "rows":  10,
+        "bytes":  10879
+    },
+    {
+        "module":  "product_core",
+        "rows":  5,
+        "bytes":  7944
+    },
+    {
+        "module":  "product_category",
+        "rows":  2,
+        "bytes":  1606
+    },
+    {
+        "module":  "warehouse",
+        "rows":  12,
+        "bytes":  8289
+    },
+    {
+        "module":  "bank_account",
+        "rows":  15,
+        "bytes":  54995
+    },
+    {
+        "module":  "expense",
+        "rows":  5,
+        "bytes":  6537
+    },
+    {
+        "module":  "expense_category",
+        "rows":  1,
+        "bytes":  798
+    },
+    {
+        "module":  "tax",
+        "rows":  3,
+        "bytes":  2147
+    },
+    {
+        "module":  "discount",
+        "rows":  0,
+        "bytes":  59
+    },
+    {
+        "module":  "currency",
+        "rows":  26,
+        "bytes":  3644
+    },
+    {
+        "module":  "item",
+        "rows":  1,
+        "bytes":  676
+    },
+    {
+        "module":  "quotation",
+        "rows":  20,
+        "bytes":  47848
+    },
+    {
+        "module":  "proforma_invoice",
+        "rows":  81,
+        "bytes":  85145
+    },
+    {
+        "module":  "purchase_order",
+        "rows":  2,
+        "bytes":  2563
+    },
+    {
+        "module":  "purchase",
+        "rows":  61,
+        "bytes":  111373
+    },
+    {
+        "module":  "sale",
+        "rows":  458,
+        "bytes":  1010068
+    },
+    {
+        "module":  "sales_return",
+        "rows":  9,
+        "bytes":  13435
+    },
+    {
+        "module":  "purchase_return",
+        "rows":  9,
+        "bytes":  18181
+    },
+    {
+        "module":  "transfer",
+        "rows":  14,
+        "bytes":  2129
+    },
+    {
+        "module":  "scrap_entry",
+        "rows":  0,
+        "bytes":  59
+    },
+    {
+        "module":  "scrap_issue",
+        "rows":  1,
+        "bytes":  1723
+    },
+    {
+        "module":  "scrap_receive",
+        "rows":  0,
+        "bytes":  59
+    },
+    {
+        "module":  "scrap_product",
+        "rows":  17,
+        "bytes":  5333
+    },
+    {
+        "module":  "pdc_receive",
+        "rows":  6,
+        "bytes":  1117
+    },
+    {
+        "module":  "pdc_payment",
+        "rows":  5,
+        "bytes":  1107
+    },
+    {
+        "module":  "credit_debit_note",
+        "rows":  0,
+        "bytes":  59
+    },
+    {
+        "module":  "promotion",
+        "rows":  0,
+        "bytes":  59
+    },
+    {
+        "module":  "email_template",
+        "rows":  3,
+        "bytes":  59
+    },
+    {
+        "module":  "whatsapp_template",
+        "rows":  3,
+        "bytes":  1923
+    },
+    {
+        "module":  "employee",
+        "rows":  3,
+        "bytes":  3393
+    },
+    {
+        "module":  "department",
+        "rows":  3,
+        "bytes":  2439
+    },
+    {
+        "module":  "position",
+        "rows":  2,
+        "bytes":  1605
+    },
+    {
+        "module":  "attendance",
+        "rows":  76,
+        "bytes":  73332
+    },
+    {
+        "module":  "holiday",
+        "rows":  0,
+        "bytes":  59
+    },
+    {
+        "module":  "weekend",
+        "rows":  2,
+        "bytes":  1579
+    },
+    {
+        "module":  "deduction",
+        "rows":  1,
+        "bytes":  978
+    },
+    {
+        "module":  "bonus",
+        "rows":  2,
+        "bytes":  1807
+    },
+    {
+        "module":  "tax_deduction",
+        "rows":  2,
+        "bytes":  1990
+    },
+    {
+        "module":  "advance_salary",
+        "rows":  10,
+        "bytes":  9936
+    },
+    {
+        "module":  "leave",
+        "rows":  15,
+        "bytes":  14537
+    },
+    {
+        "module":  "payroll",
+        "rows":  9,
+        "bytes":  9261
+    },
+    {
+        "module":  "stock",
+        "rows":  67,
+        "bytes":  30725
+    },
+    {
+        "module":  "bank_statement",
+        "rows":  5,
+        "bytes":  3082
+    },
+    {
+        "module":  "cash_bank_entry",
+        "rows":  48,
+        "bytes":  4583
+    }
+]

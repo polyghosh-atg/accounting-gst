@@ -1,0 +1,14 @@
+import pg from 'pg';
+const pool = new pg.Pool({ connectionString: 'postgres://postgres:postgres@localhost:5433/accounting' });
+const c = await pool.connect();
+const before = (await c.query("SELECT closing FROM bank_accounts WHERE name='VVVV'")).rows[0].closing;
+await c.query("INSERT INTO cash_bank_entries(ref_no,vouch_type,from_acct,to_acct,amount) VALUES('TEST-BR1','bank_receipt','CASH ACCOUNT','VVVV',1)");
+await c.query("UPDATE bank_accounts SET closing=closing+1 WHERE name='VVVV'");
+const mid = (await c.query("SELECT closing FROM bank_accounts WHERE name='VVVV'")).rows[0].closing;
+await c.query("INSERT INTO cash_bank_entries(ref_no,vouch_type,from_acct,to_acct,amount) VALUES('TEST-BP1','bank_payment','VVVV','CASH ACCOUNT',1)");
+await c.query("UPDATE bank_accounts SET closing=closing-1 WHERE name='VVVV'");
+const after = (await c.query("SELECT closing FROM bank_accounts WHERE name='VVVV'")).rows[0].closing;
+console.log('before:', before, 'after deposit:', mid, 'after withdraw:', after, 'net-zero:', String(before) === String(after));
+await c.query("DELETE FROM cash_bank_entries WHERE ref_no IN ('TEST-BR1','TEST-BP1')");
+console.log('test entries cleaned up');
+c.release(); await pool.end();

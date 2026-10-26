@@ -1,0 +1,162 @@
+﻿[
+    {
+        "First Name":  "JK",
+        "Last Name":  "Solutions",
+        "Username":  "mathavanraj29102003@gmail.com",
+        "User Role":  "Administrator",
+        "Email":  "zivaansolutions@gmail.com",
+        "Phone":  "0768169929",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "vaidehi",
+        "Last Name":  "Parmar",
+        "Username":  "patelvaidehi2954@gmail.com",
+        "User Role":  "Sales Manager",
+        "Email":  "patelvaidehi24954@gmail.com",
+        "Phone":  "8098256370",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "vaidehi",
+        "Last Name":  "",
+        "Username":  "patelvaidehi2954@gmail.com",
+        "User Role":  "Customer",
+        "Email":  "patelvaidehi29545@gmail.com",
+        "Phone":  "9090909090",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Agona",
+        "Last Name":  "Branch",
+        "Username":  "agonab@oarb.com",
+        "User Role":  "Sales person",
+        "Email":  "agonab@oarb.com",
+        "Phone":  "023456789",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Mr. Umair",
+        "Last Name":  "Parmar",
+        "Username":  "usamasiddiqui93@hotmail.com",
+        "User Role":  "customer1",
+        "Email":  "usamasiddiqui93@hotmail.com",
+        "Phone":  "03211234375",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Vaidehi1",
+        "Last Name":  "Parmar",
+        "Username":  "patelvaidehi22954@gmail.com",
+        "User Role":  "customer1",
+        "Email":  "patelvaidehi22954@gmail.com",
+        "Phone":  "7016826763",
+        "Status":  "Inactive",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Vaidehi123",
+        "Last Name":  "Parmar",
+        "Username":  "patelvaidehi2954@gmail.com",
+        "User Role":  "Customer",
+        "Email":  "patelvaidehi2954@gmail.com",
+        "Phone":  "9090898909",
+        "Status":  "Inactive",
+        "Action":  ""
+    },
+    {
+        "First Name":  "ttt",
+        "Last Name":  "ttt",
+        "Username":  "ttt@ttt.com",
+        "User Role":  "customer1",
+        "Email":  "ttt@ttt.com",
+        "Phone":  "9999999999",
+        "Status":  "Inactive",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Doniyor",
+        "Last Name":  "test",
+        "Username":  "d.asqaroff@gmail.com",
+        "User Role":  "Customer",
+        "Email":  "d.asqaroff@gmail.com",
+        "Phone":  "8672250030",
+        "Status":  "Inactive",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Mathavan",
+        "Last Name":  "Raj",
+        "Username":  "mathavanraj29102003@gmail.com",
+        "User Role":  "admin",
+        "Email":  "mathavanraj29102003@gmail.com",
+        "Phone":  "9090909090",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Mithra",
+        "Last Name":  "Mathavan",
+        "Username":  "mathavanraj85@gmail.com",
+        "User Role":  "admin",
+        "Email":  "mathavanraj85@gmail.com",
+        "Phone":  "9092021731",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "srikanth",
+        "Last Name":  "",
+        "Username":  "superadmin@example.com",
+        "User Role":  "Customer",
+        "Email":  "superadmin@example.com",
+        "Phone":  "8977444554",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Md Al Amin",
+        "Last Name":  "Islam",
+        "Username":  "mdalaminislam2007@gmail.com",
+        "User Role":  "Sales person",
+        "Email":  "mdalaminislam2007@gmail.com",
+        "Phone":  "01997823226",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "suraj",
+        "Last Name":  "Kumar",
+        "Username":  "mukesh@gmail.com",
+        "User Role":  "Customer",
+        "Email":  "mukesh@gmail.com",
+        "Phone":  "07004514938",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "Rajan",
+        "Last Name":  "kumar",
+        "Username":  "rajan@gmail.com",
+        "User Role":  "Sales person",
+        "Email":  "rajan@gmail.com",
+        "Phone":  "07004514890",
+        "Status":  "Active",
+        "Action":  ""
+    },
+    {
+        "First Name":  "RAO",
+        "Last Name":  "Mahesh",
+        "Username":  "rao@gmail.com",
+        "User Role":  "Customer",
+        "Email":  "rao@gmail.com",
+        "Phone":  "88888888888",
+        "Status":  "Active",
+        "Action":  ""
+    }
+]

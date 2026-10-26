@@ -1,0 +1,1828 @@
+[
+ {
+  "legacyId": 20,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011014"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "5,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 27,
+  "header": {
+   "Phone": "03333287743",
+   "Email": "usamasiddiqui93@gmail.com",
+   "GSTIN": "83687623873",
+   "Purchase #": "P1021"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "2,500.00",
+    "Price (Rs)": "4,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "5,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 28,
+  "header": {
+   "Phone": "03333287743",
+   "Email": "usamasiddiqui93@gmail.com",
+   "GSTIN": "83687623873",
+   "Purchase #": "P1022"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "10.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "25,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "28,750.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 22,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P2024-031016"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "5,900.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 29,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1023"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "A1 a1",
+    "HSN": "52858",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "50.00",
+    "Price (Rs)": "80.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "100.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "100.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 23,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1017"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 180.00 (18.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 24,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1018"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "100.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "500,000.00",
+    "Tax (Rs)": "IGST : 90,000.00 (18.00%)",
+    "Sub Total (Rs)": "590,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 90000,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 25,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1019"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "g6 Headser g6 Headser",
+    "HSN": "1212",
+    "Qty": "100.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,234.00",
+    "Price (Rs)": "1,800.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "123,400.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "123,400.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 26,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1020"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "200.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "9,800.00",
+    "Tax (Rs)": "IGST : 1,764.00 (18.00%)",
+    "Sub Total (Rs)": "11,564.00",
+    "_tax": {
+     "igst": {
+      "amt": 1764,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr.": "2",
+    "Items": "s Test",
+    "HSN": "111",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "UNT",
+    "Total Taxable Value (Rs)": "20,000.00",
+    "Tax (Rs)": "IGST : 3,600.00 (18.00%)",
+    "Sub Total (Rs)": "23,600.00",
+    "_tax": {
+     "igst": {
+      "amt": 3600,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 17,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011011"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "IGST : 900.00 (18.00%)",
+    "Sub Total (Rs)": "5,900.00",
+    "_tax": {
+     "igst": {
+      "amt": 900,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 18,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011012"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "5,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 12,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1704795681"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 180.00 (18.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 19,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011013"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "IGST : 900.00 (18.00%)",
+    "Sub Total (Rs)": "5,900.00",
+    "_tax": {
+     "igst": {
+      "amt": 900,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 13,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1704795789"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 180.00 (18.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 14,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011008"
+  },
+  "lines": []
+ },
+ {
+  "legacyId": 15,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011009"
+  },
+  "lines": []
+ },
+ {
+  "legacyId": 16,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P2024-011010"
+  },
+  "lines": []
+ },
+ {
+  "legacyId": 30,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1024"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "product08 product08",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "100.00",
+    "Price (Rs)": "200.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAL",
+    "Total Taxable Value (Rs)": "100.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "100.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 37,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1031"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "kkh khkh",
+    "HSN": "H90",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1.01",
+    "Price (Rs)": "850.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "2.02",
+    "Tax (Rs)": "IGST : 0.36 (18.00%)",
+    "Sub Total (Rs)": "2.38",
+    "_tax": {
+     "igst": {
+      "amt": 0.36,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 31,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1025"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "2,500.00",
+    "Price (Rs)": "4,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "2,500.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,875.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 38,
+  "header": {
+   "Phone": "+919245862425",
+   "Email": "",
+   "GSTIN": "21ZOLDS7452D2Z1",
+   "Purchase #": "P1032"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "20mm O-Ring Black Blace O-Ring 20mm",
+    "HSN": "8914",
+    "Qty": "25.00",
+    "Free qty": "10.00",
+    "Cost (Rs)": "110.00",
+    "Price (Rs)": "120.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "275.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "2,475.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,475.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 39,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1033"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test 1 mukesh test 1",
+    "HSN": "345345",
+    "Qty": "45.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "40.00",
+    "Price (Rs)": "54.00",
+    "Mfg Date": "01-10-2024",
+    "Expiry Date": "31-10-2024",
+    "Discount (Rs)": "0.00",
+    "UOM": "GMS",
+    "Total Taxable Value (Rs)": "1,800.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "1,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 33,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1027"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 35,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1029"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 360.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 360,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 36,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1030"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "10.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "10,000.00",
+    "Tax (Rs)": "IGST : 1,800.00 (18.00%)",
+    "Sub Total (Rs)": "11,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 1800,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 4,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1703925933"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "10.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "10,000.00",
+    "Tax (Rs)": "IGST : 1,800.00 (18.00%)",
+    "Sub Total (Rs)": "11,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 1800,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 40,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1034"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Lava Mobile asfdsdffadfa",
+    "HSN": "hsn4534",
+    "Qty": "223.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,600.00",
+    "Price (Rs)": "5,300.00",
+    "Mfg Date": "10-12-2024",
+    "Expiry Date": "21-06-2028",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "1,248,800.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "1,248,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 47,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1041"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 41,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1035"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 48,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1042"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 42,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1036"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Digital Marketing digital marketing",
+    "HSN": "sdas",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "2,000.00",
+    "Price (Rs)": "3,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "4,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "4,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 49,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1043"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 43,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1037"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 44,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1038"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Lava Mobile asfdsdffadfa",
+    "HSN": "hsn4534",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,600.00",
+    "Price (Rs)": "5,300.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,600.00",
+    "Tax (Rs)": "IGST : 1,008.00 (18.00%)",
+    "Sub Total (Rs)": "6,608.00",
+    "_tax": {
+     "igst": {
+      "amt": 1008,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 45,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1039"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Product10 Product10",
+    "HSN": "H100",
+    "Qty": "1550551.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "999,999,999.99",
+    "Tax (Rs)": "IGST : 279,099,180.00 (18.00%)",
+    "Sub Total (Rs)": "999,999,999.99",
+    "_tax": {
+     "igst": {
+      "amt": 279099180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 46,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1040"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 6,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1704174902"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "product11 product11",
+    "HSN": "2355",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "100.00",
+    "Price (Rs)": "900.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAL",
+    "Total Taxable Value (Rs)": "100.00",
+    "Tax (Rs)": "IGST : 18.00 (18.00%)",
+    "Sub Total (Rs)": "118.00",
+    "_tax": {
+     "igst": {
+      "amt": 18,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 60,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1054"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Tamata Test",
+    "HSN": "Hsnn",
+    "Qty": "2551.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5.00",
+    "Price (Rs)": "1.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "12,755.00",
+    "Tax (Rs)": "IGST : 2,295.90 (18.00%)",
+    "Sub Total (Rs)": "15,050.90",
+    "_tax": {
+     "igst": {
+      "amt": 2295.9,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 67,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1061"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 61,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1055"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 62,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1056"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,000.00",
+    "_tax": {}
+   },
+   {
+    "Sr.": "2",
+    "Items": "rhu zdgfzdxb",
+    "HSN": "svcxc",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "50,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "50,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "50,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 63,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1057"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 64,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1058"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Lava Mobile asfdsdffadfa",
+    "HSN": "hsn4534",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,600.00",
+    "Price (Rs)": "5,300.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,600.00",
+    "Tax (Rs)": "IGST : 1,008.00 (18.00%)",
+    "Sub Total (Rs)": "6,608.00",
+    "_tax": {
+     "igst": {
+      "amt": 1008,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 65,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1059"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 66,
+  "header": {
+   "Phone": "+919245862425",
+   "Email": "",
+   "GSTIN": "21ZOLDS7452D2Z1",
+   "Purchase #": "P1060"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "10.00",
+    "Free qty": "1.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "50,000.00",
+    "Tax (Rs)": "IGST : 7,500.00 (15.00%)",
+    "Sub Total (Rs)": "57,500.00",
+    "_tax": {
+     "igst": {
+      "amt": 7500,
+      "rate": 15
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 5,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1704174177"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Product10 Product10",
+    "HSN": "H100",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 180.00 (18.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 50,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1044"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 57,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1051"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "5,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "IGST : 900.00 (18.00%)",
+    "Sub Total (Rs)": "5,900.00",
+    "_tax": {
+     "igst": {
+      "amt": 900,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr.": "2",
+    "Items": "iPhone 11 LCD Screen JK Aftermarket JK Quality",
+    "HSN": "015215",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "8.75",
+    "Price (Rs)": "19.99",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "8.75",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "8.75",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 51,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1045"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "rhu zdgfzdxb",
+    "HSN": "svcxc",
+    "Qty": "50.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "50,000.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "2,500,000.00",
+    "Tax (Rs)": "IGST : 450,000.00 (18.00%)",
+    "Sub Total (Rs)": "2,950,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 450000,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 58,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1052"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "",
+    "HSN": "",
+    "Qty": "0.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "0.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 52,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1046"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Mozarella Cheese Cheese",
+    "HSN": "23dw",
+    "Qty": "30.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "2,000.00",
+    "Price (Rs)": "1,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "60,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "60,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 59,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1053"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "20mm O-Ring Black Blace O-Ring 20mm",
+    "HSN": "8914",
+    "Qty": "5.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "120.00",
+    "Price (Rs)": "100.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "600.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "600.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 53,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1047"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "CORN CORN",
+    "HSN": "100",
+    "Qty": "200.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "10.00",
+    "Price (Rs)": "25.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 360.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 360,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 54,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "",
+   "Purchase #": "P1048"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "fish net feagewgwre",
+    "HSN": "etyert4wt",
+    "Qty": "100.00",
+    "Free qty": "10.00",
+    "Cost (Rs)": "500.00",
+    "Price (Rs)": "1,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAL",
+    "Total Taxable Value (Rs)": "50,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "50,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 55,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "",
+   "GSTIN": "",
+   "Purchase #": "P1049"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Mozarella Cheese Cheese",
+    "HSN": "23dw",
+    "Qty": "20.00",
+    "Free qty": "2.00",
+    "Cost (Rs)": "2,000.00",
+    "Price (Rs)": "1,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "40,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "40,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 56,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "P1050"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "doash Electronic",
+    "HSN": "0",
+    "Qty": "100.00",
+    "Free qty": "10.00",
+    "Cost (Rs)": "10.00",
+    "Price (Rs)": "12.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 180.00 (18.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 7,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1704175057"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "product90 product90",
+    "HSN": "2355",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "1,000.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "1,000.00",
+    "Tax (Rs)": "IGST : 180.00 (18.00%)",
+    "Sub Total (Rs)": "1,180.00",
+    "_tax": {
+     "igst": {
+      "amt": 180,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 8,
+  "header": {
+   "Phone": "9876543210",
+   "Email": "kumud@lg.com",
+   "GSTIN": "",
+   "Purchase #": "1704175487"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "product80 product80",
+    "HSN": "22222",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Cost (Rs)": "400.00",
+    "Price (Rs)": "700.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "QTL",
+    "Total Taxable Value (Rs)": "400.00",
+    "Tax (Rs)": "IGST : 72.00 (18.00%)",
+    "Sub Total (Rs)": "472.00",
+    "_tax": {
+     "igst": {
+      "amt": 72,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ }
+]

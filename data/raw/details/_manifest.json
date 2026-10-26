@@ -1,0 +1,11 @@
+﻿{
+    "transfer":  2,
+    "quotation":  20,
+    "proforma_invoice":  81,
+    "purchase_return":  8,
+    "customer":  37,
+    "expense":  5,
+    "purchase":  58,
+    "sales_return":  6,
+    "sale":  458
+}

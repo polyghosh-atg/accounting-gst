@@ -1,0 +1,78 @@
+[
+ {
+  "legacyId": 13,
+  "header": {
+   "Transfer ID": "#13"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "",
+    "Qty": "1.00",
+    "Cost (Rs)": "800.00",
+    "Selling Price (Rs)": "1,500.00",
+    "Price (Rs)": "1,600.00",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "677.97",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "800.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 14,
+  "header": {
+   "Transfer ID": "#14"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "BNC Connector BNC Connector",
+    "HSN": "",
+    "Qty": "5.00",
+    "Cost (Rs)": "100.00",
+    "Selling Price (Rs)": "185.00",
+    "Price (Rs)": "0.00",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "423.73",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "500.00",
+    "_tax": {}
+   },
+   {
+    "Sr": "2",
+    "Items": "White Sliced Bread 560g White Sliced Bread 560g",
+    "HSN": "",
+    "Qty": "2.00",
+    "Cost (Rs)": "2.10",
+    "Selling Price (Rs)": "3.70",
+    "Price (Rs)": "3.70",
+    "Discount (Rs)": "0.00",
+    "UOM": "PAC",
+    "Total Taxable Value (Rs)": "4.20",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "4.41",
+    "_tax": {}
+   },
+   {
+    "Sr": "3",
+    "Items": "Подушки hhhhhh",
+    "HSN": "",
+    "Qty": "3.00",
+    "Cost (Rs)": "25.00",
+    "Selling Price (Rs)": "0.00",
+    "Price (Rs)": "25.00",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "63.56",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "75.00",
+    "_tax": {}
+   }
+  ]
+ }
+]

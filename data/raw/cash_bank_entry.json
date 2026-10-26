@@ -1,0 +1,52 @@
+﻿{
+    "draw":  1,
+    "recordsTotal":  48,
+    "recordsFiltered":  5,
+    "data":  [
+                 [
+                     "\u003cinput type=\"checkbox\" class=\"single_cash_bank_entry\" value=\"45\" data-id=\"45\"\u003e\u003cinput type=\"hidden\" name=\"id\" id=\"id\" data-id=\"45\" value=\"45\"\u003e",
+                     "BR1045",
+                     "bank receipt",
+                     "GODFREY",
+                     "VAIDEHI",
+                     "89988.00",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"#\"  data-tt=\"tooltip\" title=\"Edit Cash bank entry\" class=\"btn btn-info btn-xs edit_cash_bank_entry_modal\" data-cash_bank_entry_id=\"NDU=\"\u003e\n                              \u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n                            \u003c/a\u003e        \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_cash_bank_entry\" data-tt=\"tooltip\" title=\"Delete Cash bank entry\" class=\"btn btn-danger btn-xs delete_cash_bank_entry\" data-cash_bank_entry_id=\"45\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ],
+                 [
+                     "\u003cinput type=\"checkbox\" class=\"single_cash_bank_entry\" value=\"46\" data-id=\"46\"\u003e\u003cinput type=\"hidden\" name=\"id\" id=\"id\" data-id=\"46\" value=\"46\"\u003e",
+                     "CR26-03-20261046",
+                     "cash receipt",
+                     "VAIDEHI",
+                     "CASH ACCOUNT",
+                     "20.00",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"#\"  data-tt=\"tooltip\" title=\"Edit Cash bank entry\" class=\"btn btn-info btn-xs edit_cash_bank_entry_modal\" data-cash_bank_entry_id=\"NDY=\"\u003e\n                              \u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n                            \u003c/a\u003e        \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_cash_bank_entry\" data-tt=\"tooltip\" title=\"Delete Cash bank entry\" class=\"btn btn-danger btn-xs delete_cash_bank_entry\" data-cash_bank_entry_id=\"46\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ],
+                 [
+                     "\u003cinput type=\"checkbox\" class=\"single_cash_bank_entry\" value=\"48\" data-id=\"48\"\u003e\u003cinput type=\"hidden\" name=\"id\" id=\"id\" data-id=\"48\" value=\"48\"\u003e",
+                     "BP1048",
+                     "bank payment",
+                     "VAIDEHI",
+                     "LG ELECTORNICS",
+                     "900.00",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"#\"  data-tt=\"tooltip\" title=\"Edit Cash bank entry\" class=\"btn btn-info btn-xs edit_cash_bank_entry_modal\" data-cash_bank_entry_id=\"NDg=\"\u003e\n                              \u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n                            \u003c/a\u003e        \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_cash_bank_entry\" data-tt=\"tooltip\" title=\"Delete Cash bank entry\" class=\"btn btn-danger btn-xs delete_cash_bank_entry\" data-cash_bank_entry_id=\"48\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ],
+                 [
+                     "\u003cinput type=\"checkbox\" class=\"single_cash_bank_entry\" value=\"44\" data-id=\"44\"\u003e\u003cinput type=\"hidden\" name=\"id\" id=\"id\" data-id=\"44\" value=\"44\"\u003e",
+                     "BP1044",
+                     "bank payment",
+                     "VAIDEHI",
+                     "OTHER SUPPLIER",
+                     "5000.00",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"#\"  data-tt=\"tooltip\" title=\"Edit Cash bank entry\" class=\"btn btn-info btn-xs edit_cash_bank_entry_modal\" data-cash_bank_entry_id=\"NDQ=\"\u003e\n                              \u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n                            \u003c/a\u003e        \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_cash_bank_entry\" data-tt=\"tooltip\" title=\"Delete Cash bank entry\" class=\"btn btn-danger btn-xs delete_cash_bank_entry\" data-cash_bank_entry_id=\"44\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ],
+                 [
+                     "\u003cinput type=\"checkbox\" class=\"single_cash_bank_entry\" value=\"47\" data-id=\"47\"\u003e\u003cinput type=\"hidden\" name=\"id\" id=\"id\" data-id=\"47\" value=\"47\"\u003e",
+                     "BP1047",
+                     "bank payment",
+                     "VAIDEHI",
+                     "OTHER SUPPLIER",
+                     "5000.00",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"#\"  data-tt=\"tooltip\" title=\"Edit Cash bank entry\" class=\"btn btn-info btn-xs edit_cash_bank_entry_modal\" data-cash_bank_entry_id=\"NDc=\"\u003e\n                              \u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n                            \u003c/a\u003e        \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_cash_bank_entry\" data-tt=\"tooltip\" title=\"Delete Cash bank entry\" class=\"btn btn-danger btn-xs delete_cash_bank_entry\" data-cash_bank_entry_id=\"47\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ]
+             ]
+}

@@ -1,0 +1,705 @@
+[
+ {
+  "legacyId": 2,
+  "fields": {
+   "Customer Name": "Chinnasamy Ramasamy",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "33AUSPC7077P2ZU",
+   "State": "Tamil Nadu",
+   "Shipping State": "Tamil Nadu",
+   "Email": "chinnz25@gmail.com",
+   "City": "Palladam",
+   "Shipping City": "Palladam",
+   "Phone": "9500721697",
+   "Address": "189-A, Seeranthottam",
+   "Shipping Address": "189-A, Seeranthottam",
+   "Pincode": "641662",
+   "Shipping Pincode": "641662"
+  }
+ },
+ {
+  "legacyId": 20,
+  "fields": {
+   "Customer Name": "deva dev",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Karnataka",
+   "Shipping State": "Karnataka",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "07894925687",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 27,
+  "fields": {
+   "Customer Name": "NABIL BEL",
+   "Country": "Morocco",
+   "Shipping Country": "Morocco",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Casablanca",
+   "Shipping State": "Casablanca",
+   "Email": "staff@tecdiary.com",
+   "City": "Mohammedia",
+   "Shipping City": "Mohammedia",
+   "Phone": "05055050505",
+   "Address": "OUD AL BAID",
+   "Shipping Address": "OUD AL BAID",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 21,
+  "fields": {
+   "Customer Name": "s01",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 28,
+  "fields": {
+   "Customer Name": "SRVS CBSE SCHOOL PACHPHERWA",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 29,
+  "fields": {
+   "Customer Name": "SAIF SIDDIQUI",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "09GLZPS9024N3ZM",
+   "State": "Uttar Pradesh",
+   "Shipping State": "Uttar Pradesh",
+   "Email": "support@airextech.in",
+   "City": "Achhalda",
+   "Shipping City": "Achhalda",
+   "Phone": "9580778600",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 23,
+  "fields": {
+   "Customer Name": "saurabh",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "saurabhthebest1@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 24,
+  "fields": {
+   "Customer Name": "chakra",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Andhra Pradesh",
+   "Shipping State": "Andhra Pradesh",
+   "Email": "",
+   "City": "Tiruchanur",
+   "Shipping City": "Tiruchanur",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 25,
+  "fields": {
+   "Customer Name": "EDMOND ODONGO",
+   "Country": "Uganda",
+   "Shipping Country": "Uganda",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Central",
+   "Shipping State": "Central",
+   "Email": "innovationsevoke@gmail.com",
+   "City": "Kampala",
+   "Shipping City": "Kampala",
+   "Phone": "0779879179",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 26,
+  "fields": {
+   "Customer Name": "Sid",
+   "Country": "United States",
+   "Shipping Country": "United States",
+   "GSTIN/UIN of Recipient": "35AUSPC7077P2ZU",
+   "State": "Georgia",
+   "Shipping State": "Georgia",
+   "Email": "cellairis.fayetteville@gmail.com",
+   "City": "North Decatur",
+   "Shipping City": "Stone Mountain",
+   "Phone": "4042198778",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 1,
+  "fields": {
+   "Customer Name": "Vaidehi",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "22AAAAA0000A1Z5",
+   "State": "Gujarat",
+   "Shipping State": "Gujarat",
+   "Email": "patelvaidehi2954@gmail.com",
+   "City": "Bharuch",
+   "Shipping City": "Bharuch",
+   "Phone": "7016826763",
+   "Address": "Zadeshwar",
+   "Shipping Address": "Zadeshwar",
+   "Pincode": "392001",
+   "Shipping Pincode": "392001"
+  }
+ },
+ {
+  "legacyId": 17,
+  "fields": {
+   "Customer Name": "Manoj",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "931809231",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 11,
+  "fields": {
+   "Customer Name": "Ayanshi",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "Baddi",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 18,
+  "fields": {
+   "Customer Name": "srikanth",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "superadmin@example.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "8977444554",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 12,
+  "fields": {
+   "Customer Name": "Sen Yaong",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "21ZOLDS7452D2ZO",
+   "State": "Assam",
+   "Shipping State": "Assam",
+   "Email": "demo@demo.com",
+   "City": "Anand Nagar",
+   "Shipping City": "Anand Nagar",
+   "Phone": "+919245862456",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 19,
+  "fields": {
+   "Customer Name": "Vinay",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Haryana",
+   "Shipping State": "Haryana",
+   "Email": "",
+   "City": "Rohtak",
+   "Shipping City": "Rohtak",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 13,
+  "fields": {
+   "Customer Name": "karthik",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Tamil Nadu",
+   "Shipping State": "Tamil Nadu",
+   "Email": "",
+   "City": "Madurai",
+   "Shipping City": "Madurai",
+   "Phone": "9787344558",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 14,
+  "fields": {
+   "Customer Name": "Ramadan",
+   "Country": "United States",
+   "Shipping Country": "United States",
+   "GSTIN/UIN of Recipient": "",
+   "State": "New York",
+   "Shipping State": "New York",
+   "Email": "r@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "+201223351503",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 15,
+  "fields": {
+   "Customer Name": "sample",
+   "Country": "Angola",
+   "Shipping Country": "Angola",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Cabinda",
+   "Shipping State": "Cabinda",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 16,
+  "fields": {
+   "Customer Name": "Manoj",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "931809231",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 3,
+  "fields": {
+   "Customer Name": "Mr. Umair",
+   "Country": "Saudi Arabia",
+   "Shipping Country": "Saudi Arabia",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Makkah",
+   "Shipping State": "Makkah",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "City": "Makkah",
+   "Shipping City": "Makkah",
+   "Phone": "03211234375",
+   "Address": "DHA, Phase 6, Karachi",
+   "Shipping Address": "DHA, Phase 6, Karachi",
+   "Pincode": "75000",
+   "Shipping Pincode": "75000"
+  }
+ },
+ {
+  "legacyId": 30,
+  "fields": {
+   "Customer Name": "no",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "xyz@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "9876543210",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 37,
+  "fields": {
+   "Customer Name": "Anowar",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 38,
+  "fields": {
+   "Customer Name": "RAO",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "37ALRTB8596J1ZY",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "rao@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 32,
+  "fields": {
+   "Customer Name": "DR Abaid",
+   "Country": "Pakistan",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Punjab",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "Lahore",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 39,
+  "fields": {
+   "Customer Name": "suraj",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "mukesh@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 33,
+  "fields": {
+   "Customer Name": "shair",
+   "Country": "Pakistan",
+   "Shipping Country": "Pakistan",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Punjab",
+   "Shipping State": "Punjab",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "03205555524",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 34,
+  "fields": {
+   "Customer Name": "Dinesh Kumar Yadav",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "dineshsssmcsa500@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "085630191",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 35,
+  "fields": {
+   "Customer Name": "Ali Khan",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 36,
+  "fields": {
+   "Customer Name": "Dummy India",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Punjab",
+   "Shipping State": "Punjab",
+   "Email": "",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 4,
+  "fields": {
+   "Customer Name": "Doniyor",
+   "Country": "Uzbekistan",
+   "Shipping Country": "Uzbekistan",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Sirdare",
+   "Shipping State": "Sirdare",
+   "Email": "d.asqaroff@gmail.com",
+   "City": "Guliston",
+   "Shipping City": "Guliston",
+   "Phone": "8672250030",
+   "Address": "Сырдарьинская область Гулистан Сирдарё вилояти Гулистон шахар Хондамир 127",
+   "Shipping Address": "Сырдарьинская область Гулистан Сирдарё вилояти Гулистон шахар Хондамир 127",
+   "Pincode": "120100",
+   "Shipping Pincode": "120100"
+  }
+ },
+ {
+  "legacyId": 40,
+  "fields": {
+   "Customer Name": "Macroflip Technologies",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "info.macroflip@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "09796971527",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 41,
+  "fields": {
+   "Customer Name": "Macroflip Technologies",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Jammu and Kashmir",
+   "Shipping State": "Jammu and Kashmir",
+   "Email": "info.macroflip@gmail.com",
+   "City": "Srinagar",
+   "Shipping City": "Srinagar",
+   "Phone": "09796971527",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 42,
+  "fields": {
+   "Customer Name": "APURBA KUMAR NATH",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "West Bengal",
+   "Shipping State": "West Bengal",
+   "Email": "apurba.help@gmail.com",
+   "City": "Hooghly",
+   "Shipping City": "Hooghly",
+   "Phone": "09830920661",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 43,
+  "fields": {
+   "Customer Name": "ssemakula herbert",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Himachal Pradesh",
+   "Shipping State": "Himachal Pradesh",
+   "Email": "habos256@gmail.com",
+   "City": "",
+   "Shipping City": "",
+   "Phone": "0779839844",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 6,
+  "fields": {
+   "Customer Name": "Pritesh",
+   "Country": "India",
+   "Shipping Country": "India",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Gujarat",
+   "Shipping State": "Gujarat",
+   "Email": "",
+   "City": "Bharuch INA",
+   "Shipping City": "Bharuch INA",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ },
+ {
+  "legacyId": 7,
+  "fields": {
+   "Customer Name": "Vaidehi123",
+   "Country": "Albania",
+   "Shipping Country": "Albania",
+   "GSTIN/UIN of Recipient": "",
+   "State": "Delvine",
+   "Shipping State": "Delvine",
+   "Email": "patelvaidehi2954@gmail.com",
+   "City": "Delvine",
+   "Shipping City": "Delvine",
+   "Phone": "",
+   "Address": "",
+   "Shipping Address": "",
+   "Pincode": "",
+   "Shipping Pincode": ""
+  }
+ }
+]

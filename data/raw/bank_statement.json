@@ -1,0 +1,25 @@
+﻿{
+    "draw":  1,
+    "recordsTotal":  5,
+    "recordsFiltered":  2,
+    "data":  [
+                 [
+                     "Ayanshi Account",
+                     "3.12346E+11",
+                     "Saving",
+                     "SBI",
+                     "statement.xlsx \n                            \u003ca href=\"https://vaksys.com/pro/assets/documents/0/bank_statement/1720611838_sample_bank_statement.xlsx\"\u003e\n                              \u003ci class=\"fas fa-arrow-circle-down\"\u003e\u003c/i\u003e\n                            \u003c/a\u003e\n                          ",
+                     "\u003cspan class=\"badge badge-success\"\u003eCompleted\u003c/span\u003e",
+                     "\u003cdiv class=\"btn-group\"\u003e\n                            \u003ca href=\"https://vaksys.com/pro/bank_statement/view/Mw==\" class=\"btn btn-default btn-xs\" data-tt=\"tooltip\" title=\"View Bank statement\"\u003e\n                              \u003ci class=\"fas fa-eye\"\u003e\u003c/i\u003e View\n                            \u003c/a\u003e           \n\t\t                      \n                            \u003ca href=\"#\" data-toggle=\"modal\" data-target=\"#reconcile_bank_statement_modal\" data-bank_statement_id=\"3\" class=\"btn btn-primary btn-xs\" data-tt=\"tooltip\" title=\"Reconcile Bank Statement\"\u003e\n                              \u003ci class=\"fas fa-sync\"\u003e\u003c/i\u003e Reconcile\n                            \u003c/a\u003e           \n\t\t                      \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_bank_statement_modal\" data-tt=\"tooltip\" title=\"Delete Bank statement\" class=\"btn btn-danger btn-xs delete_bank_statement\" data-bank_statement_id=\"3\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ],
+                 [
+                     "Vaidehi",
+                     "123456789",
+                     "Saving",
+                     "SBI",
+                     "statement.xlsx \n                            \u003ca href=\"https://vaksys.com/pro/assets/documents/0/bank_statement/1709715470_sample_bank_statement.xlsx\"\u003e\n                              \u003ci class=\"fas fa-arrow-circle-down\"\u003e\u003c/i\u003e\n                            \u003c/a\u003e\n                          ",
+                     "\u003cspan class=\"badge badge-success\"\u003eCompleted\u003c/span\u003e",
+                     "\u003cdiv class=\"btn-group\"\u003e\n                            \u003ca href=\"https://vaksys.com/pro/bank_statement/view/MQ==\" class=\"btn btn-default btn-xs\" data-tt=\"tooltip\" title=\"View Bank statement\"\u003e\n                              \u003ci class=\"fas fa-eye\"\u003e\u003c/i\u003e View\n                            \u003c/a\u003e           \n\t\t                      \n                            \u003ca href=\"#\" data-toggle=\"modal\" data-target=\"#reconcile_bank_statement_modal\" data-bank_statement_id=\"1\" class=\"btn btn-primary btn-xs\" data-tt=\"tooltip\" title=\"Reconcile Bank Statement\"\u003e\n                              \u003ci class=\"fas fa-sync\"\u003e\u003c/i\u003e Reconcile\n                            \u003c/a\u003e           \n\t\t                      \n\t\t                        \u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_bank_statement_modal\" data-tt=\"tooltip\" title=\"Delete Bank statement\" class=\"btn btn-danger btn-xs delete_bank_statement\" data-bank_statement_id=\"1\"\u003e\n\t\t                          \u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t                        \u003c/a\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/div\u003e"
+                 ]
+             ]
+}

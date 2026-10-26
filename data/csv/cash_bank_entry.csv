@@ -1,0 +1,6 @@
+﻿"Reference No","Voucher Type","From Account","To Account","Amount","Action"
+"BR1045","bank receipt","GODFREY","VAIDEHI","89988.00","Edit Delete"
+"CR26-03-20261046","cash receipt","VAIDEHI","CASH ACCOUNT","20.00","Edit Delete"
+"BP1048","bank payment","VAIDEHI","LG ELECTORNICS","900.00","Edit Delete"
+"BP1044","bank payment","VAIDEHI","OTHER SUPPLIER","5000.00","Edit Delete"
+"BP1047","bank payment","VAIDEHI","OTHER SUPPLIER","5000.00","Edit Delete"

@@ -1,0 +1,11 @@
+import pg from 'pg';
+const pool = new pg.Pool({ connectionString: 'postgres://postgres:postgres@localhost:5433/accounting' });
+const c = await pool.connect();
+await c.query(`ALTER TABLE bank_accounts ADD COLUMN IF NOT EXISTS type TEXT;
+ALTER TABLE bank_accounts ADD COLUMN IF NOT EXISTS description TEXT;
+ALTER TABLE bank_accounts ADD COLUMN IF NOT EXISTS number TEXT;
+ALTER TABLE bank_accounts ADD COLUMN IF NOT EXISTS bank_name TEXT;
+ALTER TABLE bank_accounts ADD COLUMN IF NOT EXISTS ifsc TEXT;
+ALTER TABLE bank_accounts ADD COLUMN IF NOT EXISTS opening NUMERIC DEFAULT 0;`);
+console.log('altered');
+c.release(); await pool.end();

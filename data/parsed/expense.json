@@ -1,0 +1,82 @@
+[
+ {
+  "legacyId": 1,
+  "fields": {
+   "Bill Date": "26-02-2024",
+   "Expense Category": "Electronics",
+   "Name of Supplier": "LG Electornics",
+   "Taxable Amount": "100.00",
+   "CGST": "0.00",
+   "SGST": "0.00",
+   "IGST": "18.00",
+   "Total Amount": "118.00",
+   "Remarks": "",
+   "Eligible for ITC": "No",
+   "Expense Documents": ""
+  }
+ },
+ {
+  "legacyId": 6,
+  "fields": {
+   "Bill Date": "11-09-2025",
+   "Expense Category": "NEW",
+   "Name of Supplier": "abc",
+   "Taxable Amount": "15,000.00",
+   "CGST": "0.00",
+   "SGST": "0.00",
+   "IGST": "900.00",
+   "Total Amount": "15,900.00",
+   "Remarks": "",
+   "Eligible for ITC": "No",
+   "Expense Documents": ""
+  }
+ },
+ {
+  "legacyId": 5,
+  "fields": {
+   "Bill Date": "07-05-2025",
+   "Expense Category": "NEW",
+   "Name of Supplier": "ZWE Electronics",
+   "Taxable Amount": "1,550.00",
+   "CGST": "0.00",
+   "SGST": "0.00",
+   "IGST": "0.00",
+   "Total Amount": "1,550.00",
+   "Remarks": "bhej do jaldi",
+   "Eligible for ITC": "No",
+   "Expense Documents": ""
+  }
+ },
+ {
+  "legacyId": 8,
+  "fields": {
+   "Bill Date": "15-02-2026",
+   "Expense Category": "CCTV Cameras",
+   "Name of Supplier": "LG Electornics",
+   "Taxable Amount": "1,222.00",
+   "CGST": "0.00",
+   "SGST": "0.00",
+   "IGST": "219.96",
+   "Total Amount": "1,441.96",
+   "Remarks": "fff",
+   "Eligible for ITC": "No",
+   "Expense Documents": ""
+  }
+ },
+ {
+  "legacyId": 9,
+  "fields": {
+   "Bill Date": "18-06-2026",
+   "Expense Category": "CCTV Cameras",
+   "Name of Supplier": "LG Electornics",
+   "Taxable Amount": "2,500.00",
+   "CGST": "0.00",
+   "SGST": "0.00",
+   "IGST": "450.00",
+   "Total Amount": "2,950.00",
+   "Remarks": "",
+   "Eligible for ITC": "No",
+   "Expense Documents": ""
+  }
+ }
+]

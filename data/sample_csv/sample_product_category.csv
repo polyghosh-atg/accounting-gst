@@ -1,0 +1,3 @@
+TID,ProductCategoryName,Description,CGST(%),SGST(%),IGST(%)
+100016,Electronics,Electronics,9,9,18
+1009,Hard Disk,Electronics,9,9,18

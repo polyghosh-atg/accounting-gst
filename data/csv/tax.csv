@@ -1,0 +1,4 @@
+﻿"Tax name","Sgst","Cgst","Igst","Status","Action"
+"tax","9.00","9.00","18.00","Active","Edit Delete"
+"GST5%","2.50","2.50","5.00","Active","Edit Delete"
+"GST","0.00","0.00","10.00","Active","Edit Delete"

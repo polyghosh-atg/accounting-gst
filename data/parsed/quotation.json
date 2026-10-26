@@ -1,0 +1,666 @@
+[
+ {
+  "legacyId": 2,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Quotation #": "Q2024-011002"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "3000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 20,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1020"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "76.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "6,84,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "684000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 28,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1028"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "22-01-2025",
+    "Expiry Date": "24-01-2025",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 360.00 (18.00%)",
+    "Sub Total (Rs)": "2360.00",
+    "_tax": {
+     "igst": {
+      "amt": 360,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 25,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1025"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "9,000.00",
+    "Tax (Rs)": "IGST : 1,620.00 (18.00%)",
+    "Sub Total (Rs)": "10620.00",
+    "_tax": {
+     "igst": {
+      "amt": 1620,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr.": "2",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 540.00 (18.00%)",
+    "Sub Total (Rs)": "3540.00",
+    "_tax": {
+     "igst": {
+      "amt": 540,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr.": "3",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 540.00 (18.00%)",
+    "Sub Total (Rs)": "3540.00",
+    "_tax": {
+     "igst": {
+      "amt": 540,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 26,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1026"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "10.00",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "30,000.00",
+    "Tax (Rs)": "IGST : 5,400.00 (18.00%)",
+    "Sub Total (Rs)": "35400.00",
+    "_tax": {
+     "igst": {
+      "amt": 5400,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr.": "2",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "110.01",
+    "Price (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "3,30,030.00",
+    "Tax (Rs)": "IGST : 59,405.40 (18.00%)",
+    "Sub Total (Rs)": "389435.40",
+    "_tax": {
+     "igst": {
+      "amt": 59405.4,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 10,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1010"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "3.00",
+    "Price (Rs)": "6,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "18,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "20700.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 32,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1032"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Digital Marketing digital marketing",
+    "HSN": "sdas",
+    "Qty": "4.00",
+    "Price (Rs)": "3,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "14,000.00",
+    "Tax (Rs)": "IGST : 2,520.00 (18.00%)",
+    "Sub Total (Rs)": "16520.00",
+    "_tax": {
+     "igst": {
+      "amt": 2520,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 34,
+  "header": {
+   "Phone": "+201223351503",
+   "Email": "r@gmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1034"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "fish net feagewgwre",
+    "HSN": "etyert4wt",
+    "Qty": "1.00",
+    "Price (Rs)": "1,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,500.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1500.00",
+    "_tax": {}
+   },
+   {
+    "Sr.": "2",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "5.00",
+    "Price (Rs)": "400.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "2000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 35,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1035"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "9,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "9000.00",
+    "_tax": {}
+   },
+   {
+    "Sr.": "2",
+    "Items": "rhu zdgfzdxb",
+    "HSN": "svcxc",
+    "Qty": "1.00",
+    "Price (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 36,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Quotation #": "Q1036"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "12.01",
+    "Price (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "24,020.00",
+    "Tax (Rs)": "IGST : 4,323.60 (18.00%)",
+    "Sub Total (Rs)": "28343.60",
+    "_tax": {
+     "igst": {
+      "amt": 4323.6,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 46,
+  "header": {
+   "Phone": "+201223351503",
+   "Email": "r@gmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1046"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "fish net feagewgwre",
+    "HSN": "etyert4wt",
+    "Qty": "1.00",
+    "Price (Rs)": "1,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,500.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1500.00",
+    "_tax": {}
+   },
+   {
+    "Sr.": "2",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "5.00",
+    "Price (Rs)": "400.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "2000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 60,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1060"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "2.00",
+    "Price (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "3,200.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "3200.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 61,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1061"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Price (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,355.93",
+    "Tax (Rs)": "IGST : 244.07 (18.00%)",
+    "Sub Total (Rs)": "1600.00",
+    "_tax": {
+     "igst": {
+      "amt": 244.07,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 62,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Quotation #": "Q1062"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Attar Perfume",
+    "HSN": "12365874",
+    "Qty": "99.00",
+    "Price (Rs)": "1,050.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,03,950.00",
+    "Tax (Rs)": "IGST : 5,197.50 (5.00%)",
+    "Sub Total (Rs)": "109147.50",
+    "_tax": {
+     "igst": {
+      "amt": 5197.5,
+      "rate": 5
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 63,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Quotation #": "Q1063"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Attar Perfume",
+    "HSN": "12365874",
+    "Qty": "99.00",
+    "Price (Rs)": "1,050.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,03,950.00",
+    "Tax (Rs)": "IGST : 5,197.50 (5.00%)",
+    "Sub Total (Rs)": "109147.50",
+    "_tax": {
+     "igst": {
+      "amt": 5197.5,
+      "rate": 5
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 57,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1057"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Price (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,355.93",
+    "Tax (Rs)": "IGST : 244.07 (18.00%)",
+    "Sub Total (Rs)": "1600.00",
+    "_tax": {
+     "igst": {
+      "amt": 244.07,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 51,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Quotation #": "Q1051"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "2.00",
+    "Price (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "18,000.00",
+    "Tax (Rs)": "IGST : 3,240.00 (18.00%)",
+    "Sub Total (Rs)": "21240.00",
+    "_tax": {
+     "igst": {
+      "amt": 3240,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 58,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Quotation #": "Q1058"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "2250.00",
+    "Price (Rs)": "12,580.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "2,39,87,288.14",
+    "Tax (Rs)": "IGST : 43,17,711.86 (18.00%)",
+    "Sub Total (Rs)": "28305000.00",
+    "_tax": {
+     "igst": {
+      "amt": 4317711.86,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 59,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1059"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Price (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "Total Taxable Value (Rs)": "1,600.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1600.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 9,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Quotation #": "Q1009"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "2.00",
+    "Price (Rs)": "4,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "200.00",
+    "Total Taxable Value (Rs)": "7,800.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "7800.00",
+    "_tax": {}
+   }
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+$g = (Invoke-WebRequest "http://localhost:3100/settings/company" -UseBasicParsing -TimeoutSec 120).Content
+Write-Output ("len=" + $g.Length)
+Write-Output ("has Terms: " + ($g.Contains('Terms')))
+Write-Output ("has amp-variant: " + ($g.Contains('Terms &amp; Condition')))
+Write-Output ("has purchase_order_prefix: " + ($g.Contains('purchase_order_prefix')))
+Write-Output ("has sale_prefix: " + ($g.Contains('sale_prefix')))
+Write-Output ("has CDN prefix name: " + ($g.Contains('credit_debit_note_prefix')))
+Write-Output ("file count: " + ([regex]::Matches($g,'type="file"').Count))
+Write-Output ("file cap count: " + ([regex]::Matches($g,'type=\"file\"').Count))
+$m = [regex]::Match($g, '.{60}type=.file.{40}')
+Write-Output ("ctx: " + $m.Value)

@@ -1,0 +1,3 @@
+ManageInventory,PCID,ProductName,ProductDescription,UOM,Markup,HSN,Cost,Price,SellingPrice
+yes,100001,Bandhani Dress,Bandhani Dress,BAL,40,342243,200,400,300
+no,100004,xyz,xyz,BAG,90,12345,100,300,200

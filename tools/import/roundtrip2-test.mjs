@@ -1,0 +1,21 @@
+import pg from 'pg';
+const pool = new pg.Pool({ connectionString: 'postgres://postgres:postgres@localhost:5433/accounting' });
+const c = await pool.connect();
+const before = (await c.query("SELECT closing FROM bank_accounts WHERE name='VVVV'")).rows[0].closing;
+await c.query("INSERT INTO cash_bank_entries(ref_no,vouch_type,from_acct,to_acct,amount) VALUES('INCREASE CAPITAL','capital_increase','CAPITAL','VVVV',5)");
+await c.query("UPDATE bank_accounts SET closing=closing+5 WHERE name='VVVV'");
+const mid = (await c.query("SELECT closing FROM bank_accounts WHERE name='VVVV'")).rows[0].closing;
+await c.query("INSERT INTO cash_bank_entries(ref_no,vouch_type,from_acct,to_acct,amount) VALUES('REDUCE CAPITAL','capital_decrease','VVVV','CAPITAL',5)");
+await c.query("UPDATE bank_accounts SET closing=closing-5 WHERE name='VVVV'");
+const after = (await c.query("SELECT closing FROM bank_accounts WHERE name='VVVV'")).rows[0].closing;
+console.log('before:', before, 'after increase:', mid, 'after decrease:', after, 'net-zero:', String(before) === String(after));
+// status toggle round-trip on same row
+const s0 = (await c.query("SELECT status FROM bank_accounts WHERE name='VVVV'")).rows[0].status;
+await c.query("UPDATE bank_accounts SET status = CASE WHEN status='Active' THEN 'Inactive' ELSE 'Active' END WHERE name='VVVV'");
+const s1 = (await c.query("SELECT status FROM bank_accounts WHERE name='VVVV'")).rows[0].status;
+await c.query("UPDATE bank_accounts SET status = CASE WHEN status='Active' THEN 'Inactive' ELSE 'Active' END WHERE name='VVVV'");
+const s2 = (await c.query("SELECT status FROM bank_accounts WHERE name='VVVV'")).rows[0].status;
+console.log('status:', s0, '->', s1, '->', s2, 'restored:', s0 === s2);
+await c.query("DELETE FROM cash_bank_entries WHERE ref_no IN ('INCREASE CAPITAL','REDUCE CAPITAL') AND amount=5");
+console.log('cleaned up');
+c.release(); await pool.end();

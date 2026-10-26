@@ -1,0 +1,344 @@
+﻿{
+    "whatsapp_template":  [
+                              "Type",
+                              "Action"
+                          ],
+    "supplier":  [
+                     "Company Name",
+                     "Registration Type",
+                     "GSTIN",
+                     "Email",
+                     "Phone",
+                     "Contact Person Name",
+                     "Contact Person Designation",
+                     "Address",
+                     "State",
+                     "Country",
+                     "Action"
+                 ],
+    "deduction":  [
+                      "Employe Name",
+                      "Deduction Date",
+                      "Deduction Type",
+                      "Deduction Amount",
+                      "Action"
+                  ],
+    "warehouse":  [
+                      "Name",
+                      "Code",
+                      "Description",
+                      "Quantity",
+                      "Action"
+                  ],
+    "currency":  [
+                     "Currency Name",
+                     "Symbol",
+                     "Action"
+                 ],
+    "department":  [
+                       "Department Code",
+                       "Department Name",
+                       "Action"
+                   ],
+    "expense":  [
+                    "c1",
+                    "c2",
+                    "c3",
+                    "c4",
+                    "c5",
+                    "c6",
+                    "c7",
+                    "c8",
+                    "c9"
+                ],
+    "scrap_issue":  [
+                        "Reference no",
+                        "Total Amount(Inc Tax)",
+                        "Total Product",
+                        "Total qty",
+                        "Scrap issue Date",
+                        "Supplier",
+                        "Action"
+                    ],
+    "tax_deduction":  [
+                          "Employee Name",
+                          "Tax Deduction Date",
+                          "Tax Type",
+                          "Amount",
+                          "Action"
+                      ],
+    "sale":  [
+                 "Invoice No",
+                 "Invoice Date",
+                 "Customer",
+                 "Total Discount",
+                 "Total Taxable Value",
+                 "TDS",
+                 "Total Tax",
+                 "Total",
+                 "Paid",
+                 "Due",
+                 "Delivery Status",
+                 "Action"
+             ],
+    "pdc_payment":  [
+                        "Ledger",
+                        "PDC Cheque No",
+                        "PDC Cheque Date",
+                        "PDC Amount",
+                        "PDC Deposit To",
+                        "PDC Deposit Date",
+                        "Action"
+                    ],
+    "position":  [
+                     "Position Code",
+                     "Position Title",
+                     "Action"
+                 ],
+    "bonus":  [
+                  "Employee Name",
+                  "Bonus Date",
+                  "Bonus Type",
+                  "Bonus Amount",
+                  "Action"
+              ],
+    "tax":  [
+                "Tax name",
+                "Sgst",
+                "Cgst",
+                "Igst",
+                "Status",
+                "Action"
+            ],
+    "customer":  [
+                     "Customer Name",
+                     "GSTIN/UIN of Recipient",
+                     "Email",
+                     "Phone",
+                     "Country",
+                     "State",
+                     "Address",
+                     "City",
+                     "Action"
+                 ],
+    "employee":  [
+                     "First Name",
+                     "Last Name",
+                     "Employee Code",
+                     "Email",
+                     "Department",
+                     "Position",
+                     "Hire Date",
+                     "Salary",
+                     "Action"
+                 ],
+    "sales_return":  [
+                         "Reference No",
+                         "Invoice No",
+                         "Sales return Date",
+                         "Warehouse",
+                         "Customer",
+                         "Total Discount",
+                         "Total Taxable Value",
+                         "Total Tax",
+                         "Total",
+                         "Paid",
+                         "Due",
+                         "Delivery Status",
+                         "Action"
+                     ],
+    "weekend":  [
+                    "Weekend Date",
+                    "Description",
+                    "Action"
+                ],
+    "payroll":  [
+                    "Employee Name",
+                    "Base Salary",
+                    "Total Bonuses",
+                    "Total Deductions",
+                    "Total Tax",
+                    "Total Advance",
+                    "Leave Deduction Amount",
+                    "Total Leaves",
+                    "Net Amount",
+                    "Action"
+                ],
+    "cash_bank_entry":  [
+                            "Reference No",
+                            "Voucher Type",
+                            "From Account",
+                            "To Account",
+                            "Amount",
+                            "Action"
+                        ],
+    "product_category":  [
+                             "Name",
+                             "Description",
+                             "Tax",
+                             "Action"
+                         ],
+    "purchase_return":  [
+                            "PO No.",
+                            "Invoice No",
+                            "Purchase Return Date",
+                            "Warehouse",
+                            "Supplier",
+                            "Total Discount",
+                            "Total Taxable Value",
+                            "Total Tax",
+                            "Total",
+                            "Paid",
+                            "Due",
+                            "Delivery Status",
+                            "Action"
+                        ],
+    "bank_statement":  [
+                           "Account Name",
+                           "Account Number/Credit Card No",
+                           "Account Type",
+                           "Bank Name",
+                           "Statement",
+                           "Reconcile Status",
+                           "Action"
+                       ],
+    "bank_account":  [
+                         "Account Name",
+                         "Account Number/Credit Card No",
+                         "Bank Name",
+                         "IFSC",
+                         "Description",
+                         "Opening Balance",
+                         "Closing Balance",
+                         "Status",
+                         "Action"
+                     ],
+    "quotation":  [
+                      "Reference No",
+                      "Quotation Date",
+                      "Customer",
+                      "Total Taxable Value (Rs)",
+                      "Total Discount (Rs)",
+                      "Total Tax (Rs)",
+                      "Total (Rs)",
+                      "Status",
+                      "Action"
+                  ],
+    "expense_category":  [
+                             "Expense Category Name",
+                             "Description",
+                             "Type",
+                             "Action"
+                         ],
+    "purchase":  [
+                     "PO No.",
+                     "Invoice No",
+                     "Purchase Date",
+                     "Warehouse",
+                     "Supplier",
+                     "Total Discount",
+                     "Total Taxable Value",
+                     "Total Tax",
+                     "Total",
+                     "Paid",
+                     "Due",
+                     "Delivery Status",
+                     "Action"
+                 ],
+    "leave":  [
+                  "Employee Name",
+                  "Leave Date",
+                  "Leave Type",
+                  "Status",
+                  "Action"
+              ],
+    "purchase_order":  [
+                           "PO No.",
+                           "Purchase Order Date",
+                           "Warehouse",
+                           "Supplier",
+                           "Total Discount",
+                           "Total Taxable Value",
+                           "Total Tax",
+                           "Total",
+                           "Action"
+                       ],
+    "stock":  [
+                  "Warehouse Name",
+                  "Product Name",
+                  "Quantity",
+                  "Unit",
+                  "Cost (Rs)",
+                  "Selling Price (Rs)",
+                  "Entry Type",
+                  "Date",
+                  "Action"
+              ],
+    "advance_salary":  [
+                           "Employee Name",
+                           "Request Date",
+                           "Amount",
+                           "Status",
+                           "Action"
+                       ],
+    "attendance":  [
+                       "Employee Name",
+                       "Attendance Date",
+                       "Attendance Status",
+                       "Action"
+                   ],
+    "transfer":  [
+                     "Transfer Date",
+                     "From Warehouse",
+                     "To Warehouse",
+                     "Total (Rs)",
+                     "Action"
+                 ],
+    "item":  [
+                 "Name",
+                 "Description",
+                 "Tax",
+                 "Action"
+             ],
+    "proforma_invoice":  [
+                             "Invoice No",
+                             "Invoice Date",
+                             "Customer",
+                             "Total Discount",
+                             "Total Taxable Value",
+                             "TDS",
+                             "Total Tax",
+                             "Total",
+                             "Action"
+                         ],
+    "product_core":  [
+                         "Image",
+                         "Name",
+                         "UOM",
+                         "ManageInv",
+                         "HSN",
+                         "Cost",
+                         "SellingPrice",
+                         "Price",
+                         "Status",
+                         "Action"
+                     ],
+    "scrap_product":  [
+                          "Product Name",
+                          "Batch No",
+                          "Quantity",
+                          "Cost (Rs)",
+                          "Price (Rs)",
+                          "Selling Price (Rs)",
+                          "Warehouse Name"
+                      ],
+    "pdc_receive":  [
+                        "Ledger",
+                        "PDC Cheque No",
+                        "PDC Cheque Date",
+                        "PDC Amount",
+                        "PDC Deposit To",
+                        "PDC Deposit Date",
+                        "Action"
+                    ]
+}

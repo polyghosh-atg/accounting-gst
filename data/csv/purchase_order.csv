@@ -1,0 +1,3 @@
+﻿"PO No.","Purchase Order Date","Warehouse","Supplier","Total Discount","Total Taxable Value","Total Tax","Total","Action"
+"PO1044","07-01-2026","Warehouse - A","LG Electornics","0.00","44,555.00","8,019.90","52,574.90","View Edit Delete"
+"PO1045","28-06-2026","Warehouse - A","LNG","0.00","80,000.00","0.00","80,000.00","View Edit Delete"

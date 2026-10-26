@@ -1,0 +1,10 @@
+import * as XLSX from 'xlsx';
+import { readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
+const buf = readFileSync(join(root, 'accounting', 'public', 'sample-files', 'sample_bank_statement.xlsx'));
+const wb = XLSX.read(buf, { type: 'buffer' });
+const ws = wb.Sheets[wb.SheetNames[0]];
+const rows = XLSX.utils.sheet_to_json(ws, { header: 1 });
+console.log(JSON.stringify(rows.slice(0, 5)));

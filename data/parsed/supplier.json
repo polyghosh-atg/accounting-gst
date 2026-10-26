@@ -1,0 +1,152 @@
+[
+ {
+  "legacyId": 2,
+  "fields": {
+   "Company Name": "abc",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "patelvaidehi2954@gmail.com",
+   "Phone": "7016826763",
+   "Address": "jhjhj",
+   "Country": "Italy",
+   "State": "Ancona",
+   "City": "Camerano",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 1,
+  "fields": {
+   "Company Name": "LG Electornics",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "kumud@lg.com",
+   "Phone": "9876543210",
+   "Address": "Kanjivada",
+   "Country": "India",
+   "State": "Maharashtra",
+   "City": "Pune",
+   "Website": "www.lg.com"
+  }
+ },
+ {
+  "legacyId": 10,
+  "fields": {
+   "Company Name": "DoWell Technologies",
+   "Registration Type": "Registered",
+   "GSTIN": "21ZOLDS7452D2Z1",
+   "Email": "",
+   "Phone": "+919245862425",
+   "Address": "#1, London Street, America Lane, Korea",
+   "Country": "India",
+   "State": "Andaman and Nicobar Islands",
+   "City": "Bombuflat",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 17,
+  "fields": {
+   "Company Name": "vivek",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "",
+   "Phone": "9889170505`",
+   "Address": "lukno``",
+   "Country": "India",
+   "State": "Himachal Pradesh",
+   "City": "Arki",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 15,
+  "fields": {
+   "Company Name": "Eagle v",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "",
+   "Phone": "",
+   "Address": "",
+   "Country": "India",
+   "State": "Himachal Pradesh",
+   "City": "",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 16,
+  "fields": {
+   "Company Name": "Eagle v",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "",
+   "Phone": "",
+   "Address": "",
+   "Country": "India",
+   "State": "Himachal Pradesh",
+   "City": "",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 3,
+  "fields": {
+   "Company Name": "LNG",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "",
+   "Phone": "7016826763",
+   "Address": "Zadeshwar",
+   "Country": "Algeria",
+   "State": "'Ayn Tamushanat",
+   "City": "",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 4,
+  "fields": {
+   "Company Name": "UPL",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "",
+   "Phone": "7016826763",
+   "Address": "Zadeshwar",
+   "Country": "India",
+   "State": "Gujarat",
+   "City": "Bharuch INA",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 6,
+  "fields": {
+   "Company Name": "Zivaan Solutions",
+   "Registration Type": "Not Registered",
+   "GSTIN": "",
+   "Email": "",
+   "Phone": "7016826763",
+   "Address": "Zadeshwar",
+   "Country": "India",
+   "State": "Gujarat",
+   "City": "Vadodara",
+   "Website": ""
+  }
+ },
+ {
+  "legacyId": 5,
+  "fields": {
+   "Company Name": "ZWE Electronics",
+   "Registration Type": "Not Registered",
+   "GSTIN": "83687623873",
+   "Email": "usamasiddiqui93@gmail.com",
+   "Phone": "03333287743",
+   "Address": "D-95, Block 4 Saadi Town",
+   "Country": "Saudi Arabia",
+   "State": "ar-Riyad",
+   "City": "al-Kharj",
+   "Website": ""
+  }
+ }
+]

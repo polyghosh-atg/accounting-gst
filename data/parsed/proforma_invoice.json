@@ -1,0 +1,2911 @@
+[
+ {
+  "legacyId": 27,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI12-01-20241012",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "abctest abctest",
+    "HSN": "H90",
+    "Qty": "2.00",
+    "Free qty": "",
+    "Batch No": "100012",
+    "Selling Price (Rs)": "700.00",
+    "MRP (Rs)": "500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "1,400.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "1,652.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 21,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI11-01-20241006",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "2.00",
+    "Free qty": "",
+    "Batch No": "abc123",
+    "Selling Price (Rs)": "1,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,600.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "3,068.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 28,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI12-01-20241013",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "5.00",
+    "Free qty": "",
+    "Batch No": "22323",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "8,260.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 22,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI11-01-20241007",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "product80 product80",
+    "HSN": "22222",
+    "Qty": "10.00",
+    "Free qty": "",
+    "Batch No": "abc12",
+    "Selling Price (Rs)": "200.00",
+    "MRP (Rs)": "200.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 29,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI/30-01-2024/1014",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "abc123",
+    "Selling Price (Rs)": "1,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,300.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "1,534.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 23,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI11-01-20241008",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "90.00",
+    "Free qty": "",
+    "Batch No": "190909",
+    "Selling Price (Rs)": "1,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,17,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "1,17,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 24,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI11-01-20241009",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "product80 product80",
+    "HSN": "22222",
+    "Qty": "10.00",
+    "Free qty": "",
+    "Batch No": "abc12",
+    "Selling Price (Rs)": "200.00",
+    "MRP (Rs)": "200.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 25,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI11-01-20241010",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "15.00",
+    "Free qty": "",
+    "Batch No": "MC-242",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "21,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "24,780.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 26,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI12-01-20241011",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "abctest abctest",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "100012",
+    "Selling Price (Rs)": "700.00",
+    "MRP (Rs)": "500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "700.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "700.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 104,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1089",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100077",
+    "Selling Price (Rs)": "1,500.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "1,271.19",
+    "Tax (Rs)": "IGST : 228.81 (18.00%)",
+    "Sub Total (Rs)": "1,500.00",
+    "_tax": {
+     "igst": {
+      "amt": 228.81,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 105,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1090",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "iPhone 17 Pro Max iPhone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100077",
+    "Selling Price (Rs)": "1,500.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "1,271.19",
+    "Tax (Rs)": "IGST : 228.00 (18.00%)",
+    "Sub Total (Rs)": "1,500.00",
+    "_tax": {
+     "igst": {
+      "amt": 228,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 106,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1091",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "0.01",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "16.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "16.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 107,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1092",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "3.00",
+    "Free qty": "0.00",
+    "Batch No": "100077",
+    "Selling Price (Rs)": "1,500.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "27-08-2026",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "3,813.56",
+    "Tax (Rs)": "IGST : 686.44 (18.00%)",
+    "Sub Total (Rs)": "4,500.00",
+    "_tax": {
+     "igst": {
+      "amt": 686.44,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 108,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1093",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "1,355.93",
+    "Tax (Rs)": "IGST : 244.07 (18.00%)",
+    "Sub Total (Rs)": "1,600.00",
+    "_tax": {
+     "igst": {
+      "amt": 244.07,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 109,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1094",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "موريك باترا د د",
+    "HSN": "dw",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "hgvhgv",
+    "Selling Price (Rs)": "7.00",
+    "MRP (Rs)": "43.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "7.00",
+    "Tax (Rs)": "IGST : 1.26 (18.00%)",
+    "Sub Total (Rs)": "8.26",
+    "_tax": {
+     "igst": {
+      "amt": 1.26,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr": "2",
+    "Items": "17 برو",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100077",
+    "Selling Price (Rs)": "1,500.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "1,500.00",
+    "Tax (Rs)": "IGST : 228.81 (18.00%)",
+    "Sub Total (Rs)": "1,500.00",
+    "_tax": {
+     "igst": {
+      "amt": 228.81,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 101,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1086",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "rhu zdgfzdxb",
+    "HSN": "svcxc",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "134",
+    "Selling Price (Rs)": "2,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 360.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 360,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 102,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1087",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "rtt ttt",
+    "HSN": "1234",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100072",
+    "Selling Price (Rs)": "600.00",
+    "MRP (Rs)": "60.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "600.00",
+    "Tax (Rs)": "IGST : 108.00 (18.00%)",
+    "Sub Total (Rs)": "708.00",
+    "_tax": {
+     "igst": {
+      "amt": 108,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 103,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1088",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Iphone 17 Pro Max Iphone",
+    "HSN": "1232456",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "1,600.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "1,355.93",
+    "Tax (Rs)": "IGST : 244.07 (18.00%)",
+    "Sub Total (Rs)": "1,600.00",
+    "_tax": {
+     "igst": {
+      "amt": 244.07,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 110,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1095",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Attar Perfume",
+    "HSN": "12365874",
+    "Qty": "99.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "1,050.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "1,03,950.00",
+    "Tax (Rs)": "IGST : 5197.50 (5.00%)",
+    "Sub Total (Rs)": "1,09,147.50",
+    "_tax": {
+     "igst": {
+      "amt": 5197.5,
+      "rate": 5
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 19,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI11-01-20241004",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "1234",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,400.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,400.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 37,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI_22-02-2024_1022",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "MC-242",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,400.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "1,400.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 31,
+  "header": {
+   "Phone": "8672250030",
+   "Email": "d.asqaroff@gmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI12-02-20241016",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "12345",
+    "Selling Price (Rs)": "6,500.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "6,500.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "7,670.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 38,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI26-02-20241023",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "190909",
+    "Selling Price (Rs)": "2,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,300.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,714.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 32,
+  "header": {
+   "Phone": "8672250030",
+   "Email": "d.asqaroff@gmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI12-02-20241017",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "6,400.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "6,400.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "7,552.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 39,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI05-03-20241024",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "test service test service",
+    "HSN": "1212121212",
+    "Qty": "10.00",
+    "Free qty": "3.00",
+    "Batch No": "100013",
+    "Selling Price (Rs)": "15,000.00",
+    "MRP (Rs)": "15,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "1,50,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "1,77,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 35,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI_22-02-2024_1020",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "7,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 36,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI_22-02-2024_1021",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "b1",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,400.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "1,400.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 40,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI05-03-20241025",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "8,260.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 47,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI-23-03-2024-1032",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "8,260.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 41,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI06-03-20241026",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "0.87",
+    "Free qty": "0.13",
+    "Batch No": "abc123",
+    "Selling Price (Rs)": "1,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "21-03-2024",
+    "Expiry Date": "22-03-2024",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,131.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,334.58",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 42,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI06-03-20241027",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "0.87",
+    "Free qty": "0.13",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "6,090.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "7,186.20",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 49,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI21-04-20241034",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Batch No": "8723787",
+    "Selling Price (Rs)": "4,000.00",
+    "MRP (Rs)": "4,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "200.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "7,600.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "7,800.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 43,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI06-03-20241028",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "0.87",
+    "Free qty": "0.13",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "22-03-2024",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "6,090.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "7,186.20",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 44,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI14-03-20241029",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "banana banana",
+    "HSN": "34556",
+    "Qty": "8.70",
+    "Free qty": "1.30",
+    "Batch No": "345677",
+    "Selling Price (Rs)": "2,500.00",
+    "MRP (Rs)": "2,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "PCS",
+    "Total Taxable Value (Rs)": "21,750.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "21,750.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 45,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI15-03-20241030",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Logo Design Custom Design",
+    "HSN": "433355",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100015",
+    "Selling Price (Rs)": "15,000.00",
+    "MRP (Rs)": "15,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "15,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "17,700.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 46,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI19-03-20241031",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "4.00",
+    "Free qty": "0.00",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "28,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "33,040.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 60,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1045",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "2,542.37",
+    "Tax (Rs)": "IGST : 457.63 (18.00%)",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 457.63,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 67,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1052",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "10.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "20,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "20,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 61,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1046",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "2,542.37",
+    "Tax (Rs)": "IGST : 457.63 (18.00%)",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 457.63,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 68,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1053",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "2,542.37",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 62,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1047",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "2,542.37",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 69,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1054",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "5.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "15,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "17,700.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 63,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1048",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Product09 product09",
+    "HSN": "H80",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100036",
+    "Selling Price (Rs)": "20.00",
+    "MRP (Rs)": "30.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "19.05",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "20.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 64,
+  "header": {
+   "Phone": "8672250030",
+   "Email": "d.asqaroff@gmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1049",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Product09 product09",
+    "HSN": "H80",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100036",
+    "Selling Price (Rs)": "20.00",
+    "MRP (Rs)": "30.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "20.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "20.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 65,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1050",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 50,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI21-04-20241035",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Power Engine -2 Gen",
+    "HSN": "87628761",
+    "Qty": "3.00",
+    "Free qty": "0.00",
+    "Batch No": "8723787",
+    "Selling Price (Rs)": "4,000.00",
+    "MRP (Rs)": "4,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "12,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "13,800.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 51,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI20-06-20241036",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "test service test service",
+    "HSN": "1212121212",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100013",
+    "Selling Price (Rs)": "15,000.00",
+    "MRP (Rs)": "15,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "15,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "15,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 58,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI1043",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Product09 product09",
+    "HSN": "H80",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100036",
+    "Selling Price (Rs)": "20.00",
+    "MRP (Rs)": "30.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BKL",
+    "Total Taxable Value (Rs)": "19.05",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "20.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 52,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI20-06-20241037",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "A111 a1",
+    "HSN": "52858",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "null",
+    "Selling Price (Rs)": "60.00",
+    "MRP (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "60.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "60.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 59,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1044",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 53,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1038",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "latest product kjkjkj",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100025",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOU",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 54,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1039",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "",
+    "Selling Price (Rs)": "40,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "40,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "40,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 55,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1040",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "100024",
+    "Selling Price (Rs)": "3,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "3,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 56,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1041",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "product08 product08",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "12345",
+    "Selling Price (Rs)": "300.00",
+    "MRP (Rs)": "200.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAL",
+    "Total Taxable Value (Rs)": "300.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "300.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 70,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1055",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "76.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "6,84,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "6,84,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 77,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1062",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "500.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "400.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "2,00,000.00",
+    "Tax (Rs)": "IGST : 36000.00 (18.00%)",
+    "Sub Total (Rs)": "2,36,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 36000,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 71,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1056",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "7,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   },
+   {
+    "Sr": "2",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "1234",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,400.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "1,400.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 78,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1063",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 360.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 360,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 72,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1057",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 540.00 (18.00%)",
+    "Sub Total (Rs)": "3,540.00",
+    "_tax": {
+     "igst": {
+      "amt": 540,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 79,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1064",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Digital Marketing digital marketing",
+    "HSN": "sdas",
+    "Qty": "2.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "OTH",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "IGST : 1260.00 (18.00%)",
+    "Sub Total (Rs)": "8,260.00",
+    "_tax": {
+     "igst": {
+      "amt": 1260,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 73,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1058",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "6.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "18,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "21,240.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 74,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1059",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "9,000.00",
+    "Tax (Rs)": "IGST : 1620.00 (18.00%)",
+    "Sub Total (Rs)": "10,620.00",
+    "_tax": {
+     "igst": {
+      "amt": 1620,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr": "2",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 540.00 (18.00%)",
+    "Sub Total (Rs)": "3,540.00",
+    "_tax": {
+     "igst": {
+      "amt": 540,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr": "3",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "3,000.00",
+    "Tax (Rs)": "IGST : 540.00 (18.00%)",
+    "Sub Total (Rs)": "3,540.00",
+    "_tax": {
+     "igst": {
+      "amt": 540,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 75,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1060",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "22323",
+    "Selling Price (Rs)": "1,400.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,400.00",
+    "Tax (Rs)": "IGST : 252.00 (18.00%)",
+    "Sub Total (Rs)": "1,652.00",
+    "_tax": {
+     "igst": {
+      "amt": 252,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 76,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1061",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "10.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "30,000.00",
+    "Tax (Rs)": "IGST : 5400.00 (18.00%)",
+    "Sub Total (Rs)": "35,400.00",
+    "_tax": {
+     "igst": {
+      "amt": 5400,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr": "2",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "110.01",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "3,30,030.00",
+    "Tax (Rs)": "IGST : 59405.40 (18.00%)",
+    "Sub Total (Rs)": "3,89,435.40",
+    "_tax": {
+     "igst": {
+      "amt": 59405.4,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 80,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1065",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Mozarella Cheese Cheese",
+    "HSN": "23dw",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Batch No": "3422314",
+    "Selling Price (Rs)": "5,000.00",
+    "MRP (Rs)": "1,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "10,000.00",
+    "Tax (Rs)": "IGST : 1800.00 (18.00%)",
+    "Sub Total (Rs)": "11,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 1800,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 87,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1072",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "12.01",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "24,020.00",
+    "Tax (Rs)": "IGST : 4323.60 (18.00%)",
+    "Sub Total (Rs)": "28,343.60",
+    "_tax": {
+     "igst": {
+      "amt": 4323.6,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 81,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1066",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "fish net feagewgwre",
+    "HSN": "etyert4wt",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "1,500.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAL",
+    "Total Taxable Value (Rs)": "1,500.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "1,500.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 88,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1073",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "abc123",
+    "Selling Price (Rs)": "1,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,300.00",
+    "Tax (Rs)": "IGST : 234.00 (18.00%)",
+    "Sub Total (Rs)": "1,534.00",
+    "_tax": {
+     "igst": {
+      "amt": 234,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr": "2",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "asas",
+    "Selling Price (Rs)": "1,300.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "1,300.00",
+    "Tax (Rs)": "IGST : 234.00 (18.00%)",
+    "Sub Total (Rs)": "1,534.00",
+    "_tax": {
+     "igst": {
+      "amt": 234,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 82,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1067",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "n1",
+    "Selling Price (Rs)": "7,000.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "7,000.00",
+    "Tax (Rs)": "IGST : 1260.00 (18.00%)",
+    "Sub Total (Rs)": "8,260.00",
+    "_tax": {
+     "igst": {
+      "amt": 1260,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 89,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1074",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "9,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "9,000.00",
+    "_tax": {}
+   },
+   {
+    "Sr": "2",
+    "Items": "rhu zdgfzdxb",
+    "HSN": "svcxc",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "0.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 83,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1068",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Hadi tes",
+    "HSN": "76",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "1",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "25,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 84,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1069",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Mozarella Cheese Cheese",
+    "HSN": "23dw",
+    "Qty": "2.00",
+    "Free qty": "0.00",
+    "Batch No": "3422314",
+    "Selling Price (Rs)": "5,000.00",
+    "MRP (Rs)": "1,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "10,000.00",
+    "Tax (Rs)": "IGST : 1800.00 (18.00%)",
+    "Sub Total (Rs)": "11,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 1800,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 85,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1070",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Test Product Test Product",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "3,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "200.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,800.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,800.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 86,
+  "header": {
+   "Phone": "8672250030",
+   "Email": "d.asqaroff@gmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1071",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Mozarella Cheese Cheese",
+    "HSN": "23dw",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "3422314",
+    "Selling Price (Rs)": "5,000.00",
+    "MRP (Rs)": "1,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "5,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 97,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Invoice No": "PI1082",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Hadi tes",
+    "HSN": "76",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "1",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "25,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "0.00",
+    "Tax (Rs)": "IGST : 0.00 (18.00%)",
+    "Sub Total (Rs)": "0.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 91,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1076",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "TIMBERLAND HDF",
+    "HSN": "57033090",
+    "Qty": "1023.75",
+    "Free qty": "0.00",
+    "Batch No": "12345",
+    "Selling Price (Rs)": "55.00",
+    "MRP (Rs)": "55.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "SQF",
+    "Total Taxable Value (Rs)": "56,306.25",
+    "Tax (Rs)": "IGST : 10135.13 (18.00%)",
+    "Sub Total (Rs)": "66,441.38",
+    "_tax": {
+     "igst": {
+      "amt": 10135.13,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 98,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1083",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "Mozarella Cheese Cheese",
+    "HSN": "23dw",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "3422314",
+    "Selling Price (Rs)": "5,000.00",
+    "MRP (Rs)": "1,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "5,000.00",
+    "Tax (Rs)": "IGST : 900.00 (18.00%)",
+    "Sub Total (Rs)": "5,900.00",
+    "_tax": {
+     "igst": {
+      "amt": 900,
+      "rate": 18
+     }
+    }
+   },
+   {
+    "Sr": "2",
+    "Items": "rhu zdgfzdxb",
+    "HSN": "svcxc",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "C",
+    "Selling Price (Rs)": "2,000.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BAG",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 360.00 (18.00%)",
+    "Sub Total (Rs)": "2,360.00",
+    "_tax": {
+     "igst": {
+      "amt": 360,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 93,
+  "header": {
+   "Phone": "03211234375",
+   "Email": "usamasiddiqui93@hotmail.com",
+   "GSTIN": "",
+   "Invoice No": "PI1078",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "2,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "N/A",
+    "Sub Total (Rs)": "2,000.00",
+    "_tax": {}
+   }
+  ]
+ },
+ {
+  "legacyId": 94,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1079",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "20mm O-Ring Black Blace O-Ring 20mm",
+    "HSN": "8914",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Batch No": "12000130000004511",
+    "Selling Price (Rs)": "130.00",
+    "MRP (Rs)": "120.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "130.00",
+    "Tax (Rs)": "IGST : 23.40 (18.00%)",
+    "Sub Total (Rs)": "153.40",
+    "_tax": {
+     "igst": {
+      "amt": 23.4,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 95,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Invoice No": "PI1080",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "9,000.00",
+    "Tax (Rs)": "IGST : 1620.00 (18.00%)",
+    "Sub Total (Rs)": "10,620.00",
+    "_tax": {
+     "igst": {
+      "amt": 1620,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 96,
+  "header": {
+   "Phone": "",
+   "Email": "",
+   "GSTIN": "",
+   "Invoice No": "PI1081",
+   "RCM Applicability": "No"
+  },
+  "lines": [
+   {
+    "Sr": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "2.00",
+    "Free qty": "",
+    "Batch No": "",
+    "Selling Price (Rs)": "0.00",
+    "MRP (Rs)": "9,000.00",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "18,000.00",
+    "Tax (Rs)": "IGST : 3240.00 (18.00%)",
+    "Sub Total (Rs)": "21,240.00",
+    "_tax": {
+     "igst": {
+      "amt": 3240,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ }
+]

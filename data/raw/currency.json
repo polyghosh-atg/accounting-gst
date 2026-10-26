@@ -1,0 +1,37 @@
+﻿{
+    "draw":  1,
+    "recordsTotal":  26,
+    "recordsFiltered":  6,
+    "data":  [
+                 [
+                     "Taka",
+                     "bdt",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"https://vaksys.com/pro/currency/edit/MjU=\" class=\"btn btn-info btn-xs\" data-tt=\"tooltip\" data-tt=\"tooltip\" title=\"Edit Currency\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_currency\" data-tt=\"tooltip\" title=\"Delete Currency\" class=\"btn btn-danger btn-xs delete_currency\" data-currency_id=\"25\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003c/div\u003e"
+                 ],
+                 [
+                     "KENYA SHILLINGS",
+                     "KSH",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"https://vaksys.com/pro/currency/edit/MjY=\" class=\"btn btn-info btn-xs\" data-tt=\"tooltip\" data-tt=\"tooltip\" title=\"Edit Currency\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_currency\" data-tt=\"tooltip\" title=\"Delete Currency\" class=\"btn btn-danger btn-xs delete_currency\" data-currency_id=\"26\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003c/div\u003e"
+                 ],
+                 [
+                     "Nepali Rupee",
+                     "NPR",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"https://vaksys.com/pro/currency/edit/MjE=\" class=\"btn btn-info btn-xs\" data-tt=\"tooltip\" data-tt=\"tooltip\" title=\"Edit Currency\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_currency\" data-tt=\"tooltip\" title=\"Delete Currency\" class=\"btn btn-danger btn-xs delete_currency\" data-currency_id=\"21\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003c/div\u003e"
+                 ],
+                 [
+                     "Pakistani",
+                     "PKR",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"https://vaksys.com/pro/currency/edit/MjI=\" class=\"btn btn-info btn-xs\" data-tt=\"tooltip\" data-tt=\"tooltip\" title=\"Edit Currency\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_currency\" data-tt=\"tooltip\" title=\"Delete Currency\" class=\"btn btn-danger btn-xs delete_currency\" data-currency_id=\"22\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003c/div\u003e"
+                 ],
+                 [
+                     "Uganda Shillings",
+                     "UGX",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"https://vaksys.com/pro/currency/edit/MjQ=\" class=\"btn btn-info btn-xs\" data-tt=\"tooltip\" data-tt=\"tooltip\" title=\"Edit Currency\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_currency\" data-tt=\"tooltip\" title=\"Delete Currency\" class=\"btn btn-danger btn-xs delete_currency\" data-currency_id=\"24\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003c/div\u003e"
+                 ],
+                 [
+                     "INR",
+                     "₹",
+                     "\u003cdiv class=\"btn-group\"\u003e\u003ca href=\"https://vaksys.com/pro/currency/edit/MjM=\" class=\"btn btn-info btn-xs\" data-tt=\"tooltip\" data-tt=\"tooltip\" title=\"Edit Currency\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-edit\"\u003e\u003c/i\u003e Edit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003ca href=\"#\"  data-toggle=\"modal\" data-target=\"#delete_currency\" data-tt=\"tooltip\" title=\"Delete Currency\" class=\"btn btn-danger btn-xs delete_currency\" data-currency_id=\"23\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003ci class=\"fas fa-trash\"\u003e\u003c/i\u003e Delete\n\t\t\t\t\t\t\t\t\t\t\t\t\t\u003c/a\u003e\u003c/div\u003e"
+                 ]
+             ]
+}

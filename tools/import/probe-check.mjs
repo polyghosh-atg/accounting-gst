@@ -1,0 +1,10 @@
+import { readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
+const h = readFileSync(join(root, '_scrape', 'user_roles.html'), 'utf8');
+const tags = [...h.matchAll(/<input\b[^>]*name="permission"[^>]*>/gi)].slice(0, 2);
+for (const t of tags) console.log(t[0].slice(0, 250));
+const anyOrder = [...h.matchAll(/<input\b(?=[^>]*name="permission")(?=[^>]*checked)[^>]*>/gi)];
+console.log('checked count:', anyOrder.length);
+if (anyOrder.length) console.log(anyOrder[0][0].slice(0, 250));

@@ -1,0 +1,3960 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Zivaan Solutions | Dashboard</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/css/ionicons.min.css">
+   <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <!-- <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/jqvmap/jqvmap.min.css"> -->
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <!-- <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css"> -->
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/css/font_family.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+ <!--  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet"/> -->
+  <link href="https://vaksys.com/pro/assets/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/iCheck/all.css">
+   <!-- iCheck -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/iCheck/square/blue.css">
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/autocomplete/jquery_auto_complete.css">
+
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="https://vaksys.com/pro/assets/plugins/toastr/toastr.min.css">
+
+
+  
+
+  <style type="text/css">
+
+.custom-list {
+  list-style: none; /* Remove default bullets */
+  padding-left: 0; /* Remove default padding */
+}
+
+.custom-list li {
+  position: relative; /* Position relative for positioning the icon */
+  padding-left: 30px; /* Space for the icon */
+}
+
+.custom-list li::before {
+  content: "\f054"; /* Unicode for Font Awesome icon (fa-chevron-right) */
+  font-family: "Font Awesome 5 Free"; /* Ensure correct font-family */
+  font-weight: 900; /* Required for Font Awesome icons */
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000; /* Icon color */
+}
+
+.custom-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent or set custom color */
+}
+
+.custom-list a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+
+    label.required::after {
+      content: ' *';
+      color: red;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+
+    #calculator {
+      background: #333;
+      width: 374px;
+      height: auto;
+      margin: 100px auto;
+      padding: 5px 5px 5px;
+      overflow: hidden;
+      background: white;
+      background: radial-gradient(#ccc);
+      background-size: cover;
+      margin-left: -16px;
+      margin-top: -17px;
+      margin-bottom: -16px;
+    }
+
+    #screen {
+      color: black;
+      font-family: "Dosis";
+      font-size: 40px;
+      text-align: right;
+      padding: 20px 10px 0px 0px;
+      background: #B0BEC5;
+      width: auto;
+      height: 80px;
+      overflow: hidden;
+      margin: 10px 10px 10px 10px;
+      border-radius: 3px;
+      box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+      user-select: none;
+      overflow: visible;
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+
+    .leftPad {
+      /*background: rgba(250, 34, 89, .5);*/
+      height: auto;
+      width: 264px;
+      float: left;
+      margin: 0px 0px 0px 7px;
+    }
+
+    .rightPad {
+      /*background: rgba(250, 89, 250, .9);*/
+      height: 460px;
+      width: auto;
+      margin: 0 0 0 0;
+      overflow: auto;
+    }
+
+    #display {
+      float:right;
+      padding: 0 0 0 10px;
+      overflow:visible;
+    }
+
+    #displayLeft {
+      float:left;
+      padding: 0 0 0 10px;
+      overflow:visible;
+    }
+    /*BUTTONS*/
+
+    .btncal {
+        outline: none;
+        position: relative;
+        background-color: #607D8B;
+        border-radius: 5px;
+        font-size: 40px;
+        font-family: "Dosis";
+        color: #fff;
+        padding: 0px;
+        margin: 5px 2px 5px 3px;
+        width: 80px;
+        height: 80px;
+        -webkit-transition: 0.05s;
+        -moz-transition: 0.05s;
+        transition: 0.05s;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 4px #455A64;
+      
+    }
+
+    .btncal:hover {
+      background-color: #47A;
+      color: #fff;
+      box-shadow: 0 4px #455A64;
+      top: 2px;
+    }
+
+    .btncal:active {
+      box-shadow: 0 0 #455A64;
+      top: 6px;
+    }
+
+    .btn-3 {
+      border-radius: 100px;
+      box-shadow: 0 4px #ab3c3c;
+      background: #cb4e4e;
+      color: #fff;
+    }
+
+    .btn-3:hover {
+      background-color: #F57F17;
+      box-shadow: 0 4px #ab3c3c;
+      top: 2px;
+    }
+
+    .btn-3:active {
+      box-shadow: 0 0 #ab3c3c;
+      top: 6px;
+    }
+
+    .btn-2 {
+      box-shadow: 0 4px #A1887F;
+      background-color: #FFA726;
+    }
+
+    .btn-2:hover {
+      background-color: #F57F17;
+      box-shadow: 0 4px #ab3c3c;
+      top: 2px;
+    }
+
+    .btn-2:active {
+      box-shadow: 0 0 #ab3c3c;
+      top: 6px;
+    }
+
+    .btn-4 {
+      box-shadow: 0 4px #455A64;
+      background-color: #369;
+    }
+
+    .btn-4:hover {
+      background-color: #47A;
+      box-shadow: 0 4px #455A64;
+      top: 2px;
+    }
+
+    .btn-4:active {
+      box-shadow: 0 0 #455A64;
+      top: 6px;
+    }
+    .modal-dialog-centered {
+      max-width: 378px; /* New width for default modal */
+    }
+
+  </style>
+
+  <style type="text/css">
+
+    html {
+      scroll-behavior: smooth;
+    }
+    .validation{
+      color:red;
+    }
+    .breadcrumb-custom{
+      background-color: #fff !important; 
+      width: 100%; 
+      padding-left: 10px !important;
+    }
+    .success-header{
+      background-color: #28a745 !important;
+      color:#fff;
+    }
+    .failure-header{
+      background-color: #dc3545 !important;
+      color:#fff;
+    }
+    .info-header{
+      background-color: #17a2b8 !important;
+      color:#fff;
+    }
+    .secondary-header{
+      background-color: #6c757d !important;
+      color:#fff;
+    }
+
+    .teal-header{
+      background-color: #39cccc !important;
+      color:#fff;
+    }
+
+    .purple-header{
+      background-color: #6f42c1 !important;
+      color:#fff;
+    }
+
+    .lime-header{
+      background-color: #01ff70 !important;
+    }
+
+    .light-purple-header{
+      background-color: #a09dcb !important;
+      color:#fff;
+    }
+
+    .light-secondary-header{
+      background-color: #b6babe !important;
+      color:#fff !important;
+    }
+
+    .light-failure-header{
+      background-color: #e7727d !important;
+      color:#fff;
+    }
+
+    .light-success-header{
+      background-color: #7eca8f !important;
+      color:#fff;
+    }
+
+    .light-warning-header{
+      background-color: #ffc107 !important;
+      color:#000;
+    }
+
+    .warning-header{
+      background-color: #ffc107 !important;
+      /*color:#ccc;*/
+    }
+
+    .content  .card{
+      overflow-x: auto !important;
+    }
+    .card-title{
+      font-weight: bolder !important;
+    }
+    .footer_data{
+      font-size: 20px;
+    }
+
+    /* Paste this css to your style sheet file or under head tag */
+    /* This only works with JavaScript, 
+    if it's not present, don't show loader */
+    .no-js #loader { display: none;  }
+    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+    .se-pre-con {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999999 !important;
+      background: url(https://vaksys.com/pro/assets/plugins/simple-pre-loader/Preloader_7.gif) center no-repeat #fff;
+    }
+
+    .datepicker{
+      z-index: 1000000 !important;
+    }
+
+    /* scollbar css */
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+     
+    ::-webkit-scrollbar-track {
+      background-color: white;
+      border-radius: 5px;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+      background-color: #20c997;
+      border-radius: 5px;
+    }
+
+    .btn:focus{
+      border-color: 1px solid #fff !important;
+    }
+
+    .financial-year-dropdown-menu{
+      left: -126px !important;
+    }
+
+    /*change the select2 results background color*/
+    .select2-results { background-color: #E0FFFA; }
+
+    .daterangepicker{
+      z-index: 9999999 !important;
+    }
+    .cursor-pointer{
+      cursor: pointer;
+    }
+    textarea{
+      white-space: pre-wrap;
+    }
+  </style>
+
+  <style type="text/css">
+    tbody td{
+      padding-top:0.25rem !important;
+      padding-bottom:0.25rem !important;
+    }
+    .thumbnail {
+      width: 30px;
+      height: 30px;
+      background-color: blue;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      line-height: 30px;
+    }
+  </style>
+  
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed  text-sm  ">
+  <!-- Paste this code after body tag -->
+  <div class="se-pre-con"></div>
+  <!-- Ends -->  
+  <nav class="main-header navbar navbar-expand navbar-expand navbar-dark">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Notifications Dropdown Menu -->
+
+    <!--   <li class="nav-item pr-1">
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning">Current Year : 2026-2027</button>
+
+          
+          <button type="button" class="btn btn-warning dropdown-toggle dropdown-icon" data-toggle="dropdown">
+            <span class="sr-only">Toggle Dropdown</span>
+            <div class="dropdown-menu financial-year-dropdown-menu" role="menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </button>
+        </div>
+      </li> -->
+
+      
+
+      <!-- <li class="nav-item dropdown pr-2">
+        <a class="nav-link bg-info" data-keyboard="true" style="border-radius: 5px; cursor: pointer" data-tt="tooltip" title="Update Application" data-toggle="modal" data-target="#update_application_modal">
+          <i class="fas fa-bell fa-spin"></i>
+          Update Application        </a>
+      </li> -->
+      <!-- 
+      <li class="nav-item dropdown pr-2">
+        <a class="nav-link bg-pink" data-keyboard="true" style="border-radius: 5px; cursor: pointer" data-tt="tooltip" title="Create Backup" data-toggle="modal" data-target="#create_backup_modal">
+          <i class="fas fa-eraser"></i>
+          Create Backup        </a>
+      </li>
+ 
+      <li class="nav-item dropdown pr-2">
+        <a class="nav-link bg-purple" data-keyboard="true" style="border-radius: 5px; cursor: pointer" data-tt="tooltip" title="Restore dummy data" data-toggle="modal" data-target="#restore_dummy_data_modal">
+          <i class="fas fa-eraser"></i>
+          Restore dummy data        </a>
+      </li>
+      -->
+      <li class="nav-item dropdown pr-2 ">
+        <a href="https://vaksys.com/pro/pos" class="nav-link bg-secondary text-sm text-xs" data-keyboard="true" style="border-radius: 5px; cursor: pointer" data-tt="tooltip" title="" data-original-title="Click here for POS">
+          <i class="fas fa-plus"></i>
+          POS
+        </a>
+      </li>
+        
+      <li class="nav-item dropdown pr-2">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-primary" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px;">REPORTS</button>
+          <button type="button" class="btn btn-sm btn-primary" data-toggle="dropdown" aria-expanded="false" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+            <span class="fas fa-plus"></span> <!-- Plus icon -->
+          </button>
+          <div class="dropdown-menu" role="menu" style="">
+                      <a class="dropdown-item" href="https://vaksys.com/pro/report/customer_payment_due">Customer Payment Due</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/supplier_payment_due">Supplier Payment Due</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/stock_value">Stock Value</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/closing_stock">Closing Stock</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/inventory_product_added">Inventory Product Added</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/receivable">Receivable</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/payable">Payable</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/gstr1">GSTR1</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/gstr2">GSTR2</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/hsn_sale">HSN Sale</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/hsn_purchase">HSN Purchase</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/stock">Stock</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/product">Product Detail</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/product_sale">Product Sale</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/product_purchase">Product Purchase</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/sale">Sales</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/sales_return">Sales Return</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/purchase">Purchase</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/purchase_return">Purchase Return</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/report/expense">Expense</a>
+                    
+                      <a class="dropdown-item" href="https://vaksys.com/pro/report/ledger">Ledger</a>
+          
+          
+          </div>
+        </div>
+      </li>
+
+      
+      <li class="nav-item dropdown pr-2">
+        <div>
+          <button type="button" class="btn btn-sm btn-success show_menu_modal" data-toggle="modal" data-target="#show_menu_modal" data-tt="tooltip"  style="border-top-left-radius: 5px; border-bottom-left-radius: 5px;">GO TO <i class="fas fa-arrow-right ml-2"></i></button>
+        </div>
+
+       
+      </li>
+
+      <li class="nav-item dropdown pr-2">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-default" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px;">ADD</button>
+          <button type="button" class="btn btn-sm btn-default" data-toggle="dropdown" aria-expanded="false" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+            <span class="fas fa-plus"></span> <!-- Plus icon -->
+          </button>
+          <div class="dropdown-menu" role="menu" style="">
+                        <a class="dropdown-item" href="https://vaksys.com/pro/purchase_order/add">Purchase Order</a>
+                                  <a class="dropdown-item" href="https://vaksys.com/pro/purchase/add">Purchase</a>
+                                  <a class="dropdown-item" href="https://vaksys.com/pro/purchase_return/add">Purchase Return</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/transfer/add">Transfer</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/quotation/add">Quotation</a>
+                    
+            <a class="dropdown-item" href="https://vaksys.com/pro/proforma_invoice/add">Proforma Invoice</a>
+                                <a class="dropdown-item" href="https://vaksys.com/pro/sale/add">Sale</a>
+                                          <a class="dropdown-item" href="https://vaksys.com/pro/credit_debit_note">Credit Debit Note</a>
+                                  <a class="dropdown-item" href="https://vaksys.com/pro/expense/add">Expense</a>
+                    </div>
+        </div>
+      </li>
+
+
+
+     
+     
+
+      <li class="nav-item dropdown pr-2">
+        <a class="nav-link bg-warning text-sm text-xs" data-keyboard="true" style="border-radius: 5px; cursor: pointer" data-tt="tooltip" title="Calculator" data-toggle="modal" data-target="#calculator_modal">
+          <i class="fas fa-calculator"></i>
+          Calculator        </a>
+      </li>
+      
+     
+            <li class="nav-item dropdown">
+        <a class="nav-link bg-lime" data-toggle="dropdown" href="#" style="border-radius: 5px;">
+                    Cash on Hand : Rs 71295.000          <i class="fas fa-arrow-down mr-2"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header text-left">Account Balance</span>
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Vaidehi            <span class="float-right text-muted text-sm">Rs 2361360.350</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">SBI</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Ayanshi            <span class="float-right text-muted text-sm">Rs 468415.400</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">HDFC</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            xyz            <span class="float-right text-muted text-sm">Rs 628352.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">AXIS</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Ayanshi Account            <span class="float-right text-muted text-sm">Rs 141795.020</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">SBI</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Ayanshi Account            <span class="float-right text-muted text-sm">Rs 94148.260</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">SBI</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Cash            <span class="float-right text-muted text-sm">Rs 15015469.020</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">Cash</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Tesr            <span class="float-right text-muted text-sm">Rs 55000.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">Tes</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Bank Kuliling            <span class="float-right text-muted text-sm">Rs 33731.600</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">Bk BK</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            My Acc Dbbl            <span class="float-right text-muted text-sm">Rs 63400.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">Dutch Bangla Bank</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            test            <span class="float-right text-muted text-sm">Rs 119330.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">Axis bank</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Chandmal and sons            <span class="float-right text-muted text-sm">Rs 29085.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">State Bank of India</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            Jazzczsh (Shair Ali)            <span class="float-right text-muted text-sm">Rs 6585.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">Jazzczsh (Shair Ali)</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            dddddddd            <span class="float-right text-muted text-sm">Rs 9613.400</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">ddddd</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            VVVV            <span class="float-right text-muted text-sm">Rs 1273.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">342332434</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+            bilal            <span class="float-right text-muted text-sm">Rs 130000.000</span>
+            <div class="progress progress-xxs">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              </div>
+            </div>
+            <span style="font-size: 12px">faslbnk</span>
+          </a>
+
+          <div class="dropdown-divider"></div>
+                  </div>
+      </li>
+            <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="fas fa-globe"></i>
+        </a>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="overflow-y: scroll;">
+          <span class="dropdown-item dropdown-header">1 languages are available.</span>
+          <div class="dropdown-divider"></div>
+                    <a href="https://vaksys.com/pro/languageSwitcher/switchLang/english" class="dropdown-item">
+            English                      </a>
+                    <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="fas fa-user-tie"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          
+          <!-- <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item" data-toggle="modal" data-target="#activate_modal">
+            <i class="fas fa-key mr-2"></i> Enter your Activaiton Key          </a> -->
+          
+          <div class="dropdown-divider"></div>
+          <a href="https://vaksys.com/pro/auth/profile" class="dropdown-item">
+            <i class="fas fa-id-card-alt mr-2"></i> Edit Profile            
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="https://vaksys.com/pro/auth/logout" class="dropdown-item">
+            <i class="fas fa-sign-out-alt mr-2"></i> Log out            
+          </a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar elevation-3 sidebar-dark-olive">
+    <!-- Brand Logo -->
+    <a href="https://vaksys.com/pro/auth/dashboard" class="brand-link">
+      <center><span class="brand-text font-weight-light">ZIVAAN SOLUTIONS</span></center>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <!-- <img src="https://vaksys.com/pro/assets/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image"> -->
+          <i class="fa fa-user" style="color: white !important; font-size: 28px;"></i>
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">JK Solutions</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column    text-sm" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+
+                    <li class="nav-item">
+            <a href="https://vaksys.com/pro/auth/dashboard" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt text-red"></i>
+              <p>
+                Dashboard              </p>
+            </a>
+          </li>
+                              <!-- <li class="nav-item has-treeview">
+            <a href="https://vaksys.com/pro/gst_return" class="nav-link
+                "
+            >
+              <i class="nav-icon fas fa-tree text-yellow"></i>
+              <p>
+                GST Return              </p>
+            </a>
+          </li> -->
+          
+                    <li class="nav-item has-treeview">
+            <a href="https://vaksys.com/pro/bank_account" class="nav-link
+                "
+            >
+              <i class="nav-icon fas fa-piggy-bank text-blue"></i>
+              <p>
+                Bank Account              </p>
+            </a>
+          </li>
+          
+                    <li class="nav-item has-treeview
+                      ">
+            <a href="#" class="nav-link
+                          ">
+              <i class="nav-icon fas fa-users text-green"></i>
+              <p>
+                People                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/auth/user_roles" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-user-cog text-purple"></i>
+                  <p>
+                    User Roles                  </p>
+                </a>
+              </li>
+                                          <li class="nav-item">
+                <a href="https://vaksys.com/pro/auth/users" class="nav-link
+                                    ">
+                  <i class="nav-icon fas fa-users text-pink"></i>
+                  <p>
+                    Users                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/customer" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-user-friends text-yellow"></i>
+                  <p>
+                    Customers                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/supplier" class="nav-link
+                  "
+                >
+                  <!--  <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fas fa-male text-yellow"></i>
+                  <p>
+                    Suppliers                  </p>
+                </a>
+              </li>
+                          </ul>
+          </li>
+          
+                    <li class="nav-item has-treeview
+                        ">
+            <a href="#" class="nav-link
+                          ">
+              <i class="nav-icon fas fa-file-invoice-dollar text-pink"></i>
+              <p>
+                Account
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>            
+            <ul class="nav nav-treeview">
+
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/cash_bank_entry" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-cash-register text-green"></i>
+                  <p>
+                     Cash Bank Entry                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/bank_statement" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-band-aid text-yellow"></i>
+                  <p>
+                     Bank Statement                  </p>
+                </a>
+              </li>
+                           
+            
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/pdc_receive" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-cash-register text-pink"></i>
+                  <p>
+                     PDC Receive                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/pdc_payment" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-cash-register text-yellow"></i>
+                  <p>
+                     PDC Payment                  </p>
+                </a>
+              </li>
+              
+             
+
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/scrap_entry" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-cash-register text-blue"></i>
+                  <p>
+                     Scrap Entry                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/scrap_issue" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-cash-register text-green"></i>
+                  <p>
+                     Scrap Issue                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/scrap_receive" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-cash-register text-pink"></i>
+                  <p>
+                     Scrap Receive                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item has-treeview
+                              ">
+                <a href="https://vaksys.com/pro/expense" class="nav-link
+                                  ">
+                <!--  <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fab fa-codepen text-green"></i>
+                  <p>
+                  Expenses                  </p>
+                </a>
+              </li>
+                          
+          
+            </ul>
+          </li>
+          
+
+                    <li class="nav-item has-treeview
+                        ">
+            <a href="#" class="nav-link
+                          ">
+              <i class="nav-icon fas fa-boxes text-purple"></i>
+              <p>
+                Inventory
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>            
+            <ul class="nav nav-treeview">
+
+                              <li class="nav-item d-none">
+                  <a href="https://vaksys.com/pro/promotion" class="nav-link
+                                      ">
+                    <i class="nav-icon fas fa-dice-d20 text-green"></i>
+                    <p>
+                      Promotion                    </p>
+                  </a>
+                </li>
+                
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/warehouse" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-warehouse text-red"></i>
+                  <p>
+                     Warehouse                  </p>
+                </a>
+              </li>
+                           
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/product_category" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-shapes text-blue"></i>
+                  <p>
+                     Product Category                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/product_core" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-dice-d20 text-green"></i>
+                  <p>
+                     Add Product                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/product" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-dice-d20 text-green"></i>
+                  <p>
+                     All Products                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/scrap_product" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-dice-d20 text-green"></i>
+                  <p>
+                     All Scrap Products                  </p>
+                </a>
+              </li>
+                            
+
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/stock" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-layer-group text-pink"></i>
+                  <p>
+                     Stock Entry                  </p>
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          
+                    <li class="nav-item has-treeview">
+            <a href="https://vaksys.com/pro/employee" class="nav-link
+                "
+            >
+              <i class="nav-icon fas fa-university text-red"></i>
+              <p>
+                HR Module              </p>
+            </a>
+          </li>
+           
+
+                    <li class="nav-item has-treeview
+             menu-open            ">
+            <a href="#" class="nav-link
+               active            ">
+              
+              <i class="nav-icon fas fa-random text-white"></i>
+              <p>
+                Transaction                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>            
+            <ul class="nav nav-treeview">
+
+                          <li class="nav-item">
+                <a href="https://vaksys.com/pro/purchase_order" class="nav-link
+                    "
+                >
+                  <i class="nav-icon fas fa-shopping-bag text-green"></i>
+                  <p>
+                    Purchase Order                  </p>
+                </a>
+              </li>
+              
+              
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/purchase" class="nav-link
+                    "
+                >
+                  <i class="nav-icon fas fa-shopping-bag text-blue"></i>
+                  <p>
+                    Purchase                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/purchase_return" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-reply text-purple"></i>
+                  <p>
+                     Purchase return                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/transfer" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-exchange-alt text-green"></i>
+                  <p>
+                     Transfer                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/quotation" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-file-invoice-dollar text-green"></i>
+                  <p>
+                     Quotation                  </p>
+                </a>
+              </li>
+              
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/proforma_invoice" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-shopping-bag text-pink"></i>
+                  <p>
+                     Proforma Invoice                  </p>
+                </a>
+              </li>
+                            
+              
+
+              
+
+             
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/sale" class="nav-link
+                   active                ">
+                  <i class="nav-icon fas fa-store text-red"></i>
+                    <p>
+                      Sales                    </p>
+                </a>
+              </li>
+              
+                             <li class="nav-item">
+                <a href="https://vaksys.com/pro/sales_return" class="nav-link
+                    "
+                >
+                  <i class="nav-icon fas fa-reply text-red"></i>
+                  <p>
+                    Sales return                  </p>
+                </a>
+              </li>
+               
+
+
+                          <li class="nav-item">
+                <a href="https://vaksys.com/pro/credit_debit_note" class="nav-link
+                    "
+                >
+                  <i class="nav-icon fas fa-shopping-bag text-yellow"></i>
+                  <p>
+                    Credit Debit Note                  </p>
+                </a>
+              </li>
+                          </ul>
+          </li>
+                    
+
+          
+
+                    <li class="nav-item has-treeview
+                      ">
+            <a href="#" class="nav-link
+                           ">
+            
+              <i class="nav-icon fas fa-chart-area text-pink"></i>
+              <p>
+                Reports
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+
+                          <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/customer_payment_due" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Customer Payment Due                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/supplier_payment_due" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Supplier Payment Due                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/stock_value" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Stock Value                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/closing_stock" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Closing Stock                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/inventory_product_added" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Inventory Product Added                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/receivable" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Receivable                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/payable" class="nav-link
+                                  ">
+
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Payable                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/gstr1" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   GSTR1                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/gstr2" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   GSTR2                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/hsn_sale" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   HSN Sale                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/hsn_purchase" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   HSN Purchase                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/stock" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Stock                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/product" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Product Detail                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/product_sale" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                    Product Sale                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/product_purchase" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Product Purchase                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/sale" class="nav-link
+                                  ">
+                 <!--  <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Sales                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/sales_return" class="nav-link
+                                  ">
+                 <!--  <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Sales return                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/purchase" class="nav-link
+                                  ">
+                 <!--  <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Purchase                  </p>
+                </a>
+              </li>
+                
+
+                             <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/purchase_return" class="nav-link
+                                  ">
+                 <!--  <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Purchase return                  </p>
+                </a>
+              </li>
+                
+
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/expense" class="nav-link
+                                  ">
+                 <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Expenses                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/ledger" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Ledger                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/transaction" class="nav-link
+                                  ">
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Transaction                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item d-none">
+                <a href="https://vaksys.com/pro/report/profit_and_loss" class="nav-link
+                                  ">
+                  <!-- <i class="fas fa-hand-holding-usd"></i> -->
+                  <i class="nav-icon far fa-dot-circle text-yellow"></i>
+                  <p>
+                   Profit & Loss                  </p>
+                </a>
+              </li>
+              
+
+              <!-- <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/balance_sheet" class="nav-link
+                                ">
+                  <i class="nav-icon fas fa-balance-scale text-pink"></i>
+                  <p>
+                   Balance Sheet                  </p>
+                </a>
+              </li> -->
+
+                            <!-- <li class="nav-item">
+                <a href="https://vaksys.com/pro/report/balance_sheet" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-balance-scale text-pink"></i>
+                  <p>
+                   Balance Sheet                  </p>
+                </a>
+              </li> -->
+              
+                            
+            </ul>
+          </li>
+          
+                    <li class="nav-item has-treeview
+                      ">
+            <a href="#" class="nav-link 
+                          ">
+              <!-- <i class="nav-icon fas fa-store"></i> -->
+              <i class="nav-icon fas fa-user-cog text-blue"></i>
+              <p>
+                Settings                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+
+                            
+              <li class="nav-item">
+                <a href="https://vaksys.com/pro/settings" class="nav-link
+                                  ">
+                  <!-- <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fas fa-cogs text-pink"></i>
+                  <p>
+                    <!-- Company Settings -->
+                    Company Settings                  </p>
+                </a>
+              </li>
+              
+                            
+              <li class="nav-item">
+                <a href="https://vaksys.com/pro/custom_field" class="nav-link
+                                  ">
+                  <!-- <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fas fa-cogs text-red"></i>
+                  <p>
+                    <!-- Company Settings -->
+                    Custom Settings                  </p>
+                </a>
+              </li>
+              
+                           <!--  <li class="nav-item">
+                <a href="https://vaksys.com/pro/application_settings" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-sun text-yellow"></i>
+                  <p>
+                    Application Settings                  </p>
+                </a>
+              </li> -->
+              
+              
+                            
+              <li class="nav-item">
+                <a href="https://vaksys.com/pro/email_template" class="nav-link
+                                  ">
+                  <!-- <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fas fa-cogs text-pink"></i>
+                  <p>
+                    <!-- Company Settings -->
+                    Email Template                  </p>
+                </a>
+              </li>
+              
+                            
+              <li class="nav-item">
+                <a href="https://vaksys.com/pro/whatsapp_template" class="nav-link
+                                  ">
+                  <!-- <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fab fa-whatsapp text-green"></i>
+                  <p>
+                    <!-- Company Settings -->
+                    Whatsapp Template                  </p>
+                </a>
+              </li>
+                            
+
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/expense_category" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-receipt text-yellow"></i>
+                  <p>
+                    Expense category                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/item" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-receipt text-yellow"></i>
+                  <p>
+                    Item                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/tax" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-file-invoice text-green"></i>
+                  <p>
+                    Tax                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/discount" class="nav-link 
+                                  ">
+                  <!-- <i class="nav-icon fas fa-book"></i> -->
+                  <i class="nav-icon fas fa-percent text-red"></i>
+                  <p>
+                    Discounts                  </p>
+                </a>
+              </li>
+              
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/currency" class="nav-link
+                                  ">
+                  <!-- <i class="nav-icon fas fa-money-check-alt"></i> -->
+                  <i class="nav-icon fab fa-ethereum text-green"></i>
+                  <p>
+                    Currency                  </p>
+                </a>
+              </li>
+              
+              
+
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/email_setup" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-life-ring text-purple"></i>
+                  <p>
+                    Email Configuration                  </p>
+                </a>
+              </li>
+                            <!-- <li class="nav-item">
+                <a href="https://vaksys.com/pro/sms_setup" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-comment-alt text-red"></i>
+                  <p>
+                   SMS Configuration                  </p>
+                </a>
+              </li> -->
+              
+             
+                            <li class="nav-item">
+                <a href="https://vaksys.com/pro/log_data" class="nav-link
+                                  ">
+                  <i class="nav-icon fas fa-history text-pink"></i>
+                  <p>
+                    History Logs                  </p>
+                </a>
+              </li> 
+                          </ul>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+<div class="wrapper">
+  <div class="content-wrapper">
+    <section class="content-header">
+      <div class="row mb-2">
+        <div class="col-sm-12">
+          <ol class="breadcrumb breadcrumb-custom float-sm-left">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Sales</a></li>
+            <li class="breadcrumb-item active">View Sale</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-12">
+
+          
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Shortcuts</h3>
+            </div>
+            <div class="card-body">
+
+                            <a href="https://vaksys.com/pro/sale/pdf/NDA5" class="btn bg-orange btn-sm  mr-1" data-tt="tooltip" title="Download Invoice">
+                <i class="far fa-file-pdf"></i> Download Invoice
+              </a>  
+
+              <a href="https://vaksys.com/pro/sale/pdf/NDA5" class="btn bg-lime btn-sm  mr-1" data-tt="tooltip" title="Download Delivery Challan">
+                <i class="fas fa-shipping-fast"></i> Delivery Challan
+              </a>    
+              
+                            <a href="#" data-target="#delivery-modal" data-toggle="modal" class="btn bg-maroon btn-sm open_delivery_modal  mr-1" data-tt="tooltip" title="Enter Product Delivery" data-sale_id="409"> 
+                <i class="fas fa-shipping-fast"></i> Delivery Details
+              </a>  
+              
+                                <a href="#" data-target="#transaction-modal" data-toggle="modal" data-tt="tooltip" class="btn bg-purple btn-sm  mr-1" title="Enter Payment" data-sale_id="409"> 
+                    <i class="fas fa-rupee-sign"></i> Enter Payment
+                  </a>
+              
+                                <a href="#" data-target="#generate_ewaybill_modal" data-toggle="modal" data-tt="tooltip" class="btn bg-gray btn-sm  mr-1" title="Generate Ewaybill" data-sale_id="409">
+                    <i class="fas fa-shipping-fast"></i> Generate Ewaybill
+                  </a>
+              
+            
+
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">View Sale</h3>
+              <div class="card-tools">
+              
+
+                    <a href="#" class="btn btn-info btn-sm  mr-1" data-toggle="modal" data-target="#sale_edit" data-tt="tooltip" title="Edit Sale" data-sale_id="409">
+                      <i class="fas fa-edit"></i> Edit
+                    </a> 
+
+                              </div>
+             
+            </div>
+            <div class="card-body">
+              <div class="invoice p-3 mb-3">
+                <!-- title row -->
+                                <div class="ribbon-wrapper ribbon-sm">
+                  <div class="ribbon 
+                    bg-success                  ">
+                    Paid                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-12 text-center">
+                    Tax Invoice Under GST <br/>Invoice for Receipt                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <h4>
+                      <i class="fas fa-globe"></i> Zivaan Solutions                      <small class="float-right"> Date: 15-08-2025</small>
+                    </h4>
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <table width="100%" class="table">
+                      <tr style="font-size: 16px;font-weight: bolder;">
+                        <td>Supplier</td>
+                        <td>Bill To ( Customer )</td>
+                        <td>Invoice Details</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <address>
+                            <strong>Zivaan Solutions</strong><br>
+                            kotbali bazar<br>
+                            abd<br>
+                            Dharamshala, Himachal Pradesh, India<br>
+                            176215<br>
+                            Phone: 9318019231<br>
+                            Email: mk9332994@gmail.com<br>
+                            <strong>GSTIN of Supplier: 02BINPK2730F1ZN</strong><br>
+                                                      </address>
+                        </td>
+                        <td>
+                          <address>
+                            <strong>Sri Info Solution<br/></strong>
+                            <strong>Chinnasamy Ramasamy</strong><br>
+                                                                                                                189-A, Seeranthottam<br/>                            Palladam, Tamil Nadu, India<br>
+                            641662<br>
+                            <b>Phone</b>: 9500721697<br>
+                            <b>Email</b>: chinnz25@gmail.com<br>
+                            <b>GSTIN</b>: 33AUSPC7077P2ZU<br>
+                          </address>
+                        </td>
+                        <td>
+                        <b>Invoice No: </b>S1337<br>
+                                                <!-- <b></b><br/> -->
+                        <b>RCM Applicability: </b>No<br>
+                                                    <b>LR No:</b> <br>
+                                                                            <b>LR date:</b>  <br>
+                        
+                       
+                      
+                                                    <b>Carrier:</b> <br>
+                                                
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+               
+                <!-- Table row -->
+                <div class="row">
+                  <div class="col-12 table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Sr</th>
+                          <th>Items</th>
+                          <th>HSN</th>
+                          <th>Qty</th>
+                          <th class="d-none">Free qty</th>
+                          <th>Selling Price (Rs)</th>
+                          <th class="">Batch No</th>
+                          <th class="d-none">Mfg Date</th>
+                          <th class="">Expiry Date</th>
+                          <th>Discount (Rs)</th>
+                          <th>UOM</th>
+                          <th>Total Taxable Value (Rs)</th>
+                          <th>Tax (Rs)</th>
+                          <th>Sub Total (Rs)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                                                  <tr>
+                            <td>1</td>
+                            <td>iPhone  11 LCD Screen JK<br/>Aftermarket JK Quality</td>
+                            <td>015215</td>
+                            <td>10.00</td>
+                            <td class="d-none">0.00</td>
+                            <td>17.66</td>
+                            <td class=""> 
+                                                            5152 
+                                                          </td>
+                            <td class="d-none"></td>
+
+                            <td class=""></td>
+
+                            <td>0.00</td>
+                            <td>PCS</td>
+                            <td>176.60</td>
+                            <td>
+                                                                    IGST : 0.00                                      (0.00%)
+                                                          </td>
+                            <td>176.60</td>
+                          </tr>
+                                                  <tr style="font-size: 16px;font-weight: bolder;">
+                            <td colspan="3">
+                              Total Amount Due   
+                            </td>
+                            <td>10</td>
+                            <td class="d-none"></td>
+                            <td>17.66</td>
+                            <td class=""></td>
+                            <td class="d-none"></td>
+                            <td class=""></td>
+                            <td>0.00</td>
+                            <td></td>
+                            <td>176.60</td>
+                            <td>0.00</td>
+                            <td>176.60</td>
+                          </tr>
+                          <tr style="font-size: 16px;font-weight: bolder;">
+                            <td colspan="11">
+                              Rounded Off                            </td>
+                            <td>
+                              0.40                            </td>
+                          </tr>
+                          <tr style="font-size: 16px;font-weight: bolder;">
+                            <td colspan="11">
+                              TDS                            </td>
+                            <td>
+                              0.00                            </td>
+                          </tr>
+                          <tr style="font-size: 16px;font-weight: bolder;">
+                            <td colspan="11">
+                              Paid Amount                            </td>
+                            <td>
+                              197.00                            </td>
+                          </tr>
+                          <tr style="font-size: 16px;font-weight: bolder;">
+                            <td colspan="11">
+                              Balance Receivable                            </td>
+                            <td>
+                              -20.00                            </td>
+                          </tr>
+                          <tr style="font-size: 16px;font-weight: bold; ">
+                            <td colspan="6">
+                              Amount in Words                            </td>
+                            <td colspan="6" style="text-align: right">
+                              NEGATIVE TWENTY                            </td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                  <div class="col-12">
+                    <table width="100%" class="table">
+                      <tr style="font-size: 16px;font-weight: bolder;">
+                        <td width="50%">
+                          Bank Details                        </td>
+                        <td width="25%"></td>
+                        <td width="25%" style="text-align:right;">
+                          Remarks (if any)                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                                                  </td>
+                        <td></td>
+                        <td width="25%">
+                                                  </td>
+                      </tr>
+                      <tr style="font-size: 16px;font-weight: bolder;">
+                        <td width="50%">
+                          Terms & Condition                        </td>
+                        <td width="25%"></td>
+                        <td width="25%">
+                         Certified that the perticulars given above are true and correct                         
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          1. Subject to Ahmedabad Jurisdiction<br />
+2. Our responsibility ceases as soon as the goods leave our premises.<br />
+3. Goods once sold will not be taken back.<br />
+4. Delivery ex-premises.                        </td>
+                        <td>
+                                                            <img src="https://vaksys.com/pro/assets/images/upi/1.png" height="150" width="150" style="padding-top: 5px;">
+                           
+                                                   </td>
+                        <td>
+                            For, ZIVAAN SOLUTIONS<br/><br/><br/>
+
+                             
+                            <br/> 
+                          Authorised Signatory
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+                <!-- this row will not appear when printing -->
+                <div class="row no-print">
+                  <div class="col-12">
+                    
+                    <!-- <button type="button" class="btn btn-success float-left print_invoice">
+                      <i class="fas fa-print"></i> Print                    </button> -->
+                    <!-- <button type="button" class="btn btn-success float-right">
+                      <i class="far fa-credit-card"></i> Submit Payment
+                    </button>
+                    <a class="btn btn-primary float-right" style="margin-right: 5px;" href="https://vaksys.com/pro/sale/pdf/409" target="_blank">
+                      <i class="fas fa-download"></i> Generate PDF
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <aside class="control-sidebar control-sidebar-dark"></aside>
+</div>
+
+<div class="transaction-modal">
+  <div class="modal fade" id="transaction-modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header light-purple-header">
+          <h4 class="modal-title">
+            Transaction          </h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="accordion">
+            <div class="card card-secondary">
+              <div class="card-header saleDetail light-secondary-header">
+                <h4 class="card-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#saleDetail" class="collapsed" aria-expanded="false">
+                    View Sale                    <span class="text-xs click_here_to_view_details">(Click here to view details)</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="saleDetail" class="panel-collapse in collapse" style="">
+                <div class="card-body sale_detail  m-0 p-0">
+                </div>
+              </div>
+            </div>
+            <div class="card card-danger addTransactionCard">
+              <div class="card-header addTransaction light-failure-header">
+                <h4 class="card-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#addTransaction" class="" aria-expanded="true">
+                    Payments                    <span class="text-xs click_here_to_view_details">(Click here to view details)</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="addTransaction" class="panel-collapse collapse show" style="">
+                <form id="addTransactionForm" name="addTransactionForm" method="POST">
+                  <div class="card-body add_transaction">
+                  </div>
+                  <div class="card-footer">
+                    <input type="hidden" name="csrf_zivaan_pro" value="5e71a0106aa6329bc8fe58695fd3336e">
+                    <input type="hidden" name="transaction_type" value="R">
+                    <input type="hidden" name="entry_id" id="sale_id" value="">
+                    <input type="hidden" name="module" value="S">
+                    <input type="hidden" name="from_account" id="from_account" value="">
+                    <button type="submit" class="btn btn-info" name="addTransactionSubmit" id="addTransactionSubmit">
+                      Submit                    </button>
+                    <button type="reset" class="btn btn-default">
+                      Reset                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card card-success">
+              <div class="card-header transactionEntries light-success-header">
+                <h4 class="card-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#transactionEntries" class="collapsed" aria-expanded="false">
+                    Previous Transaction                    <span class="text-xs click_here_to_view_details">(Click here to view details)</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="transactionEntries" class="panel-collapse collapse">
+                <div class="card-body transaction_entries m-0 p-0">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input type="hidden" name="is_there_change_in_transaction" id="is_there_change_in_transaction" value="false">
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            Close          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="delivery-modal">
+  <div class="modal fade" id="delivery-modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header light-purple-header">
+          <h4 class="modal-title">
+            Sale Delivery          </h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="accordion">
+            <form id="addDeliveryDetailForm" name="addDeliveryDetailForm" method="POST">
+              <div class="card card-info addDeliveryDetailCard">
+
+                  <div class="card-header light-secondary-header addDeliveryDetail">
+                    <h5 class="card-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#addDeliveryDetail" class="collapsed" aria-expanded="false">
+                        Add Sale Delivery                        <span class="text-xs click_here_to_view_details">(Click here to view details)</span>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="addDeliveryDetail" class="panel-collapse in collapse" style="">
+                    <div class="card-body add_delivery_detail">
+                    
+                    </div>
+                    <div class="card-footer">
+                      <input type="hidden" name="delivery_items" value="">
+                      <input type="hidden" name="sale_id" value="">
+                      <input type="hidden" name="csrf_zivaan_pro" value="5e71a0106aa6329bc8fe58695fd3336e">
+                      <button type="submit" name="addDeliveryDetailSubmit" id="addDeliveryDetailSubmit" class="btn btn-primary float-right">
+                        Submit                      </button>
+                      <button type="button" name="cancelDeliveryDetail" id="cancelDeliveryDetail" class="btn btn-default">
+                        Cancel                      </button>
+                    </div>
+                  </div>
+                
+              </div>
+            </form>
+            <div class="card card-success deliveryEntriesCard">
+              <div class="card-header deliveryEntries light-success-header">
+                <h5 class="card-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#deliveryEntries" class="collapsed" aria-expanded="false">
+                    Previous Sale Delivery                    <span class="text-xs click_here_to_view_details">(Click here to view details)</span>
+                  </a>
+                </h5>
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-default" id="addNewDeliveryDetail">Add New Delivery</button>
+                  </div>
+                </div>
+              </div>
+              <div id="deliveryEntries" class="panel-collapse collapse">
+                <div class="card-body delivery_entries m-0 p-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input type="hidden" name="is_there_change_in_delivery_transaction" id="is_there_change_in_delivery_transaction" value="false">
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            Close          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="example-modal">
+  <div class="modal fade" id="sale_edit">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+</div>
+
+<!-- Generate Ewaybill Modal -->
+<div id="generate_ewaybill_modal" class="modal">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header" style="background-color: white;">
+              <h5 class="modal-title">Generate Ewaybill</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+             <div id="calc-wrapper">
+              <div id="calculator">
+
+                <!-- <button type="button" data-type="1" style="font-size:24px; border-radius: 5px; width:45%;" class="btn btn-primary generate_ewaybill">Generate</button> -->
+                <a href="https://vaksys.com/pro/sale/ewaybill/NDA5" data-type="2" style="font-size:24px; border-radius: 5px; width:45%;" class="btn btn-primary">Download Json</a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<script src="https://vaksys.com/pro/assets/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://vaksys.com/pro/assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="https://vaksys.com/pro/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="https://vaksys.com/pro/assets/plugins/chart.js/Chart.min.js"></script>
+
+<!-- JQVMap -->
+<!-- <script src="https://vaksys.com/pro/assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script> -->
+<!-- jQuery Knob Chart -->
+<script src="https://vaksys.com/pro/assets/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="https://vaksys.com/pro/assets/plugins/moment/moment.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="https://vaksys.com/pro/assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="https://vaksys.com/pro/assets/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="https://vaksys.com/pro/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="https://vaksys.com/pro/assets/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<!-- // <script src="https://vaksys.com/pro/assets/js/pages/dashboard.js"></script> -->
+<!-- AdminLTE for demo purposes -->
+<!-- <script src="https://vaksys.com/pro/assets/js/demo.js"></script> -->
+<script src="https://vaksys.com/pro/assets/plugins/datatables/jquery.dataTables.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- <script src="https://vaksys.com/pro/assets/plugins/select2/js/select2.min.js"></script> -->
+<script src="https://vaksys.com/pro/assets/plugins/select2/js/select2.full.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/sweetalert2/sweetalert2.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/filterizr/jquery.filterizr.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/autocomplete/jquery_auto_complete.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/printThis/printThis.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+<script src="https://vaksys.com/pro/assets/plugins/iCheck/icheck.min.js"></script>
+<script src="https://vaksys.com/pro/assets/js/modernizr.js"></script>
+
+<!-- <script src="https://vaksys.com/pro/assets/plugins/datepickerjs/bootstrap-datepicker.js"></script> -->
+<script src="https://vaksys.com/pro/assets/plugins/jquery-base64/jquery.base64.min.js"></script>
+<script type="text/javascript" src="https://vaksys.com/pro/assets/js/js-calc.js" defer></script>
+
+<script src="https://vaksys.com/pro/assets/js/envato-verify.js?v=1792939594" data-app-script="myApp"></script>
+
+
+ <footer class="main-footer">
+    <strong>Copyright &copy; 2026 <a href="https://www.zivaansolutions.com">Zivaan Solutions</a>.</strong>
+    All rights reserved.    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 1.0
+    </div>
+ </footer>
+ 
+<script type="text/javascript">
+  var startDate = new Date($("#from_date").val());
+  /*alert(startDate);*/
+  var FromEndDate = new Date();
+  var ToEndDate = new Date();
+  ToEndDate.setDate(ToEndDate.getDate() + 365);
+  
+
+  // $('#from_date').datepicker({
+  //     autoclose: true,
+  //     todayHighlight: true,
+  //     format: 'dd-mm-yyyy',
+  //     startDate: startDate
+  // }).on('changeDate', function () {
+  //     var temp = $(this).datepicker('getDate');
+  //     var startDate = new Date(temp);
+  //     startDate.setDate(startDate.getDate(new Date(temp))+1);
+  //     $('#to_date').datepicker('setStartDate', startDate);
+  // });
+
+  // $('#to_date').datepicker({
+  //     weekStart: 1,
+  //     startDate: startDate,
+  //     endDate: ToEndDate,
+  //     format: 'dd-mm-yyyy',
+  //     autoclose: true
+  // }).on('changeDate', function (selected) {
+  //     var temp = $(this).datepicker('getDate');
+  //     var FromEndDate = new Date(temp);
+  //     FromEndDate.setDate(FromEndDate.getDate(new Date(temp)));
+  //     $('#from_date').datepicker('setEndDate', FromEndDate);
+  // });
+</script>
+
+<div class="message-modal"> 
+  <div class="modal fade" id="message" data-backdrop="static" data-keyboard="false"  style="z-index:99999999 !important">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header message-header text-left">
+          <h4 class="modal-title message_title">Message</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+          <h4>
+                      </h4>
+        </div>
+        <div class="modal-body message-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="clear_dummy_data_modal" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header failure-header text-left">
+        <h4 class="modal-title message_title">Message</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <h4>
+                  </h4>
+      </div>
+      <div class="modal-body message-body">
+        Are you sure want to clear dummy data ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="window.location.href='https://vaksys.com/pro/application_settings/clean_dummy_data'">Yes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="modal fade" id="create_backup_modal" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header warning-header text-left">
+        <h4 class="modal-title message_title">Message</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <h4>
+                  </h4>
+      </div>
+      <div class="modal-body message-body">
+        Do you want to create Backup ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="window.location.href='https://vaksys.com/pro/application_settings/update_application'">Yes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="modal fade" id="restore_dummy_data_modal" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header warning-header text-left">
+        <h4 class="modal-title message_title">Message</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <h4>
+                  </h4>
+      </div>
+      <div class="modal-body message-body">
+        Are you sure want to restore dummy data ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="window.location.href='https://vaksys.com/pro/application_settings/restore_dummy_data'">Yes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="modal fade" id="update_application_modal" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header info-header text-left">
+        <h4 class="modal-title message_title">Update Application</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <h4>
+                  </h4>
+      </div>
+      <div class="modal-body message-body">
+        
+        <p>Update is available to install.</p>
+        <h6 class="text-red">Important Notice</h6>
+        <p>Before updating application, please take backup of application manually. Updating application is irreversible.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" onclick="window.location.href='https://vaksys.com/pro/application_settings/update_application'">Install Update</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="guide-modal">
+  <div class="modal fade" id="guide_modal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header text-left teal-header">
+          <h4 class="modal-title">Question & Answers</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-5 col-sm-3">
+              <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="vert-tabs-accounting-tab" data-toggle="pill" href="#vert-tabs-accounting" role="tab" aria-controls="vert-tabs-accounting" aria-selected="true">Accounting</a>
+                <a class="nav-link" id="vert-tabs-company-setting-tab" data-toggle="pill" href="#vert-tabs-company-setting" role="tab" aria-controls="vert-tabs-company-setting" aria-selected="false">Company Setting</a>
+                <a class="nav-link" id="vert-tabs-application-setting-tab" data-toggle="pill" href="#vert-tabs-application-setting" role="tab" aria-controls="vert-tabs-application-setting" aria-selected="false">Application Setting</a>
+                <a class="nav-link" id="vert-tabs-sales-tab" data-toggle="pill" href="#vert-tabs-sales" role="tab" aria-controls="vert-tabs-sales" aria-selected="false">Sales</a>
+
+              </div>
+            </div>
+            <div class="col-7 col-sm-9">
+              <div class="tab-content" id="vert-tabs-tabContent">
+                <div class="tab-pane text-left fade show active" id="vert-tabs-accounting" role="tabpanel" aria-labelledby="vert-tabs-accounting-tab">
+                  <dl>
+                    <dt>What is Capital Account ?</dt>
+                    <dd>In accounting, a capital account is a general ledger account that is used to record the owner's contributed capital and retained earnings whether it is in any form i.e., Cash Balance, Bank Balance, Fixed Assests etc.</dd>
+
+                    <dt>What is Cash on Hand ?</dt>
+                    <dd>Cash on Hand is an Asset account. It is the total amount of any accessible cash. It is either brought by the capital or is received by any Sundry Debtor after sale or bank withdraw.</dd>
+
+                    <dt>How does cash on hand ledger account works ?</dt>
+                    <dd>Cash on Hand ledger works as debits(DR) increase its balance and credits(CR) decrease that total. This account, therefore, is said to carry a debit(DR) balance. In Simple form we can say that if Cash is Received it will be a debit Balance and if paid it will be a credit balance.</dd>
+                  </dl>
+                </div>
+                <div class="tab-pane fade" id="vert-tabs-company-setting" role="tabpanel" aria-labelledby="vert-tabs-company-setting-tab">
+                  <dl>
+                    <dt>What is the use of Bank detail & Terms and Condition in Company setting ?</dt>
+                    <dd>Mentioned Bank details and Terms & condition will be printed on sales invoice while printing.</dd>
+                  </dl>
+                </div>
+                <div class="tab-pane fade" id="vert-tabs-application-setting" role="tabpanel" aria-labelledby="vert-tabs-application-setting-tab">
+                  <dl>
+                    <dt>How can I change the sidebar menu text size ?</dt>
+                    <dd></dd>
+                  </dl>
+                </div>
+                <div class="tab-pane fade" id="vert-tabs-sales" role="tabpanel" aria-labelledby="vert-tabs-sales-tab">
+                   Pellentesque vestibulum commodo nibh nec blandit. Maecenas neque magna, iaculis tempus turpis ac, ornare sodales tellus. Mauris eget blandit dolor. Quisque tincidunt venenatis vulputate. Morbi euismod molestie tristique. Vestibulum consectetur dolor a vestibulum pharetra. Donec interdum placerat urna nec pharetra. Etiam eget dapibus orci, eget aliquet urna. Nunc at consequat diam. Nunc et felis ut nisl commodo dignissim. In hac habitasse platea dictumst. Praesent imperdiet accumsan ex sit amet facilisis. 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            Close          </button>
+        </div>
+      
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  </div>
+</div>
+
+<div id="calculator_modal" class="modal">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header" style="background-color: white;">
+              <h5 class="modal-title">Calculator</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+             <div id="calc-wrapper">
+              <div id="calculator">
+                <div id="screenLeft"></div>
+                <div id="screen"><span id="displayLeft"></span><span id="display">0</span></div>
+                <div class="leftPad">
+                  <button type="button" onclick="clearAll()" class="btncal btn-3">C</button>
+                  <button type="button" onclick="negate()" class="btncal">±</button>
+                  <button type="button" onclick="prc()" class="btncal">%</button>
+                  <button type="button" onclick="concatDigit(7)" class="btncal">7</button>
+                  <button type="button" onclick="concatDigit(8)" class="btncal">8</button>
+                  <button type="button" onclick="concatDigit(9)" class="btncal">9</button>
+                  <button type="button" onclick="concatDigit(4)" class="btncal">4</button>
+                  <button type="button" onclick="concatDigit(5)" class="btncal">5</button>
+                  <button type="button" onclick="concatDigit(6)" class="btncal">6</button>
+                  <button type="button" onclick="concatDigit(1)" class="btncal">1</button>
+                  <button type="button" onclick="concatDigit(2)" class="btncal">2</button>
+                  <button type="button" onclick="concatDigit(3)" class="btncal">3</button>
+                  <button type="button" onclick="concatDigit(0)" class="btncal">0</button>
+                  <button type="button" onclick="point()" class="btncal">.</button>
+                  <button type="button" onclick="equals(operation)" class="btncal btn-4">=</button>
+                </div>
+                <div class="rightPad">
+                  <button type="button" onclick="vals()" style="font-size:24px; border-radius: 5px" class="btncal btn-3">console<br/>log</button>
+                  <button type="button" onclick="div()" class="btncal btn-2">÷</button>
+                  <button type="button" onclick="mul()" class="btncal btn-2">×</button>
+                  <button type="button" onclick="dif()" class="btncal btn-2">–</button>
+                  <button type="button" onclick="sum()" class="btncal btn-2">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+  </div>
+</div>
+<div id="activate_modal" class="modal fade" style="z-index: 99999999;">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <form class="form-horizontal" name="activationForm" id="activationForm" method="POST" enctype="multipart/form-data">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            <i class="fas fa-key"></i>
+            Activate System
+          </h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-warning alert-dismissible">
+            <!-- <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> -->
+            <h5>Important Notice:</h5>
+            <ul>
+              <li>
+                Using same activation key in multiple setup of software ( whether in <b>localhost</b> or <b>on server</b> ), all setup will stop working and you might end up lossing the data.
+              </li>
+            </ul>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-4 col-form-label">Activation Key</label>
+            <div class="col-sm-6">
+              <textarea class="form-control form-control-sm" name="activation_key" id="activation_key" required="required"></textarea>
+              <span id="err_activation_key" class="error invalid-feedback"></span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input type="hidden" name="csrf_zivaan_pro" value="5e71a0106aa6329bc8fe58695fd3336e">
+          <button type="submit" name="submit" id="activateSubmit" class="btn btn-info" data-tt="tooltip" title="">
+            Activate          </button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="update_available_modal" class="modal fade">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="show_menu_modal" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header info-header text-left">
+        <h4 class="modal-title message_title">Menu</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <h4>
+                  </h4>
+      </div>
+      <div class="modal-body message-body">
+        
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://vaksys.com/pro/auth/dashboard" class="btn btn-block btn-outline-primary btn-sm mb-3"> <i class="nav-icon fas fa-tachometer-alt mr-2"></i> DASHBOARD</a>
+          </div>
+          
+          <div class="col-md-4">
+            <a href="https://vaksys.com/pro/employee" class="btn btn-block btn-outline-primary btn-sm mb-3"> <i class="nav-icon fas fa-university mr-2"></i> HR MODULE</a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="https://vaksys.com/pro/bank_account" class="btn btn-block btn-outline-primary btn-sm mb-3"> <i class="nav-icon fas fa-piggy-bank mr-2"></i> BANK ACCOUNT</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <table class="table table-bordered">
+            <thead>
+              <tr style="background-color:#F5F5F5;">
+                <th>PEOPLE</th>
+                <th>ACCOUNT</th>
+                <th>INVENTORY</th>
+                <th>TRANSACTION</th>
+                <th>REPORTS</th>
+                <th>SETTINGS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ul class="custom-list">
+                                            <li><a href="https://vaksys.com/pro/auth/user_roles">User Roles</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/auth/users">Users</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/customer">Customers</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/supplier">Suppliers</a></li>
+                                      </ul>
+                </td>
+
+                <td>
+                  <ul class="custom-list">
+                                            <li><a href="https://vaksys.com/pro/cash_bank_entry">Cash Bank Entry</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/bank_statement">Bank Statement</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/pdc_receive">PDC Receive</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/pdc_payment">PDC Payment</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/scrap_entry">Scrap Entry</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/scrap_issue">Scrap Issue</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/scrap_receive">Scrap Receive</a></li>
+                                      </ul>
+                </td>
+
+                <td>
+                  <ul class="custom-list">
+                                                                    <li class="d-none"><a href="https://vaksys.com/pro/promotion">Promotion</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/warehouse">Warehouse</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/product_category">Product Category</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/product_core">Add Product</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/product">All Products</a></li>
+                    
+                   
+
+                                            <li><a href="https://vaksys.com/pro/scrap_product">All Scrap Products</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/stock_entry">Stock Entry</a></li>
+                                      </ul>
+                </td>
+
+                <td>
+                  <ul class="custom-list">
+                                            <li><a href="https://vaksys.com/pro/purchase_order">Purchase Order</a></li>
+                                                                <li><a href="https://vaksys.com/pro/purchase">Purchase</a></li>
+                                                                <li><a href="https://vaksys.com/pro/purchase_return">Purchase Return</a></li>
+                                                              <li><a href="https://vaksys.com/pro/transfer">Transfer</a></li>
+                                                              <li><a href="https://vaksys.com/pro/quotation">Quotation</a></li>
+                                        
+                        <li><a href="https://vaksys.com/pro/proforma_invoice">Proforma Invoice</a></li>
+                                                                                    <li><a href="https://vaksys.com/pro/sales_return">Sales Return</a></li>
+                                                                <li><a href="https://vaksys.com/pro/credit_debit_note">Credit Debit Note</a></li>
+                                                                <li><a href="https://vaksys.com/pro/expense">Expense</a></li>
+                                      </ul>
+                </td>
+
+                <td>
+                  <ul class="custom-list">
+                   
+                                              <li><a href="https://vaksys.com/pro/report/customer_payment_due">Customer Payment Due</a></li>
+                                          
+                                              <li><a href="https://vaksys.com/pro/report/supplier_payment_due">Supplier Payment Due</a></li>
+                                          
+                   
+                                              <li><a href="https://vaksys.com/pro/report/stock_value">Stock Value</a></li>
+                                         
+                    
+                                              <li><a href="https://vaksys.com/pro/report/closing_stock">Closing Stock</a></li>
+                                         
+                                              <li><a href="https://vaksys.com/pro/report/inventory_product_added">Inventory Product Added</a></li>
+                                          
+                   
+                                              <li><a href="https://vaksys.com/pro/report/receivable">Receivable</a></li>
+                                          
+                                              <li><a href="https://vaksys.com/pro/report/payable">Payable</a></li>
+                                          
+                    
+                                              <li><a href="https://vaksys.com/pro/report/gstr1">GSTR1</a></li>
+                                          
+                    
+                                              <li><a href="https://vaksys.com/pro/report/gstr2">GSTR2</a></li>
+                                         
+                                              <li><a href="https://vaksys.com/pro/report/hsn_sale">HSN Sale</a></li>
+                                          
+                                              <li><a href="https://vaksys.com/pro/report/hsn_purchase">HSN Purchase</a></li>
+                                         
+                   
+                                              <li><a href="https://vaksys.com/pro/report/stock">Stock</a></li>
+                                          
+                                              <li><a href="https://vaksys.com/pro/report/product">Product Detail</a></li>
+                                          
+                    
+                                              <li><a href="https://vaksys.com/pro/report/product_sale">Product Sale</a></li>
+                                         
+                    
+                                              <li><a  href="https://vaksys.com/pro/report/product_purchase">Product Purchase</a></li>
+                                          
+                   
+                                              <li><a href="https://vaksys.com/pro/report/sale">Sales</a></li>
+                                          
+                   
+                                              <li><a href="https://vaksys.com/pro/report/sales_return">Sales Return</a></li>
+                                          
+                   
+                                              <li><a href="https://vaksys.com/pro/report/purchase">Purchase</a></li>
+                                          
+                    
+                                              <li><a href="https://vaksys.com/pro/report/purchase_return">Purchase Return</a></li>
+                                         
+                    
+                                              <li><a href="https://vaksys.com/pro/report/expense">Expense</a></li>
+                                         
+                    
+                                              <li><a href="https://vaksys.com/pro/report/ledger">Ledger</a></li>
+                                          
+                                          
+                    
+                  </ul>
+                </td>
+
+                <td>
+                  <ul class="custom-list">
+                  
+                                            <li><a href="https://vaksys.com/pro/settings">Company settings</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/custom_field">Custom settings</a></li>
+                    
+
+                                            <li><a href="https://vaksys.com/pro/email_template">Email Template</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/whatsapp_template">Whatsapp Template</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/expense_category">Expense Category</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/item">Item</a></li>
+                                                                <li><a href="https://vaksys.com/pro/tax">Tax</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/discount">Discount</a></li>
+                    
+                                            <li><a href="https://vaksys.com/pro/currency">Currency</a></li>
+                                      </ul>
+                </td>
+
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(e){
+    const Toast = Swal.mixin({
+                            toast: true,
+                            position: 'top-end',
+                            showConfirmButton: false,
+                            timer: 10000
+                          });
+
+
+
+   
+
+    $('#activate_modal').on('shown.bs.modal',function(event){
+      $.get('https://vaksys.com/pro/application_settings/index', function(data, status){
+        $('#activation_key').text(JSON.parse(data).application_settings.activation_key);    
+      });
+    });
+
+    $(document).on('submit','form#activationForm',function(e){
+      e.preventDefault();
+
+      var activationFormData = $('form#activationForm').serialize();
+      $('#activateSubmit').text('Activating...').attr('disabled','disabled');
+
+      $.ajax({
+        url: "https://vaksys.com/pro/application_settings/activate",
+        type: "POST",
+        data: activationFormData,
+        dataType: "JSON",
+        success: function(data){
+
+          // alert(data);
+          var toast_type = '';
+          var toast_message = '';
+
+          if(data.code == 1)
+          {
+            toast_type    = 'success';
+            toast_message = data.message; 
+            $('#err_activation_key').text('');
+            $('#activateSubmit').text('Activated')
+            $('#activate_modal').modal('hide');
+
+            Toast.fire({
+              type: toast_type,
+              title: toast_message
+            });
+
+            location.reload();
+          }
+          else if(data.code == 0)
+          {
+            $('#activateSubmit').removeAttr('disabled').text('Activate');
+          }
+          else if(data.code == 2)
+          {
+            alert(data.message);
+            $('#activateSubmit').removeAttr('disabled').text('Activate'); 
+          }
+        }
+      });
+    });
+  });
+</script>
+<div class="short-cut-modal">
+  <div class="modal fade" id="short_cut_modal" data-keyboard="true" tabindex="-1" style="z-index: 99999999999 !important">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header text-left primary-header">
+          <h4 class="modal-title">All Shortcuts</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <table class="table table-bordered" width="100%">
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-keyboard text-primary"></i> </td>
+                  <td>Go Shortcuts</td>
+                  <td class="short_cut">CTRL + ALT + 1</td> 
+                  <td class="td_font_awesome"><i class="fas fa-tachometer-alt text-red"></i></td>
+                  <td>Dashboard</td>
+                  <td class="short_cut" colspan="4">CTRL + ALT + H</td> 
+                  <!-- <td class="td_font_awesome"><i class="fas fa-tree text-yellow"></i> </td>
+                  <td>GST Return</td>
+                  <td class="short_cut">CTRL + ALT + G</td>  -->
+                </tr>
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-user-cog text-purple"></i></td>
+                  <td>User Roles</td>
+                  <td class="short_cut">CTRL + ALT + R</td> 
+                  <td class="td_font_awesome"><i class="fas fa-users text-pink"></i></td>
+                  <td>Users</td>
+                  <td class="short_cut">CTRL + ALT + I</td> 
+                  <td class="td_font_awesome"><i class="fas fa-user-friends text-yellow"></i></td>
+                  <td>Customers</td>
+                  <td class="short_cut">CTRL + ALT + C</td> 
+                </tr>
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-warehouse text-red"></i></td>
+                  <td>Warehouse</td>
+                  <td class="short_cut">CTRL + ALT + W</td> 
+                  <td class="td_font_awesome"><i class="fas fas fa-shapes text-blue"></i></td>
+                  <td>Product Category</td>
+                  <td class="short_cut">CTRL + ALT + J</td>
+                  <td class="td_font_awesome"><i class="fas fa-dice-d20 text-green"></i></td>
+                  <td>Product</td>
+                  <td class="short_cut">CTRL + ALT + K</td> 
+                  
+                </tr>
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-piggy-bank text-blue"></i></td>
+                  <td>Bank Account</td>
+                  <td class="short_cut">CTRL + ALT + B</td> 
+                  <td class="td_font_awesome"><i class="fas fa-balance-scale text-pink"></i></td>
+                  <td>Balance Sheet Report</td>
+                  <td class="short_cut">CTRL + ALT + F</td>
+                  <td class="td_font_awesome"><i class="fas fa-store text-red"></i></td>
+                  <td>Sale</td>
+                  <td class="short_cut">CTRL + ALT + S</td> 
+                  
+                </tr>
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-reply text-red"></i> </td>
+                  <td>Sale Return</td>
+                  <td class="short_cut">CTRL + ALT + A</td> 
+                  <td class="td_font_awesome"><i class="fas fa-file-invoice-dollar text-green"></i></td>
+                  <td>Quotation</td>
+                  <td class="short_cut">CTRL + ALT + Q</td> 
+                  <td class="td_font_awesome"><i class="fab fa-codepen text-green"></i></td>
+                  <td>Expense</td>
+                  <td class="short_cut">CTRL + ALT + E</td> 
+                </tr>
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-male text-yellow"></i> </td>
+                  <td>Suppliers</td>
+                  <td class="short_cut">CTRL + ALT + O</td> 
+                  <td class="td_font_awesome"><i class="fas fa-book-open text-yellow"></i> </td>
+                  <td>Sales Report</td>
+                  <td class="short_cut">CTRL + ALT + 2</td> 
+                  <td class="td_font_awesome"><i class="fab fa-readme text-red"></i> </td>
+                  <td>Expense Report</td>
+                  <td class="short_cut">CTRL + ALT + 3</td> 
+                </tr>
+
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-hand-holding-usd text-teal"></i></td>
+                  <td>Profit & Loss Report</td>
+                  <td class="short_cut">CTRL + ALT + 4</td>
+                  <td class="td_font_awesome"><i class="fas fa-search-dollar text-orange"></i></td> 
+                  <td>Ledger Report</td>
+                  <td class="short_cut">CTRL + ALT + 5</td> 
+                  <td class="td_font_awesome"><i class="fas fa-cogs text-pink"></i></td> 
+                  <td>Company Settings</td>
+                  <td class="short_cut">CTRL + ALT + Z</td> 
+                </tr>
+
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-hand-holding-usd text-yellow"></i></td>
+                  <td>Application Settings</td>
+                  <td class="short_cut">CTRL + ALT + X</td>
+                  <td class="td_font_awesome"><i class="fas fa-receipt text-yellow"></i></td> 
+                  <td>Expense Category</td>
+                  <td class="short_cut">CTRL + ALT + V</td> 
+                  <td class="td_font_awesome"><i class="fas fa-file-invoice text-green"></i></td> 
+                  <td>Tax</td>
+                  <td class="short_cut">CTRL + ALT + T</td> 
+                </tr>
+
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-percent text-red"></i></td>
+                  <td>Discount</td>
+                  <td class="short_cut">CTRL + ALT + D</td>
+                  <td class="td_font_awesome"><i class="fab fa-ethereum  text-green"></i></td> 
+                  <td>Currency</td>
+                  <td class="short_cut">CTRL + ALT + Y</td> 
+                  <td class="td_font_awesome"><i class="fas fa-life-ring text-purple"></i></td> 
+                  <td>Email Configuration</td>
+                  <td class="short_cut">CTRL + ALT + M</td> 
+                </tr>
+
+                <tr>
+                  <td class="td_font_awesome"><i class="fas fa-history text-pink"></i></td>
+                  <td>History Logs</td>
+                  <td class="short_cut">CTRL + ALT + L</td>
+                  <td class="td_font_awesome"><i class="fas fa-shopping-bag text-yellow"></i></td>
+                  <td>Purchase</td>
+                  <td class="short_cut">CTRL + ALT + N</td>
+                  <td class="td_font_awesome"><i class="fas fa-reply text-yellow"></i></td>
+                  <td>Purchase Return</td>
+                  <td class="short_cut">CTRL + ALT + U</td>
+                 
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" data-tt="tooltip" title="Click to Close the modal or Press ESC">
+            Close          </button>
+        </div>
+      
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript">
+      $(document).ready(function(e){
+        document.addEventListener ("keydown", function (zEvent) {
+          
+          if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "h") {  
+            window.location.href="https://vaksys.com/pro/auth/dashboard";
+          }
+          // else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "g") {  
+          //   window.location.href="https://vaksys.com/pro/gst_return";
+          // }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "w") {  
+            window.location.href="https://vaksys.com/pro/warehouse";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "n") {  
+            window.location.href="https://vaksys.com/pro/purchase";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "u") {  
+            window.location.href="https://vaksys.com/pro/purchase_return";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "j") {  
+            window.location.href="https://vaksys.com/pro/product_category";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "k") {  
+            window.location.href="https://vaksys.com/pro/product";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "r") {  
+            window.location.href="https://vaksys.com/pro/auth/user_roles";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "i") {  
+            window.location.href="https://vaksys.com/pro/auth/users";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "c") {  
+            window.location.href="https://vaksys.com/pro/customer";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "b") {  
+            window.location.href="https://vaksys.com/pro/bank_account";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "f") {  
+            window.location.href="https://vaksys.com/pro/report/balance_sheet";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "s") {  
+            window.location.href="https://vaksys.com/pro/sale";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "a") {  
+            window.location.href="https://vaksys.com/pro/sales_return";
+          }        
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "q") {  
+            window.location.href="https://vaksys.com/pro/quotation";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "e") {  
+            window.location.href="https://vaksys.com/pro/expense";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "o") {  
+            window.location.href="https://vaksys.com/pro/supplier";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "2") {  
+            window.location.href="https://vaksys.com/pro/report/sale";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "3") {  
+            window.location.href="https://vaksys.com/pro/report/expense";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "4") {  
+            window.location.href="https://vaksys.com/pro/report/profit_and_loss";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "5") {  
+            window.location.href="https://vaksys.com/pro/report/ledger";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "z") {  
+            window.location.href="https://vaksys.com/pro/settings";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "x") {  
+            window.location.href="https://vaksys.com/pro/application_settings";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "v") {  
+            window.location.href="https://vaksys.com/pro/expense_category";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "t") {  
+            window.location.href="https://vaksys.com/pro/tax";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "d") {  
+            window.location.href="https://vaksys.com/pro/discount";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "y") {  
+            window.location.href="https://vaksys.com/pro/currency";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "m") {  
+            window.location.href="https://vaksys.com/pro/email_setup";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "l") {  
+            window.location.href="https://vaksys.com/pro/log_data";
+          }
+          else if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "1") {  
+            $('#short_cut_modal').modal('show');
+          }
+        });
+      })
+    </script>
+
+    <script type="text/javascript">
+      $.AdminLTESidebarTweak = {};
+
+      $.AdminLTESidebarTweak.options = {
+              EnableRemember: true,
+              NoTransitionAfterReload: true
+              //Removes the transition after page reload.
+      };
+
+      $(function () {
+          "use strict";
+
+          $("body").on("collapsed.pushMenu", function() {
+              if($.AdminLTESidebarTweak.options.EnableRemember) {
+                  localStorage.setItem("toggleState", "closed");
+              }
+          });
+              
+          $("body").on("expanded.pushMenu", function() {
+                  if($.AdminLTESidebarTweak.options.EnableRemember) {
+                      localStorage.setItem("toggleState", "opened");
+                  } 
+          });
+
+          if ($.AdminLTESidebarTweak.options.EnableRemember) {
+              var toggleState = localStorage.getItem("toggleState");
+              if (toggleState == 'closed'){
+                  if ($.AdminLTESidebarTweak.options.NoTransitionAfterReload) {
+                      $("body").addClass('sidebar-collapse hold-transition').delay(100).queue(function() {
+                          $(this).removeClass('hold-transition');
+                      });
+                  } else {
+                      $("body").addClass('sidebar-collapse');
+                  }
+              }
+          }
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(e){
+
+        const CapitalToast = Swal.mixin({
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 10000
+        });
+
+        $('#capitalLedgerForm').submit(function(e){
+          e.preventDefault();
+
+          var capitalLedgerForm        = $(this).closest('form');        
+          var capitalLedgerFormData    = capitalLedgerForm.serialize();
+
+          $('#capitalLedgerSubmit').text('Please wait...').attr('disabled','disabled');
+
+          $.ajax({
+            url: "https://vaksys.com/pro/transaction/add",
+            type: "POST",
+            data: capitalLedgerFormData,
+            dataType: "JSON",
+            success: function(data){
+
+              $('#capital_modal').modal('hide');
+              
+              capitalLedgerForm.find('input[name="transaction_amount"]').val('');
+
+              if(data.code == 1)
+              {
+                CapitalToast.fire({
+                  type: 'success',
+                  title: data.message
+                });
+
+                location.reload();
+              }
+              else
+              {
+                CapitalToast.fire({
+                  type: 'error',
+                  title: data.message
+                }); 
+                location.reload();
+              } 
+              $('#capitalLedgerSubmit').text('Save').removeAttr('disabled');         
+            }
+          });   
+        });
+
+        $('#cashCapitalLedgerForm').submit(function(e){
+          e.preventDefault();
+          var isError = false;
+
+          $('form#cashCapitalLedgerForm .field_validation').each(function() {
+              
+              var id    = $(this).attr('id');
+              var value = $(this).val();
+              var field = $(this).attr('placeholder');
+
+              if(value==null || value==""){
+                $("form#cashCapitalLedgerForm #err_"+id).text(field+ " field is required.").fadeIn('slow');
+                $('form#cashCapitalLedgerForm #'+id).addClass('is-invalid');
+                isError = true;
+              }
+              else
+              {
+                $("form#cashCapitalLedgerForm #err_"+id).text("").fadeOut('slow');
+                $('form#cashCapitalLedgerForm #'+id).removeClass('is-invalid');
+                $('form#cashCapitalLedgerForm #'+id).addClass('is-valid');
+              }
+          });
+
+          if(isError == true)
+          {
+            return false;
+          }
+          else
+          {
+            var cashCapitalLedgerFormData = $(this).closest('form').serialize();
+            $('#cashCapitalLedgerSubmit').text('Please wait...').attr('disabled','disabled');
+
+            $.ajax({
+              url: "https://vaksys.com/pro/transaction/add",
+              type: "POST",
+              data: cashCapitalLedgerFormData,
+              dataType: "JSON",
+              success: function(data){
+
+                $('#cash-to-capital_modal').modal('hide');
+                if(data.code == 1)
+                {
+                  CapitalToast.fire({
+                    type: 'success',
+                    title: data.message
+                  });
+                  location.reload();
+                }
+                else
+                {
+                  CapitalToast.fire({
+                    type: 'error',
+                    title: data.message
+                  }); 
+                  location.reload();
+                } 
+
+                $('#cashCapitalLedgerSubmit').text('Save').removeAttr('disabled');
+              }
+            });  
+          }
+        });
+      });
+    </script>
+
+    <script>
+      //paste this code under head tag or in a seperate js file.
+      // Wait for window load
+      $(document).ready(function() {
+        // Animate loader off screen
+        setTimeout(function(){ 
+          $(".se-pre-con").fadeOut(); 
+        }, 10);
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $("input[data-bootstrap-switch]").each(function(){
+          $(this).bootstrapSwitch('state', $(this).prop('checked'));
+        });
+        $("#example1").DataTable({
+          "ordering": false,
+          "iDisplayLength": 50,
+          "aLengthMenu": [[10, 15, 25, 35, 50, 100, -1], [10, 15, 25, 35, 50, 100, "All"]]
+        });
+        $('#example2').DataTable({
+          "paging": true,
+          "lengthChange": true,
+          "searching": true,
+          "ordering": true,
+          "info": true,
+          "autoWidth": false,
+          "iDisplayLength": 50,
+          "aLengthMenu": [[10, 15, 25, 35, 50, 100, -1], [10, 15, 25, 35, 50, 100, "All"]]
+        });
+      });
+
+      function show_message(message_header,message_body = null)
+      {
+        var message_headers = ['success-header','info-header','failure-header','secondary-header']
+
+        for (var i = message_headers.length - 1; i >= 0; i--) 
+        {
+          if($('.message_header').hasClass(message_headers[i]))
+          {
+            $('.message_header').removeClass(message_headers[i]);  
+          }
+        }
+
+        $('.message-header').addClass(message_header);
+
+        if(message_body != null)
+        {
+          $('.message-body').html(message_body);
+        }
+
+        $('#message').modal('show');
+      }
+    </script>
+
+    <script>
+      $(document).ready(function(e){
+        
+        // Initialize tooltip
+        $('[data-tt="tooltip"]').tooltip({trigger : 'hover'}); 
+        
+        // Mask the date
+        $('[data-mask]').inputmask("99-99-9999");
+
+        //Initialize Select2 Elements
+        $('.select2bs4').select2({
+          theme: 'bootstrap4'
+        });
+
+        $('.datepicker').datepicker({
+            weekStart: 1,
+            daysOfWeekHighlighted: "6,0",
+            autoclose: true,
+            todayHighlight: true,
+            format: 'dd-mm-yyyy'
+        });
+
+        // $('.datepicker').datepicker("setDate", new Date());
+      });
+    </script>
+
+    <script type="text/javascript">
+
+      $(function() {
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 10000
+        });
+
+      
+      
+      
+          });
+  </script>
+  </body>
+</html>
+<script type="text/javascript">
+  $(document).ready(function(e){
+    $('.print_invoice').click(function(e){
+      $('.invoice').printThis();
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(e){
+
+    $('.saleDeliveryDetailCard').css('display','none');
+    $('.addDeliveryDetailCard').css('display','none');
+
+    $('#transaction-modal').on('show.bs.modal', function (e) {
+
+      $('.addTransactionCard').css('display','block');
+
+      var sale_id = $(e.relatedTarget).data('sale_id');
+
+      if (!(typeof sale_id === 'undefined')) {
+
+        $('#sale_id').val(sale_id);
+            
+        $.ajax({
+          url: "https://vaksys.com/pro/sale/view/"+sale_id,
+          type: "GET",
+          dataType: "JSON",
+          success: function(data){
+
+            $(".sale_detail").html(data.sale_view);
+            $(".add_transaction").html(data.add_transaction);
+            $("#from_account").val(data.from_account);
+            $(".transaction_entries").html(data.previous_transaction_view);
+
+            $('#transaction-modal').find('input[name="voucher_date"]').datepicker({
+              weekStart: 1,
+              daysOfWeekHighlighted: "6,0",
+              autoclose: true,
+              todayHighlight: true,
+              format: 'dd-mm-yyyy'
+            });
+
+            if(data.due_amount == 0)
+            {
+              $('.addTransactionCard').css('display','none');
+              // collapse all accordian
+              $('#transactionEntries').collapse("hide");
+              $('#saleDetail').collapse("show");  
+            }
+            else
+            {
+              // collapse all accordian
+              $('#transactionEntries').collapse("hide");
+              $('#addTransaction').collapse("hide");
+              $('#saleDetail').collapse("show");  
+            }
+          }
+        });
+      }
+
+
+    });
+
+    $(document).on('hide.bs.modal','#transaction-modal' ,function (e) {
+
+      // alert($('#is_there_change_in_transaction').val());
+      
+      if($('#is_there_change_in_transaction').val() == "true")
+      {
+        location.reload();
+      }
+      
+    });
+
+    $('#delivery-modal').on('show.bs.modal', function (e) {
+
+      var sale_id = $(e.relatedTarget).data('sale_id');
+      $('#sale_id').val(sale_id);
+      $('#addNewDeliveryDetail').data('sale_id',sale_id);
+
+      if($(e.relatedTarget).hasClass('open_delivery_modal'))
+      {
+        $.ajax({
+          url: "https://vaksys.com/pro/sale/view_delivery",
+          type: "POST",
+          data: {
+            'sale_id':sale_id,
+            'csrf_zivaan_pro' : '5e71a0106aa6329bc8fe58695fd3336e'
+          },
+          dataType: "JSON",
+          success: function(data){
+
+            // if all quantity is delivered, hide the add new delivery button
+            if(data.is_all_products_delivered == true)
+            {
+              $('#addNewDeliveryDetail').css('display','none');
+            }
+            else
+            {
+              $('#addNewDeliveryDetail').css('display','block'); 
+            }  
+
+            // $(".add_delivery_detail").html(data.add_delivery_detail);
+            $(".delivery_entries").html(data.delivery_transaction);
+            $(".sale_delivery_detail").html(data.sale_delivery_detail);
+            
+            $('.view_delivery_transaction_detail').css('display','none');
+            $('#deliveryEntries').collapse("show");
+
+            $('#addDeliveryDetailForm').find('input[name="sale_id"]').val(sale_id);
+
+            
+          }
+        });  
+      }      
+    });
+
+    $(document).on('hide.bs.modal','#delivery-modal' ,function (e) {
+  
+      if($('#is_there_change_in_delivery_transaction').val() == "true")
+      {
+        location.reload();
+      }
+         
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(e){
+
+    $('.saleDeliveryDetailCard').css('display','none');
+    $('.addDeliveryDetailCard').css('display','none');
+
+    // View delivery transaction
+    $(document).on('click', '.view_delivery_transaction', function (event) {
+
+      $('.view_delivery_transaction_detail').css('display','none');
+      $(this).parents('tr').next('tr').toggle(200);
+      
+    });
+
+    // Add new delivery of sale
+    $(document).on('click','#addNewDeliveryDetail',function(e){
+
+      $('.addDeliveryDetailCard').toggle(200);
+
+      var sale_id = $('#addDeliveryDetailForm').find('input[name="sale_id"]').val();
+
+      $.ajax({
+        url: "https://vaksys.com/pro/sale/add_sale_delivery/"+sale_id,
+        type: "GET",
+        dataType: "JSON",
+        success: function(data){
+
+          $(".add_delivery_detail").html(data.add_delivery_detail);
+
+          // Initialize the dropdown and date
+  
+          $('.select2bs4').select2({
+            theme: 'bootstrap4'
+          });
+  
+          $('#delivery-modal').find('input[name="delivery_date"]').datepicker({
+            weekStart: 1,
+            daysOfWeekHighlighted: "6,0",
+            autoclose: true,
+            todayHighlight: true,
+            format: 'dd-mm-yyyy'
+          });
+            
+        }
+      });
+
+      $('#addDeliveryDetail').collapse('show');
+    });
+
+    // Populate delivery data of sale
+    $(document).on('click','#addDeliveryDetailSubmit',function(e){
+      e.preventDefault();
+
+      var deliveryDataArray = [];
+
+      $("#product_delivery_item_body").find('tr').each(function () {
+
+        var tr                      = $(this).closest("tr");
+        var deliveryData            = {};
+
+        deliveryData['product_id']            = tr.find('input[name="quantity"]').data('product_id');
+        deliveryData['warehouse_product_id']  = tr.find('input[name="warehouse_product_id"]').val();
+        deliveryData['quantity']              = tr.find('input[name="quantity"]').val();
+        deliveryData['cost']                  = tr.find('input[name="quantity"]').data('cost');
+        deliveryData['price']                 = tr.find('input[name="quantity"]').data('price');
+        deliveryData['selling_price']         = tr.find('input[name="quantity"]').data('selling_price');
+
+        deliveryDataArray.push(JSON.stringify(deliveryData));
+      });
+
+       
+      $('#addDeliveryDetailForm').find('input[name="delivery_items"]').val(deliveryDataArray.join('|'));
+
+      $('#addDeliveryDetailForm').trigger('submit');
+    });
+
+    // Submit delivery data of sale
+    $(document).on('submit','#addDeliveryDetailForm',function(e){
+      e.preventDefault();
+
+      var isError = false;
+
+      $('form#addDeliveryDetailForm .field_validation').each(function() {
+          var id    = $(this).attr('id');
+          var value = $(this).val();
+          var field = $(this).attr('placeholder');
+          var name  = $(this).attr('name');
+
+          // alert(name);
+          
+          if(value==null || value=="")
+          {
+            $("form#addDeliveryDetailForm #err_"+id).text(field+ " field is required.").fadeIn('slow');
+            $('form#addDeliveryDetailForm #'+id).addClass('is-invalid');
+            isError = true;
+          }
+          else
+          {
+            $("form#addDeliveryDetailForm #err_"+id).text("").fadeOut('slow');
+            $('form#addDeliveryDetailForm #'+id).removeClass('is-invalid');
+            $('form#addDeliveryDetailForm #'+id).addClass('is-valid');
+          }
+
+          if(name == 'quantity')
+          {
+            var max = parseInt($(this).attr('max'));
+            if(parseInt(value) > max)
+            {
+              $("form#addDeliveryDetailForm #err_"+id).text(field+ " should be <= "+ max).fadeIn('slow');
+              $('form#addDeliveryDetailForm #'+id).addClass('is-invalid');
+              isError = true;   
+            }
+          }
+
+
+      });
+
+      if(isError == true)
+      {
+        return false;
+      }
+      else
+      {
+        var DeliveryDetailFormData  = $('#addDeliveryDetailForm').serialize();  
+        var sale_id                 = $('form#addDeliveryDetailForm').find('input[name="sale_id"]').val(); 
+
+        $('#addDeliveryDetailSubmit').text('Please wait while we are saving').addClass('disabled');
+
+        setTimeout(function(){ 
+
+          $.ajax({
+            url: "https://vaksys.com/pro/sale/add_sale_delivery",
+            type: "POST",
+            data: DeliveryDetailFormData,
+            dataType: "JSON",
+            success: function(data){
+
+
+              if(data.code == 1)
+              {
+                $('#addDeliveryDetailSubmit').text('Submit').removeClass('disabled');
+                $.ajax({
+                  url: "https://vaksys.com/pro/sale/view_delivery",
+                  type: "POST",
+                  data: {
+                    'sale_id':sale_id,
+                    'csrf_zivaan_pro' : '5e71a0106aa6329bc8fe58695fd3336e'
+                  },
+                  dataType: "JSON",
+                  success: function(data){
+
+                    // if all quantity is delivered, hide the add new delivery button
+                    if(data.is_all_products_delivered == true)
+                    {
+                      $('#addNewDeliveryDetail').css('display','none');
+                    }
+                    else
+                    {
+                      $('#addNewDeliveryDetail').css('display','block'); 
+                    }  
+
+                    $('.addDeliveryDetailCard').toggle(200);
+                    $(".add_delivery_detail").html('');
+                    $(".delivery_entries").html(data.delivery_transaction);
+                    // $(".sale_delivery_detail").html(data.sale_delivery_detail);
+                    
+                    $('.view_delivery_transaction_detail').css('display','none');
+                    $('#deliveryEntries').collapse("show");
+
+                    $('#addDeliveryDetailForm').find('input[name="sale_id"]').val(sale_id);
+
+                    $("#is_there_change_in_delivery_transaction").val("true");
+                  }
+                });  
+              }
+            }
+          });
+        }, 500);  
+      }
+    });
+
+    $("form#addDeliveryDetailForm").on("change", '.field_validation', function (event){
+
+      var id    = $(this).attr('id');
+      var value = $(this).val();
+      var field = $(this).attr('placeholder');
+      var name  = $(this).attr('name');
+      
+      if(value==null || value==""){
+        $("form#addDeliveryDetailForm #err_"+id).text(field+ " field is required.").fadeIn('slow');
+        $('form#addDeliveryDetailForm #'+id).addClass('is-invalid');
+        return false;
+      }
+      else{
+        $("form#addDeliveryDetailForm #err_"+id).text("").fadeOut('slow');
+        $('form#addDeliveryDetailForm #'+id).removeClass('is-invalid');
+        $('form#addDeliveryDetailForm #'+id).addClass('is-valid');
+      }
+
+      if(name == 'quantity')
+      {
+        var max = parseInt($(this).attr('max'));
+        if(parseInt(value) > max)
+        {
+          $("form#addDeliveryDetailForm #err_"+id).text(field+ " should be <= "+ max).fadeIn('slow');
+          $('form#addDeliveryDetailForm #'+id).addClass('is-invalid');
+          return false;  
+        }
+        else
+        {
+          $("form#addDeliveryDetailForm #err_"+id).text("").fadeOut('slow');
+          $('form#addDeliveryDetailForm #'+id).removeClass('is-invalid');
+          $('form#addDeliveryDetailForm #'+id).addClass('is-valid');   
+        }
+      }
+    });
+
+    $(document).on('click','#cancelDeliveryDetail',function(e){
+      $('.addDeliveryDetailCard').toggle(200);
+      $('#addDeliveryDetail').collapse('hide');
+      
+    });
+
+    $(document).on('click','.delete_delivery_transaction',function(e){
+      $(this).fadeOut(10);
+      $(this).closest('td').find('.delete_delivery_transaction_confirmation').fadeIn();
+    });
+
+    $(document).on('click', '.delete_delivery_transaction_no', function (event) {
+      $(this).closest('td').find('.delete_delivery_transaction_confirmation').fadeOut(10);
+      $(this).closest('td').find('.delete_delivery_transaction').fadeIn(20);
+    });
+
+    $(document).on('click', '.delete_delivery_transaction_yes', function (event) {
+      // $(this).closest('td').find('.delete_transaction_confirmation').fadeOut(10);
+      $(this).closest('td').find('.delete_delivery_transaction_confirmation').fadeOut(1);
+      
+
+      var $this                 = $(this);
+      var sale_delivery_id  = $(this).data('sale_delivery_id');
+      var sale_id           = $('#addDeliveryDetailForm').find('input[name="sale_id"]').val();
+
+      $(this).closest('td').find('.delete_delivery_transaction_yes').text('Please wait...').addClass('disabled').fadeIn(1500);
+
+      setTimeout(function(){ 
+
+        $.ajax({
+          url: "https://vaksys.com/pro/sale/delete_sale_delivery",
+          type: "POST",
+          data: {
+            'sale_delivery_id':sale_delivery_id,
+            'csrf_zivaan_pro' : '5e71a0106aa6329bc8fe58695fd3336e'
+          },
+          dataType: "JSON",
+          success: function(data){
+
+            $this.removeClass('btn-info').addClass('btn-success').text(data.message);
+            $('#is_there_change_in_delivery_transaction').val('true');
+
+            setTimeout(function(){ 
+
+              if(data.code == 1)
+              {
+                $.ajax({
+                  url: "https://vaksys.com/pro/sale/view_delivery",
+                  type: "POST",
+                  data: {
+                    'sale_id':sale_id,
+                    'csrf_zivaan_pro' : '5e71a0106aa6329bc8fe58695fd3336e'
+                  },
+                  dataType: "JSON",
+                  success: function(data){
+
+                    // if all quantity is delivered, hide the add new delivery button
+                    if(data.is_all_products_delivered == true)
+                    {
+                      $('#addNewDeliveryDetail').css('display','none');
+                    }
+                    else
+                    {
+                      $('#addNewDeliveryDetail').css('display','block'); 
+                    }  
+
+                    // $(".add_delivery_detail").html(data.add_delivery_detail);
+                    $(".delivery_entries").html(data.delivery_transaction);
+                    $(".sale_delivery_detail").html(data.sale_delivery_detail);
+                    
+                    $('.view_delivery_transaction_detail').css('display','none');
+                    $('#deliveryEntries').collapse("show");
+
+                    $('#addDeliveryDetailForm').find('input[name="sale_id"]').val(sale_id);
+                  }
+                });
+
+                
+              }
+
+            },500);
+          }
+        });
+      }, 500);
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(e){
+
+    $('body').on('click', '.transactionEntries', function() {
+      $('#transactionEntries').collapse("show");
+      $('#addTransaction').collapse("hide");
+      $('#saleDetail').collapse("hide");
+    });
+
+    $('body').on('click', '.addTransaction', function() {
+      $('#transactionEntries').collapse("hide");
+      $('#addTransaction').collapse("show");
+      $('#saleDetail').collapse("hide");
+    });
+
+    $('body').on('click', '.saleDetail', function() {
+      $('#transactionEntries').collapse("hide");
+      $('#addTransaction').collapse("hide");
+      $('#saleDetail').collapse("show");
+    });
+
+    $(document).on('click', '.make_payment', function (event) {
+      var transaction_amount = $(this).data('transaction_amount');
+      $('#transaction_amount').val(transaction_amount);
+      $('.addTransaction').trigger('click');
+    });
+
+    $('body').on('change', '#payment_mode', function() {
+      var payment_mode = $(this).val();
+
+      if(payment_mode == '')
+      {
+        $('.transaction_mode_row').fadeOut(10);
+      }
+      else if(payment_mode == 0)
+      {
+        $('.transaction_mode_row').fadeOut(10);
+      }
+      else if(payment_mode == 1)
+      {
+        $('.transaction_mode_row').fadeOut(10);
+        $('.credit_card_row').fadeIn();
+      }
+      else if(payment_mode == 2)
+      {
+        $('.transaction_mode_row').fadeOut(10);
+        $('.cheque_row').fadeIn();
+      }
+      else if(payment_mode == 3)
+      {
+        $('.transaction_mode_row').fadeOut(10);
+      }
+
+      $('form#addTransactionForm #credit_card_no').removeClass('is-invalid');
+      $('form#addTransactionForm #credit_card_no').removeClass('is-valid');
+
+      $('form#addTransactionForm #cheque_no').removeClass('is-invalid');
+      $('form#addTransactionForm #cheque_no').removeClass('is-valid');
+    });    
+
+    $('body').on('click', '#addTransactionSubmit', function(e) {
+      e.preventDefault();
+      var isError = false;
+
+      $('form#addTransactionForm .field_validation').each(function() {
+          
+          var id    = $(this).attr('id');
+          var value = $(this).val();
+          var field = $(this).attr('placeholder');
+
+          if(value==null || value==""){
+            $("form#addTransactionForm #err_"+id).text(field+ " field is required.").fadeIn('slow');
+            $('form#addTransactionForm #'+id).addClass('is-invalid');
+            isError = true;
+          }
+          else
+          {
+            $("form#addTransactionForm #err_"+id).text("").fadeOut('slow');
+            $('form#addTransactionForm #'+id).removeClass('is-invalid');
+            $('form#addTransactionForm #'+id).addClass('is-valid');
+          }
+      });
+
+      if($('form#addTransactionForm #credit_card_no').val() == "" && $('form#addTransactionForm #payment_mode').val() == 1)
+      {
+        var placeholder = $('form#addTransactionForm #credit_card_no').attr('placeholder');
+        $("form#addTransactionForm #err_credit_card_no").text(placeholder+ " field is required.").fadeIn('slow');
+        $('form#addTransactionForm #credit_card_no').addClass('is-invalid');
+        isError = true;
+      }
+      else
+      {
+        $("form#addTransactionForm #err_credit_card_no").text("").fadeOut('slow');
+        $('form#addTransactionForm #credit_card_no').removeClass('is-invalid');
+        $('form#addTransactionForm #credit_card_no').addClass('is-valid');
+      }
+
+      if($('form#addTransactionForm #cheque_no').val()=="" && $('form#addTransactionForm #payment_mode').val() == 2)
+      {
+        var placeholder = $('form#addTransactionForm #cheque_no').attr('placeholder');
+        $("form#addTransactionForm #err_cheque_no").text(placeholder+ " field is required.").fadeIn('slow');
+        $('form#addTransactionForm #cheque_no').addClass('is-invalid');
+        isError = true;
+      }
+      else
+      {
+        $("form#addTransactionForm #err_cheque_no").text("").fadeOut('slow');
+        $('form#addTransactionForm #cheque_no').removeClass('is-invalid');
+        $('form#addTransactionForm #cheque_no').addClass('is-valid');
+      }
+
+      if(isError == true)
+      {
+        return false;
+      }  
+      else 
+      {
+        var transactionFormData = $('#addTransactionForm').serialize();
+        var sale_id = $('#sale_id').val();
+
+        $('#addTransactionSubmit').text('Please wait...').attr('disabled','disabled')
+
+        $.ajax({
+          url: "https://vaksys.com/pro/transaction/add",
+          type: "POST",
+          data: transactionFormData,
+          dataType: "JSON",
+          success: function(data){
+
+            $(".transaction_entries").html(data.previous_transaction);
+
+            $('#addTransactionSubmit').text('Submit').removeAttr('disabled');
+            $('#is_there_change_in_transaction').val('true');
+
+            $.ajax({
+              url: "https://vaksys.com/pro/sale/view/"+sale_id,
+              type: "GET",
+              dataType: "JSON",
+              success: function(data){
+
+                $(".sale_detail").html(data.sale_view);
+                $(".add_transaction").html(data.add_transaction);
+                $("#to_account").val(data.to_account);
+                $(".transaction_entries").html(data.previous_transaction_view);
+
+                $('#transaction-modal').find('input[name="voucher_date"]').datepicker({
+                  weekStart: 1,
+                  daysOfWeekHighlighted: "6,0",
+                  autoclose: true,
+                  todayHighlight: true,
+                  format: 'dd-mm-yyyy'
+                });
+
+                if(data.due_amount == 0)
+                {
+                  $('.addTransactionCard').css('display','none');
+                  // collapse all accordian
+                  $('#transactionEntries').collapse("show");
+                  $('#saleDetail').collapse("hide");  
+                }
+                else
+                {
+                  // collapse all accordian
+                  $('#transactionEntries').collapse("show");
+                  $('#addTransaction').collapse("hide");
+                  $('#saleDetail').collapse("hide");  
+                }
+              }
+            });
+          }
+        });
+      } 
+
+    });
+
+    $(document).on("blur change keyup", "form#addTransactionForm .field_validation" , function (event){
+        var id    = $(this).attr('id');
+        var value = $(this).val();
+        var field = $(this).attr('placeholder');
+        
+        if(value==null || value==""){
+          $("form#addTransactionForm #err_"+id).text(field+ " field is required.").fadeIn('slow');
+          $('form#addTransactionForm #'+id).addClass('is-invalid');
+          return false;
+        }
+        else{
+          $("form#addTransactionForm #err_"+id).text("").fadeOut('slow');
+          $('form#addTransactionForm #'+id).removeClass('is-invalid');
+          $('form#addTransactionForm #'+id).addClass('is-valid');
+        }
+
+        if($('form#addTransactionForm #credit_card_no').val() == "" && $('form#addTransactionForm #payment_mode').val() == 1)
+        {
+          var placeholder = $('form#addTransactionForm #credit_card_no').attr('placeholder');
+          $("form#addTransactionForm #err_credit_card_no").text(placeholder+ " field is required.").fadeIn('slow');
+          $('form#addTransactionForm #credit_card_no').addClass('is-invalid');
+          return false;
+        }
+        else
+        {
+          $("form#addTransactionForm #err_credit_card_no").text("").fadeOut('slow');
+          $('form#addTransactionForm #credit_card_no').removeClass('is-invalid');
+          $('form#addTransactionForm #credit_card_no').addClass('is-valid');
+        }
+
+        if($('form#addTransactionForm #cheque_no').val()=="" && $('form#addTransactionForm #payment_mode').val() == 2)
+        {
+          var placeholder = $('form#addTransactionForm #cheque_no').attr('placeholder');
+          $("form#addTransactionForm #err_cheque_no").text(placeholder+ " field is required.").fadeIn('slow');
+          $('form#addTransactionForm #cheque_no').addClass('is-invalid');
+          return false;
+        }
+        else
+        {
+          $("form#addTransactionForm #err_cheque_no").text("").fadeOut('slow');
+          $('form#addTransactionForm #cheque_no').removeClass('is-invalid');
+          $('form#addTransactionForm #cheque_no').addClass('is-valid');
+        }
+    });
+
+    $(document).on("blur change keyup","form#addTransactionForm #credit_card_no",  function (event){
+              
+        if($('form#addTransactionForm #credit_card_no').val() == "" && $('form#addTransactionForm #payment_mode').val() == 1)
+        {
+          var placeholder = $('form#addTransactionForm #credit_card_no').attr('placeholder');
+          $("form#addTransactionForm #err_credit_card_no").text(placeholder+ " field is required.").fadeIn('slow');
+          $('form#addTransactionForm #credit_card_no').addClass('is-invalid');
+          return false;
+        }
+        else
+        {
+          $("form#addTransactionForm #err_credit_card_no").text("").fadeOut('slow');
+          $('form#addTransactionForm #credit_card_no').removeClass('is-invalid');
+          $('form#addTransactionForm #credit_card_no').addClass('is-valid');
+        }
+        
+    });
+
+    $(document).on("blur change keyup","form#addTransactionForm #cheque_no",  function (event){              
+        
+        if($('form#addTransactionForm #cheque_no').val()=="" && $('form#addTransactionForm #payment_mode').val() == 2)
+        {
+          var placeholder = $('form#addTransactionForm #cheque_no').attr('placeholder');
+          $("form#addTransactionForm #err_cheque_no").text(placeholder+ " field is required.").fadeIn('slow');
+          $('form#addTransactionForm #cheque_no').addClass('is-invalid');
+          return false;
+        }
+        else
+        {
+          $("form#addTransactionForm #err_cheque_no").text("").fadeOut('slow');
+          $('form#addTransactionForm #cheque_no').removeClass('is-invalid');
+          $('form#addTransactionForm #cheque_no').addClass('is-valid');
+        }
+    });
+
+    $(document).on('click', '.delete_transaction', function (event) {
+      $(this).fadeOut(10);
+      $(this).closest('td').find('.delete_transaction_confirmation').fadeIn();
+    });
+
+    $(document).on('click', '.delete_transaction_no', function (event) {
+      $(this).closest('td').find('.delete_transaction_confirmation').fadeOut(10);
+      $(this).closest('td').find('.delete_transaction').fadeIn(20);
+    });
+
+    $(document).on('click', '.delete_transaction_yes', function (event) {
+      // $(this).closest('td').find('.delete_transaction_confirmation').fadeOut(10);
+      $(this).closest('td').find('.delete_transaction_confirmation').fadeOut(1);
+      
+
+      var $this           = $(this);
+      var transaction_id  = $(this).data('transaction_id');
+      var sale_id         = $(this).data('entry_id');
+
+      $(this).closest('td').find('.delete_transaction_yes').text('Please wait...').addClass('disabled').fadeIn(1500);
+
+      setTimeout(function(){ 
+
+        $.ajax({
+          url: "https://vaksys.com/pro/transaction/delete",
+          type: "POST",
+          data: {
+            'transaction_id':transaction_id,
+            'csrf_zivaan_pro' : '5e71a0106aa6329bc8fe58695fd3336e'
+          },
+          dataType: "JSON",
+          success: function(data){
+
+            $this.removeClass('btn-info').addClass('btn-success').text(data.message);
+            $('#is_there_change_in_transaction').val('true');
+
+            setTimeout(function(){ 
+
+              if(data.code == 1)
+              {
+                $.ajax({
+                  url: "https://vaksys.com/pro/sale/view/"+sale_id,
+                  type: "GET",
+                  dataType: "JSON",
+                  success: function(data){
+
+                    $(".sale_detail").html(data.sale_view);
+                    $(".add_transaction").html(data.add_transaction);
+                    $("#to_account").val(data.to_account);
+                    $(".transaction_entries").html(data.previous_transaction_view);
+
+                    if(data.due_amount == 0)
+                    {
+                      $('.addTransactionCard').css('display','none');
+                      // collapse all accordian
+                      $('#transactionEntries').collapse("show");
+                      $('#saleDetail').collapse("hide");  
+                    }
+                    else
+                    {
+                      // collapse all accordian
+                      $('.addTransactionCard').css('display','block');
+                      $('#transactionEntries').collapse("hide");
+                      $('#addTransaction').collapse("hide");
+                      $('#saleDetail').collapse("show");  
+                    }
+                  }
+                });  
+              }
+
+            },500);
+          }
+        });
+      }, 500);
+    });
+
+    $(document).on('show.bs.modal','#sale_edit', function (e) {
+      var sale_id = $(e.relatedTarget).data('sale_id');
+      $('#sale_edit').find('#id').val(sale_id);
+
+      // alert(sale_id);
+
+      $.ajax({
+        url: "https://vaksys.com/pro/sale/sale_edit_confirmation",
+        type: "POST",
+        data:{
+          'sale_id': sale_id,
+          'csrf_zivaan_pro' : '5e71a0106aa6329bc8fe58695fd3336e'
+        },
+        dataType: "JSON",
+        success: function(data){
+          $('#sale_edit').find('.modal-content').html(data.sale_edit_modal_body);
+        }
+      });
+
+
+    });
+
+  })
+</script>

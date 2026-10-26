@@ -1,0 +1,200 @@
+[
+ {
+  "legacyId": 22,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Sales return #": "SR1007"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "NOKIA 3110 NOKIA 3110",
+    "HSN": "12345",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Price (Rs)": "9,000.00",
+    "Batch No": "",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "9,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "9,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 24,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Sales return #": "SR1009"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Lava Mobile asfdsdffadfa",
+    "HSN": "hsn4534",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Price (Rs)": "6,500.00",
+    "Batch No": "2",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "NOS",
+    "Total Taxable Value (Rs)": "6,500.00",
+    "Tax (Rs)": "IGST : 1,170.00 (18.00%)",
+    "Sub Total (Rs)": "7,670.00",
+    "_tax": {
+     "igst": {
+      "amt": 1170,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 17,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Sales return #": "SR1002"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Price (Rs)": "2,000.00",
+    "Batch No": "100024",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 18,
+  "header": {
+   "Phone": "9500721697",
+   "Email": "chinnz25@gmail.com",
+   "GSTIN": "33AUSPC7077P2ZU",
+   "Sales return #": "SR1003"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Price (Rs)": "2,000.00",
+    "Batch No": "100024",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "1,694.92",
+    "Tax (Rs)": "IGST : 305.08 (18.00%)",
+    "Sub Total (Rs)": "2,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 305.08,
+      "rate": 18
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 19,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Sales return #": "SR1004"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "Watch90 atch90",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Price (Rs)": "2,000.00",
+    "Batch No": "100024",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BDL",
+    "Total Taxable Value (Rs)": "1,694.92",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ },
+ {
+  "legacyId": 16,
+  "header": {
+   "Phone": "7016826763",
+   "Email": "patelvaidehi2954@gmail.com",
+   "GSTIN": "22AAAAA0000A1Z5",
+   "Sales return #": "SR1001"
+  },
+  "lines": [
+   {
+    "Sr.": "1",
+    "Items": "watch watch",
+    "HSN": "H90",
+    "Qty": "1.00",
+    "Free qty": "0.00",
+    "Price (Rs)": "2,000.00",
+    "Batch No": "",
+    "Mfg Date": "",
+    "Expiry Date": "",
+    "Discount (Rs)": "0.00",
+    "UOM": "BOX",
+    "Total Taxable Value (Rs)": "2,000.00",
+    "Tax (Rs)": "IGST : 0.00 (0.00%)",
+    "Sub Total (Rs)": "2,000.00",
+    "_tax": {
+     "igst": {
+      "amt": 0,
+      "rate": 0
+     }
+    }
+   }
+  ]
+ }
+]

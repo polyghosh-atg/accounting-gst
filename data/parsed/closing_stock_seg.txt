@@ -1,0 +1,80 @@
+﻿        <th>Sale Ret vl</th>
+                      
+                        <th>Stock In</th>
+                        <th>Stock In vl</th>
+                        <th>Stock Out</th>
+                        <th>Stock Out vl</th>
+                        <th>Cl Stock</th>
+                        <!-- <th>Cl Stock Value PTD</th> -->
+                        <th>Cl Stock Value P. Rate</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody id="stock-value-body">
+                                                  <!-- <tr>
+                              <td colspan="17">
+                                <table>
+                                  <thead>
+                                    <tr>
+                                      <th>
+                                        From data
+                                      </th>
+                                      <th>
+                                        To Data
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        pdi :0<br/>srdi :0<br/>stin :0<br/>si :0<br/>prdi :0<br/>so :0<br/>                                      </td>
+                                      <td>
+                                      pdi :0<br/>srdi :0<br/>stin :7100<br/>si :80.02<br/>prdi :0<br/>so :0<br/>                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                              </td>
+                            </tr> -->
+                            <tr data-pid = "100082">                       
+                              <td>1</td>
+                              <td>Attar</td>
+                              <td>
+                                0.00                              </td>
+                              <td>
+                                0                              </td>
+                              <!-- <td>
+                                                              </td> -->
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                  80.02                              </td>
+                              <td>
+                                  80,020.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                             
+                              <td>
+                                  7,100.00                              </td>
+                              <td>
+                                  7,100,000.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                  0.00                              </td>
+                              <td>
+                                7019.98                              </td>
+                              <!-- <td>
+                                                              </td> -->
+                              <td>
+                                56,15,984.00                              </td>
+                            </tr>
+    
