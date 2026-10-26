@@ -91,6 +91,7 @@ const SETTINGS_ITEMS: { label: string; href: string; icon: string }[] = [
   { label: 'Custom Settings', href: '/settings/custom', icon: 'doc' },
   { label: 'Email Template', href: '/settings/email-templates', icon: 'doc' },
   { label: 'Whatsapp Template', href: '/settings/whatsapp-templates', icon: 'doc' },
+  { label: 'GST Live Rates', href: '/settings/gst-rates', icon: 'report' },
   { label: 'Expense Category', href: '/settings/expense-categories', icon: 'expense' },
   { label: 'Item', href: '/settings/items', icon: 'box' },
   { label: 'Tax', href: '/settings/taxes', icon: 'doc' },

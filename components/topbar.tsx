@@ -122,6 +122,7 @@ const SITEMAP: { head: string; links: SiteLink[] }[] = [
   { head: 'SETTINGS', links: [
     { label: 'Company Settings', href: '/settings/company' }, { label: 'Custom Settings', href: '/settings/custom' },
     { label: 'Email Template', href: '/settings/email-templates' }, { label: 'Whatsapp Template', href: '/settings/whatsapp-templates' },
+    { label: 'GST Live Rates', href: '/settings/gst-rates' },
     { label: 'Expense Category', href: '/settings/expense-categories' }, { label: 'Item', href: '/settings/items' },
     { label: 'Tax', href: '/settings/taxes' }, { label: 'Discount', href: '/settings/discounts' },
     { label: 'Currency', href: '/settings/currencies' },
