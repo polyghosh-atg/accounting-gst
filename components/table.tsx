@@ -1,18 +1,24 @@
 import type { ReactNode } from 'react';
 
-export function Table({ heads, rows, align, compact }: {
+export function Table({ heads, rows, align, compact, fit }: {
   heads: string[];
   rows: ReactNode[][];
   align?: ('l' | 'r')[];
   compact?: boolean;
+  fit?: boolean;
 }) {
+  const size = fit ? 'text-[11px]' : compact ? 'text-xs' : 'text-sm';
+  const minW = fit ? '' : compact ? 'min-w-[560px]' : 'min-w-[640px]';
+  const thPad = fit ? 'px-2 py-1.5 text-[10px]' : compact ? 'px-2.5 py-2 text-[11px]' : 'px-3 py-2.5 text-[13px]';
+  const tdPad = fit ? 'px-2 py-1' : compact ? 'px-2.5 py-1.5' : 'px-3 py-2';
+  const nowrap = fit ? '' : 'whitespace-nowrap';
   return (
     <div className="slim-scroll overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-[0_1px_2px_rgba(15,23,42,0.05)]">
-      <table className={`w-full border-collapse ${compact ? 'min-w-[560px] text-xs' : 'min-w-[640px] text-sm'}`}>
+      <table className={`w-full border-collapse ${minW} ${size}`}>
         <thead className="sticky top-0 bg-gradient-to-r from-indigo-50/95 via-slate-50/95 to-violet-50/95 backdrop-blur">
           <tr>
             {heads.map((h, i) => (
-              <th key={h} className={`whitespace-nowrap font-bold uppercase tracking-wide text-slate-800 ${compact ? 'px-2.5 py-2 text-[11px]' : 'px-3 py-2.5 text-[13px]'} ${align?.[i] === 'r' ? 'text-right' : 'text-left'}`}>
+              <th key={h} className={`${nowrap} font-bold uppercase tracking-wide text-slate-800 ${thPad} ${align?.[i] === 'r' ? 'text-right' : 'text-left'}`}>
                 {h}
               </th>
             ))}
@@ -25,7 +31,7 @@ export function Table({ heads, rows, align, compact }: {
           {rows.map((r, i) => (
             <tr key={i} className="transition-colors odd:bg-white even:bg-slate-50/50 hover:bg-indigo-50/60">
               {r.map((c, j) => (
-                <td key={j} className={`whitespace-nowrap text-slate-700 ${compact ? 'px-2.5 py-1.5' : 'px-3 py-2'} ${align?.[j] === 'r' ? 'text-right tabular-nums' : ''}`}>
+                <td key={j} className={`${align?.[j] === 'r' ? 'whitespace-nowrap text-right tabular-nums' : nowrap} text-slate-700 ${tdPad}`}>
                   {c}
                 </td>
               ))}

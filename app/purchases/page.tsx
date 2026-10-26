@@ -77,13 +77,13 @@ async function Content({ searchParams }: { searchParams: Promise<{ page?: string
   ];
   return (
     <>
-      <div className="grid gap-3">
+      <div className="grid grid-cols-3 gap-3">
         {stats.map((s) => (
-          <div key={s.label} className="flex items-center gap-3 rounded-2xl border border-slate-200/80 bg-white p-4 shadow-[0_1px_2px_rgba(15,23,42,0.05)]">
-            <div className={`flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br text-xl text-white shadow ${s.grad}`}>{s.icon}</div>
-            <div>
-              <div className="text-sm font-medium text-slate-500">{s.label}</div>
-              <div className="text-xl font-extrabold tabular-nums text-slate-900">{s.value}</div>
+          <div key={s.label} className="flex items-center gap-2 rounded-2xl border border-slate-200/80 bg-white p-3 shadow-[0_1px_2px_rgba(15,23,42,0.05)] sm:gap-3 sm:p-4">
+            <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br text-base text-white shadow sm:h-12 sm:w-12 sm:text-xl ${s.grad}`}>{s.icon}</div>
+            <div className="min-w-0">
+              <div className="truncate text-[11px] font-medium text-slate-500 sm:text-sm">{s.label}</div>
+              <div className="truncate text-sm font-extrabold tabular-nums text-slate-900 sm:text-xl">{s.value}</div>
             </div>
           </div>
         ))}
@@ -109,7 +109,7 @@ async function Content({ searchParams }: { searchParams: Promise<{ page?: string
         {f && <a href="/purchases" className="text-sm font-semibold text-indigo-700 hover:underline">Clear</a>}
         <span className="ml-auto text-sm text-slate-500">{total} purchases</span>
       </form>
-      <Table compact
+      <Table fit
         heads={['PO No.', 'Invoice No', 'Purchase Date', 'Warehouse', 'Supplier', 'Total Discount', 'Total Taxable Value', 'Total Tax', 'Total', 'Paid', 'Due', 'Delivery Status', 'Action']}
         align={['l', 'l', 'l', 'l', 'l', 'r', 'r', 'r', 'r', 'r', 'r', 'l', 'l']}
         rows={rows.map((r) => {
