@@ -37,7 +37,7 @@ async function Content({ searchParams }: { searchParams: Promise<Record<string, 
   if (f.warehouse) { p.push(f.warehouse); w += ` AND warehouse=$${p.length}`; }
   if (f.party) { p.push(f.party); w += ` AND party=$${p.length}`; }
   const rows = await q(
-    `SELECT ref_no, invoice_no, doc_date, warehouse, party, discount, taxable, igst, cgst, sgst, tax, total
+    `SELECT id, ref_no, invoice_no, doc_date, warehouse, party, discount, taxable, igst, cgst, sgst, tax, total
      FROM doc_headers ${w} ORDER BY doc_date NULLS LAST, id LIMIT 2000`, p);
   const num = (v: unknown) => Number(v ?? 0) || 0;
   const t = (k: string) => rows.reduce((a, r) => a + num(r[k]), 0);
@@ -95,8 +95,8 @@ async function Content({ searchParams }: { searchParams: Promise<Record<string, 
             </thead>
             <tbody className="divide-y divide-slate-100">
               {rows.map((r, i) => (
-                <tr key={i} className="transition-colors odd:bg-white even:bg-slate-50/50 hover:bg-indigo-50/60">
-                  <td className="whitespace-nowrap px-2 py-1.5 font-bold text-indigo-700">{String(r.ref_no)}</td>
+                <tr key={String(r.id)} className="transition-colors odd:bg-white even:bg-slate-50/50 hover:bg-indigo-50/60">
+                  <td className="whitespace-nowrap px-2 py-1.5"><a href={`/docs/sales_return/view/${r.id}`} className="font-bold text-indigo-700 hover:underline">{String(r.ref_no)}</a></td>
                   <td className="whitespace-nowrap px-2 py-1.5 text-slate-600">{String(r.invoice_no || '—')}</td>
                   <td className="whitespace-nowrap px-2 py-1.5 text-slate-500">{isoDate(r.doc_date) ?? ''}</td>
                   <td className="whitespace-nowrap px-2 py-1.5 text-slate-600">{String(r.warehouse || '—')}</td>
