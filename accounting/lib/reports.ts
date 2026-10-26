@@ -248,7 +248,12 @@ export async function reportDefs(): Promise<ReportDef[]> {
         const r = await pool.query(
           `SELECT s.inv_no, s.inv_date, s.customer, max(c.gstin) gstin, SUM(s.taxable) taxable, ${saleTax}, SUM(s.total) total
            FROM sales s LEFT JOIN customers c ON c.company_name=s.customer ${w}
-           GROUP BY s.id ORDER BY s.inv_date DESC LIMIT 2000`, p);
+           GROUP BY s.id
+           HAVING COALESCE(SUM(s.taxable),0) <> 0 OR COALESCE(SUM(s.total),0) <> 0
+             OR COALESCE((SELECT SUM(igst_tax) FROM sale_lines l WHERE l.sale_id=s.id),0) <> 0
+             OR COALESCE((SELECT SUM(cgst_tax) FROM sale_lines l WHERE l.sale_id=s.id),0) <> 0
+             OR COALESCE((SELECT SUM(sgst_tax) FROM sale_lines l WHERE l.sale_id=s.id),0) <> 0
+           ORDER BY s.inv_date DESC LIMIT 2000`, p);
         return filterQ(r.rows.map(fmtDate('inv_date')), f, ['inv_no', 'customer', 'gstin']);
       },
     },
