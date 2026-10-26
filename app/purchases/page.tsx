@@ -14,9 +14,28 @@ async function Content({ searchParams }: { searchParams: Promise<{ page?: string
   const rows = await q('SELECT po_no, inv_no, purchase_date, supplier, discount, taxable, tax, total, paid, due FROM purchases ORDER BY id DESC LIMIT $1 OFFSET $2', [PER, (page - 1) * PER]);
   return (<>
     <Pager page={page} total={Number(c)} per={PER} />
-    <Table heads={['PO No', 'Invoice', 'Date', 'Supplier', 'Discount', 'Taxable', 'Tax', 'Total', 'Paid', 'Due']}
+    <Table compact heads={['PO No', 'Invoice', 'Date', 'Supplier', 'Discount', 'Taxable', 'Tax', 'Total', 'Paid', 'Due']}
       align={['l', 'l', 'l', 'l', 'r', 'r', 'r', 'r', 'r', 'r']}
-      rows={rows.map((r) => [String(r.po_no), String(r.inv_no), r.purchase_date ? String(r.purchase_date).slice(0, 10) : '', String(r.supplier), inr(r.discount), inr(r.taxable), inr(r.tax), <b key="t">{inr(r.total)}</b>, inr(r.paid),
-        Number(r.due) > 0 ? <Badge key="d" tone="amber">{inr(r.due)}</Badge> : inr(r.due)])} />
+      rows={rows.map((r) => {
+        const sup = String(r.supplier || '—');
+        const dueN = Number(r.due ?? 0);
+        return [
+          <span key="p" className="font-semibold text-violet-700">{String(r.po_no || '—')}</span>,
+          <span key="i" className="font-bold text-indigo-700">{String(r.inv_no)}</span>,
+          <span key="d" className="text-slate-400">{r.purchase_date ? String(r.purchase_date).slice(0, 10) : ''}</span>,
+          <span key="s" className="flex items-center gap-1.5">
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-indigo-600 text-[10px] font-bold text-white">
+              {sup.charAt(0).toUpperCase()}
+            </span>
+            <span className="font-medium text-slate-800">{sup}</span>
+          </span>,
+          inr(r.discount), inr(r.taxable), inr(r.tax),
+          <b key="t" className="text-slate-900">{inr(r.total)}</b>,
+          <span key="pd" className="font-semibold text-emerald-700">{inr(r.paid)}</span>,
+          dueN > 0
+            ? <Badge key="d" tone="amber">{inr(r.due)}</Badge>
+            : <Badge key="d" tone="green">Paid</Badge>,
+        ];
+      })} />
   </>);
 }
