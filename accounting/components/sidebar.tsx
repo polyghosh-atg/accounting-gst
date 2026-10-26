@@ -15,7 +15,6 @@ const PEOPLE: { label: string; href: string; icon: string }[] = [
 const NAV: { label: string; href: string; icon: string }[] = [
   { label: 'Dashboard', href: '/', icon: 'dashboard' },
   { label: 'Bank & Cash', href: '/bank', icon: 'bank' },
-  { label: 'HR', href: '/hr', icon: 'hr' },
 ];
 
 const REPORT_ITEMS: { label: string; href: string; icon: string }[] = [
