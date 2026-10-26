@@ -290,7 +290,7 @@ export default function Sidebar({ user, fyYears }: { user?: { username: string; 
         <button onClick={() => setFyOpen(true)} title="Change financial year" className="ml-auto rounded-full bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold text-indigo-700 ring-1 ring-inset ring-indigo-200 transition hover:bg-indigo-100">FY {shortFy(activeFy)}</button>      </header>
 
       {/* desktop sidebar */}
-      <aside className="sticky top-0 hidden h-screen w-60 shrink-0 flex-col bg-gradient-to-b from-indigo-950 via-indigo-900 to-violet-950 p-4 text-white print:hidden lg:flex">
+      <aside className="sticky top-0 hidden h-screen w-[290px] shrink-0 flex-col bg-gradient-to-b from-indigo-950 via-indigo-900 to-violet-950 p-4 text-white print:hidden lg:flex">
         <div className="mb-1 px-2">
           <div className="text-xl font-extrabold tracking-tight">Office<span className="text-violet-300"> ERP</span></div>
           <div className="mt-1 text-[11px] font-medium uppercase tracking-widest text-indigo-300/80">Accounting · GST</div>
