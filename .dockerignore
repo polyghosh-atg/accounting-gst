@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.gitignore
+.env*
+*.log
+data
+tools
+_scrape
+CLONE_NOTE.md
+docker-compose.yml
+Dockerfile
+.dockerignore
