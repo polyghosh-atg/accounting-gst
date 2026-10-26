@@ -78,25 +78,26 @@ const ADD: { label: string; href?: string }[] = [
   { label: 'Quotation', href: '/docs/quotation' },
   { label: 'Proforma Invoice', href: '/docs/proforma_invoice' },
   { label: 'Sale', href: '/sales' },
-  { label: 'Credit Debit Note' },
+  { label: 'Credit Debit Note', href: '/docs/credit-debit-note' },
   { label: 'Expense', href: '/expenses' },
 ];
 
 type SiteLink = { label: string; href?: string };
 const SITEMAP: { head: string; links: SiteLink[] }[] = [
   { head: 'PEOPLE', links: [
-    { label: 'User Roles' }, { label: 'Users' },
+    { label: 'User Roles', href: '/roles' }, { label: 'Users', href: '/users' },
     { label: 'Customers', href: '/customers' }, { label: 'Suppliers', href: '/suppliers' },
   ]},
   { head: 'ACCOUNT', links: [
-    { label: 'Cash Bank Entry', href: '/bank' }, { label: 'Bank Statement' },
-    { label: 'PDC Receive' }, { label: 'PDC Payment' },
-    { label: 'Scrap Entry' }, { label: 'Scrap Issue' }, { label: 'Scrap Receive' },
+    { label: 'Cash Bank Entry', href: '/account/cash-bank' }, { label: 'Bank Statement', href: '/account/bank-statement' },
+    { label: 'PDC Receive', href: '/account/pdc-receive' }, { label: 'PDC Payment', href: '/account/pdc-payment' },
+    { label: 'Scrap Entry', href: '/account/scrap-entry' }, { label: 'Scrap Issue', href: '/account/scrap-issue' },
+    { label: 'Scrap Receive', href: '/account/scrap-receive' },
   ]},
   { head: 'INVENTORY', links: [
-    { label: 'Promotion' }, { label: 'Warehouse', href: '/stock' },
-    { label: 'Product Category', href: '/products' }, { label: 'Add Product', href: '/products' },
-    { label: 'All Products', href: '/products' }, { label: 'All Scrap Products' },
+    { label: 'Promotion' }, { label: 'Warehouse', href: '/inventory/warehouses' },
+    { label: 'Product Category', href: '/inventory/categories' }, { label: 'Add Product', href: '/products' },
+    { label: 'All Products', href: '/products' }, { label: 'All Scrap Products', href: '/inventory/scrap-products' },
     { label: 'Stock Entry', href: '/stock' },
   ]},
   { head: 'TRANSACTION', links: [
@@ -104,7 +105,7 @@ const SITEMAP: { head: string; links: SiteLink[] }[] = [
     { label: 'Purchase', href: '/purchases' }, { label: 'Purchase Return', href: '/docs/purchase_return' },
     { label: 'Transfer', href: '/docs/transfer' }, { label: 'Quotation', href: '/docs/quotation' },
     { label: 'Proforma Invoice', href: '/docs/proforma_invoice' }, { label: 'Sales Return', href: '/docs/sales_return' },
-    { label: 'Credit Debit Note' }, { label: 'Expense', href: '/expenses' },
+    { label: 'Credit Debit Note', href: '/docs/credit-debit-note' }, { label: 'Expense', href: '/expenses' },
   ]},
   { head: 'REPORTS', links: [
     { label: 'Customer Payment Due', href: '/reports/customer_payment_due' }, { label: 'Supplier Payment Due', href: '/reports/supplier_payment_due' },
@@ -119,10 +120,11 @@ const SITEMAP: { head: string; links: SiteLink[] }[] = [
     { label: 'Ledger', href: '/reports/ledger' }, { label: 'Transaction', href: '/reports/transaction' },
   ]},
   { head: 'SETTINGS', links: [
-    { label: 'Company settings' }, { label: 'Custom settings' },
-    { label: 'Email Template' }, { label: 'Whatsapp Template' },
-    { label: 'Expense Category' }, { label: 'Item' }, { label: 'Tax' },
-    { label: 'Discount' }, { label: 'Currency' },
+    { label: 'Company Settings', href: '/settings/company' }, { label: 'Custom Settings', href: '/settings/custom' },
+    { label: 'Email Template', href: '/settings/email-templates' }, { label: 'Whatsapp Template', href: '/settings/whatsapp-templates' },
+    { label: 'Expense Category', href: '/settings/expense-categories' }, { label: 'Item', href: '/settings/items' },
+    { label: 'Tax', href: '/settings/taxes' }, { label: 'Discount', href: '/settings/discounts' },
+    { label: 'Currency', href: '/settings/currencies' },
   ]},
 ];
 
