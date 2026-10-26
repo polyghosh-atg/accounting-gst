@@ -3,6 +3,7 @@ import { q } from '@/lib/db';
 import { PageHeader, LoadingRows, Badge, statusTone, fieldCls } from '@/components/ui';
 import { AddButton, RowButtons, StatusSelect, TableShell, SearchBar } from '@/components/settings-modals';
 import { addTax, updateTax, deleteTax } from '../actions';
+import { checkRateUpdate } from '@/lib/gst-rates';
 
 type Tax = { id: number; name: string; sgst: string; cgst: string; igst: string; status: string };
 
@@ -33,13 +34,23 @@ export default function Taxes({ searchParams }: { searchParams: Promise<{ q?: st
 
 async function Content({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const query = ((await searchParams).q || '').trim();
-  const rows = await q<Tax>(
-    query ? 'SELECT * FROM taxes WHERE name ILIKE $1 ORDER BY name' : 'SELECT * FROM taxes ORDER BY name',
-    query ? [`%${query}%`] : []
-  );
+  const [rows, upd] = await Promise.all([
+    q<Tax>(
+      query ? 'SELECT * FROM taxes WHERE name ILIKE $1 ORDER BY name' : 'SELECT * FROM taxes ORDER BY name',
+      query ? [`%${query}%`] : []
+    ),
+    checkRateUpdate(3000).catch(() => null),
+  ]);
   return (
     <>
+      <style>{`@keyframes gstBlink { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } } .gst-blink { animation: gstBlink 1.1s ease-in-out infinite; }`}</style>
       <SearchBar query={query} count={rows.length} noun="taxes">
+        {upd?.updateAvailable && (
+          <a href="/settings/gst-rates?check=1" title={`New GST rates published (v${upd.latest}) — view and update`}
+            className="gst-blink rounded-xl bg-gradient-to-r from-amber-500 to-rose-600 px-3.5 py-1.5 text-sm font-extrabold text-white shadow-lg ring-2 ring-amber-300">
+            🔴 GST new update v{upd.latest}
+          </a>
+        )}
         {query && <a href="/settings/taxes" className="text-sm font-semibold text-indigo-700 hover:underline">Clear</a>}
         <AddButton label="+ Add Tax" title="Add Tax" action={addTax}><TaxFields /></AddButton>
       </SearchBar>

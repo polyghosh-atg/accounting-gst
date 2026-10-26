@@ -86,11 +86,11 @@ export function searchRates(query: string, slab: string): { rows: GstRateRow[]; 
   return { rows: out, total, truncated: out.length >= CAP };
 }
 
-export async function checkRateUpdate(): Promise<{ latest: string; current: string; updateAvailable: boolean; checkedAt: string; error?: string }> {
+export async function checkRateUpdate(timeoutMs = 8000): Promise<{ latest: string; current: string; updateAvailable: boolean; checkedAt: string; error?: string }> {
   const current = RATE_SOURCE.packageVersion;
   try {
     const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 8000);
+    const t = setTimeout(() => ctrl.abort(), timeoutMs);
     const r = await fetch('https://registry.npmjs.org/hsn-code-package/latest', { signal: ctrl.signal });
     clearTimeout(t);
     if (!r.ok) throw new Error(`registry ${r.status}`);
