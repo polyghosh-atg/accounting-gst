@@ -4,18 +4,30 @@ import './globals.css';
 import Sidebar from '@/components/sidebar';
 import Topbar from '@/components/topbar';
 import { q, inr } from '@/lib/db';
+import { getSessionUser } from '@/lib/auth';
 
 export const metadata: Metadata = {
   title: 'Office ERP',
   description: 'Office ERP — accounting with GST',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+// Reads the session cookie — must block on the server, no static shell.
+export const instant = false;
+
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const user = await getSessionUser();
+  if (!user) {
+    return (
+      <html lang="en">
+        <body>{children}</body>
+      </html>
+    );
+  }
   return (
     <html lang="en">
       <body>
         <div className="min-h-screen lg:flex">
-          <Sidebar />
+          <Sidebar user={{ username: user.username, role: user.role }} />
           <div className="min-w-0 flex-1">
             <Suspense fallback={<Topbar cash="…" accounts={[]} />}>
               <TopbarLoader />

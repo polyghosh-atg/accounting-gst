@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, Suspense } from 'react';
 import { Icon } from './ui';
+import { logoutUser } from '@/lib/auth';
 
 const PEOPLE: { label: string; href: string; icon: string }[] = [
   { label: 'Customers', href: '/customers', icon: 'users' },
@@ -227,7 +228,7 @@ function NavLinks({ active, onNav }: { active: string; onNav?: () => void }) {
   );
 }
 
-export default function Sidebar() {
+export default function Sidebar({ user }: { user?: { username: string; role: string } }) {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -254,6 +255,15 @@ export default function Sidebar() {
         </div>
         <div className="my-3 rounded-xl bg-white/10 px-3 py-2 text-xs font-semibold text-indigo-100 ring-1 ring-inset ring-white/15">FY 2026-2027</div>
         <div className="slim-scroll flex-1 overflow-y-auto pr-1"><NavList /></div>
+        {user && (
+          <form action={logoutUser} className="mt-3 rounded-xl bg-white/10 p-3 text-white ring-1 ring-inset ring-white/15">
+            <div className="truncate text-xs font-bold">{user.username}</div>
+            <div className="truncate text-[11px] text-indigo-200/80">{user.role || 'User'}</div>
+            <button className="mt-2 w-full rounded-lg bg-white/15 px-2 py-1.5 text-xs font-bold transition hover:bg-white/25">
+              Sign Out
+            </button>
+          </form>
+        )}
         <div className="mt-3 rounded-xl bg-white/10 p-3 text-[11px] leading-relaxed text-indigo-100/80 ring-1 ring-inset ring-white/15">
           Cloned data from vaksys.com/pro · 2026
         </div>
