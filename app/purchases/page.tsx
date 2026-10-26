@@ -77,7 +77,7 @@ async function Content({ searchParams }: { searchParams: Promise<{ page?: string
   ];
   return (
     <>
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="grid gap-3">
         {stats.map((s) => (
           <div key={s.label} className="flex items-center gap-3 rounded-2xl border border-slate-200/80 bg-white p-4 shadow-[0_1px_2px_rgba(15,23,42,0.05)]">
             <div className={`flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br text-xl text-white shadow ${s.grad}`}>{s.icon}</div>
