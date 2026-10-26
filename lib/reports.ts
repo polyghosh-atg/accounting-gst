@@ -493,7 +493,7 @@ export async function reportDefs(): Promise<ReportDef[]> {
         let w = 'WHERE 1=1' + dateWhere('s.inv_date', f, p, 1);
         if (has(f.party)) { p.push(f.party); w += ` AND s.customer=$${p.length}`; }
         const r = await pool.query(
-          `SELECT l.item_name, s.inv_date, s.inv_no, l.qty, l.selling_price AS price, l.subtotal, s.customer
+          `SELECT l.item_name, s.inv_date, s.inv_no, l.qty, l.price AS price, l.subtotal, s.customer
            FROM sale_lines l JOIN sales s ON s.id=l.sale_id ${w} ORDER BY s.inv_date DESC LIMIT 3000`, p);
         return filterQ(r.rows.map(fmtDate('inv_date')), f, ['item_name', 'inv_no', 'customer']);
       },
