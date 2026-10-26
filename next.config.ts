@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
     serverActions: {
       bodySizeLimit: '5mb',
     },
+    staleTimes: {
+      dynamic: 0,
+      static: 30,
+    },
   },
   turbopack: {
     rules: {
